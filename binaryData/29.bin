@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keys>
+	<!-- Window -->
+	<item key="BrowseButton" value="Browse..." />
+	<!-- Menu -->
+	<item key="Menu.File" value="File" />
+	<item key="Menu.File.NewProject" value="New Project..." />
+	<item key="Menu.File.OpenProject" value="Open Project..." />
+	<item key="Menu.File.SaveProject" value="Save Project" />
+	<item key="Menu.File.SaveAsProject" value="Save Project As..." />
+	<item key="Menu.File.CloseProject" value="Close Project" />
+	<item key="Menu.File.ImportAssets" value="Import Assets to Stage..." />
+	<item key="Menu.File.ImportAssetsToLib" value="Import Assets to Library..." />
+	<item key="Menu.File.Import" value="Import Data..." />
+	<item key="Menu.File.Export" value="Export..." />
+	<item key="Menu.File.Setting" value="Preference..." />
+	<item key="Menu.File.Preview" value="Preview" />
+	<item key="Menu.File.ExportEgret" value="Publish..." />
+	<item key="Menu.File.Share" value="Share..." />
+	<item key="Menu.File.Exit" value="Exit" />
+	
+	<item key="Menu.Edit" value="Edit" />
+	<item key="Menu.Edit.Updo" value="Undo" />
+	<item key="Menu.Edit.Redo" value="Redo" />
+	<item key="Menu.Edit.SelectAll" value="Select All" />
+	<item key="Menu.Window" value="Window" />
+	<item key="Menu.Window.Reset" value="Reset Panel" />
+	<item key="Menu.Window.SceneTree" value="Scene" />
+	<item key="Menu.Window.Layer" value="Draw Order" />
+	<item key="Menu.Window.Resources" value="Library" />
+	<item key="Menu.Window.Property" value="Property" />
+	<item key="Menu.Window.Transform" value="Transform" />
+	<item key="Menu.Window.Timeline" value="Timeline" />
+	<item key="Menu.Window.Animations" value="Animations" />
+	<item key="Menu.Window.Curve" value="Curve Editor" />
+	<item key="Menu.Window.Material" value="Material Library" />
+	<item key="Menu.Window.Mesh" value="Mesh Editor" />
+	<item key="Menu.Window.Comic" value="Comic Property" />
+	<item key="Menu.Window.ComicOrder" value="Animation Order" />
+	<item key="Menu.Window.SheetPanel" value="Frames Timeline"/>
+	
+	<item key="Menu.Help" value="Help" />
+	 <item key="Menu.Help.LearnDB" value="Learn DragonBones" />
+	<item key="Menu.Help.WelcomePage" value="Welcome Page" />
+	<item key="Menu.Help.IssueReport" value="Issue Report..." />
+	<item key="Menu.Help.OpenTrello" value="Comments received" />
+	<item key="Menu.Help.Questionnaire" value="Questionnaire" />
+	<item key="Menu.Help.Plugin" value="Plugin Manager..." />
+	<item key="Menu.Help.PSDPluginGuide" value="PSD export plugin installation guideline" />
+	<item key="Menu.Help.InstallFlashPlugin" value="Install plugin for FlashPro" />
+	<item key="Menu.Help.About" value="About DragonBones Pro" />
+	<item key="Menu.Help.NewFeature" value="What's New" />
+
+	<!-- 右键菜单 -->
+	<item key="MenuItem-null" value="[NULL]" />
+	<item key="MenuItem-import" value="Import..." />
+	<item key="MenuItem-export" value="Export..." />
+	<item key="MenuItem-importImages" value="Import Assets to Stage..." />
+	<item key="MenuItem-importSequenceImages" value="Import Image Sequence to Stage..." />
+	<item key="MenuItem-duplicate" value="Duplicate" />
+	<item key="MenuItem-copyTransform" value="Copy Transform" />
+	<item key="MenuItem-pasteTransform" value="Paste Transform" />
+	<item key="MenuItem-cut" value="Cut" />
+	<item key="MenuItem-copy" value="Copy" />
+	<item key="MenuItem-paste" value="Paste" />
+	<item key="MenuItem-delete" value="Delete" />
+	<item key="MenuItem-deleteSlot" value="Delete Slot" />
+	<item key="MenuItem-deleteDisplay" value="Delete Display" />
+	
+	<item key="MenuItem-selectAll" value="Select All" />
+	<item key="MenuItem-selectInverse" value="Select Inverse" />
+	<item key="MenuItem-selectParent" value="Select Parent" />
+	<item key="MenuItem-selectChildBones" value="Select Child Bones" />
+	<item key="MenuItem-selectChildSlots" value="Select Child Slots" />
+	
+	<item key="MenuItem-hide" value="Hide" />
+	<item key="MenuItem-lock" value="Lock" />
+	<item key="MenuItem-hideIrrelevant" value="Hide Irrelevant" />
+	<item key="MenuItem-lockIrrelevant" value="Lock Irrelevant" />
+	<item key="MenuItem-hideOthers" value="Hide Others" />
+	<item key="MenuItem-lockOthers" value="Lock Others" />
+	<item key="MenuItem-hideOthersLayer" value="Hide Others" />
+	<item key="MenuItem-lockOthersLayer" value="Lock Others" />
+	<item key="MenuItem-showAll" value="Show & Unlock All" />
+	<item key="MenuItem-hideRelated" value="Hide Related" />
+	<item key="MenuItem-lockRelated" value="Lock Related" />
+	<item key="MenuItem-clearRulerLines" value="Clear All Guides" />
+	
+	<item key="MenuItem-bringToFront" value="Bring to Front" />
+	<item key="MenuItem-bringForward" value="Bring Forward" />
+	<item key="MenuItem-sendBackward" value="Send Backward" />
+	<item key="MenuItem-sendToBottom" value="Send to Back" />
+	
+	<item key="MenuItem-ruler" value="Ruler" />
+	<item key="MenuItem-grid" value="Grid" />
+	
+	<item key="MenuItem-expandAll" value="Expand All" />
+	<item key="MenuItem-collapseAll" value="Collapse All" />
+	<item key="MenuItem-expandSelected" value="Expand Current" />
+	<item key="MenuItem-collapseSelected" value="Collapse Current" />
+
+	<item key="MenuItem-edit" value="Edit" />
+	<item key="MenuItem-setParent" value="Set Parent" />
+	<item key="MenuItem-rename" value="Rename..." />
+	<item key="MenuItem-distributeToFrames" value="Distribute to Frames" />
+	<item key="MenuItem-distributeSlotToFrames" value="Distribute to Frames" />
+	
+	<item key="MenuItem-convertToMesh" value="Convert to Mesh" />
+	<item key="MenuItem-convertToImage" value="Convert to Image" />
+	<item key="MenuItem-convertToSymbol" value="Convert to Symbol..." />
+	<item key="MenuItem-mesh" value="Mesh" />
+	
+	<item key="MenuItem-swapResource" value="Swap Resource" />
+	<item key="MenuItem-switchDisplay" value="Switch Display" />																
+	
+	<item key="MenuItem-showInLibrary" value="Show in Library" />
+	<item key="MenuItem-keyFrame" value="Add keyframe" />
+	<item key="MenuItem-clearKeyFrames" value="Clear Keyframes" />
+	<item key="MenuItem-modifyTween" value="Modify Tween" />
+	<item key="MenuItem-selectAllKeyFrames" value="Select All KeyFrames" />
+	
+	<item key="MenuItem-cutFrames" value="Cut Frames" />
+	<item key="MenuItem-copyFrames" value="Copy Frames" />
+	<item key="MenuItem-pasteFrames" value="Paste Frames" />
+ 
+	<item key="MenuItem-insertKeyFrame" value="Insert KeyFrame" />					   
+	<item key="MenuItem-deleteFrames" value="Delete Frames" />
+	
+	<item key="MenuItem-duplicateLayers" value="Duplicate Layers" />
+	<item key="MenuItem-cutLayers" value="Cut Layers" />
+	<item key="MenuItem-copyLayers" value="Copy Layers" />
+	<item key="MenuItem-pasteLayers" value="Paste Layers" />
+	<item key="MenuItem-insertLayer" value="Insert Layer" />
+	<item key="MenuItem-deleteLayers" value="Delete Layers" />
+	
+	<item key="MenuItem-showInExplorer" value="Show in Explorer" />		   
+	<item key="MenuItem-relocatePath" value="Relocate Path..." />			 
+	
+	<item key="MenuItem-newSymbol" value="New Symbol" />
+	<item key="MenuItem-convertToArmature" value="Convert to Armature" />
+	<item key="MenuItem-convertToMovieClip" value="Convert to MovieClip" />
+	<item key="MenuItem-convertToStage" value="Convert to Stage"/>
+	
+	<item key="MenuItem-packageTextureAtlas" value="Package Texture Atlas..." />												  
+	<item key="MenuItem-breakToImages" value="Break to PNGs" />
+	
+	<item key="MenuItem-insert" value="insert" />
+	<item key="MenuItem-bone" value="Bone" />
+	<item key="MenuItem-slot" value="Slot" />
+	<item key="MenuItem-boundingBox" value="BoundingBox" />
+	<item key="MenuItem-importAsset" value="Import..." />
+	<item key="MenuItem-deleteArmature" value="Delete" />
+    <item key="MenuItem-deleteVitualFolder" value="Delete" />
+	
+	<item key="MenuItem-cloneAnimation" value="Clone" />
+	<item key="MenuItem-addAnimation" value="Add" />   
+	<item key="MenuItem-deleteAnimation" value="Delete" />
+	<item key="MenuItem-addTween" value="Add Tween" />   
+	<item key="MenuItem-deleteTween" value="Delete Tween" /> 
+	<item key="MenuItem-swapImage" value="Replace Image" />				   
+	<item key="MenuItem-copyBone" value="Copy" />						
+	<item key="MenuItem-copySlot" value="Copy" />
+	<item key="MenuItem-copyDisplay" value="Copy" />
+	<item key="MenuItem-pasteBone" value="Paste" />
+	<item key="MenuItem-pasteSlot" value="Paste" />
+	<item key="MenuItem-pasteDisplay" value="Paste" />
+	<item key="MenuItem-selectivePaste" value="Paste Special" />
+	<item key="MenuItem-pasteSlotProperty" value="Paste Slot Property" />
+	<item key="MenuItem-copySlotProperty" value="Copy Slot Property" />
+	<item key="MenuItem-showItem" value="Display" />
+
+	<!-- 动漫 -->
+	<item key="MenuItem-tweenAlpha" value="Opacity" />
+	<item key="MenuItem-tweenPosition" value="Move" />
+	<item key="MenuItem-tweenRotation" value="Rotate" />
+	<item key="MenuItem-tweenScale" value="Scale" />
+	<item key="MenuItem-tweenShake" value="Shake" />
+	<item key="MenuItem-tweenSwing" value="Swing" />
+	<item key="MenuItem-tweenHeartbeat" value="Heartbeat" />
+	<item key="MenuItem-tweenTwinkle" value="Twinkle" />
+	<item key="MenuItem-tweenInvert" value="Flip" />
+	
+	<item key="MenuItem-tweenAppearPosition" value="Move In" />
+	<item key="MenuItem-tweenAppearScale" value="Scale" />
+	<item key="MenuItem-tweenAppearAlpha" value="Opacity" />
+	<item key="MenuItem-tweenAppearDrop" value="Drop" />
+	
+	<item key="MenuItem-tweenDisappearPosition" value="Move Out" />
+	<item key="MenuItem-tweenDisappearAlpha" value="Opacity Out" />
+	
+	<item key="MenuItem-changeTweenNull" value="None" />
+	<item key="MenuItem-changeTweenAlpha" value="Alpha" />
+	<item key="MenuItem-changeTweenPosition" value="Move" />
+	<item key="MenuItem-changeTweenRotation" value="Rotate" />
+	<item key="MenuItem-changeTweenScale" value="Scale" />
+	<item key="MenuItem-changeTweenShake" value="Shake" />
+	<item key="MenuItem-changeTweenSwing" value="Swing" />
+	<item key="MenuItem-changeTweenHeartbeat" value="Heartbeat" />
+	<item key="MenuItem-changeTweenTwinkle" value="Twinkle" />
+	<item key="MenuItem-changeTweenInvert" value="Flip" />
+	<item key="MenuItem-changeAppearTweenNull" value="None" />
+	<item key="MenuItem-changeAppearTweenAlpha" value="Fade In" />
+	<item key="MenuItem-changeAppearTweenPosition" value="Move In" />
+	<item key="MenuItem-changeAppearTweenScale" value="Scale" />
+	<item key="MenuItem-changeAppearTweenDrop" value="Drop" />
+	<item key="MenuItem-changeDisappearTweenNull" value="None" />
+	<item key="MenuItem-changeDisappearTweenPosition" value="Move Out" />
+	<item key="MenuItem-changeDisappearTweenAlpha" value="Fade Out" />
+	
+	<!-- 弹出框 -->
+	<item key="Project.Browse" value="Browse" />
+	<item key="BasePage.SelectProjectPath" value="Select Project Path" />
+	<item key="BasePage.ImportAsset" value="Select Images" />
+	
+	<!-- 其他 -->
+	<item key="Alert.Confirm" value="Confirm" />
+	<item key="Alert.Cancel" value="Cancel" />
+	<item key="Alert.Yes" value="Yes" />
+	<item key="Alert.No" value="No" />
+	<item key="Alert.Error" value="Error" />
+	<item key="Alert.Complete" value="Finish" />
+	<item key="Alert.Apply" value="Apply" />
+	<item key="Alert.RootNoDuplicate" value="Root bone is unduplicatable" />
+		
+	<!-- 对话框 -->
+	<item key="Dialog.ok" value="Ok" />
+	<item key="Dialog.cancel" value="Cancel" />
+	<item key="Dialog.defaults" value="Defaults" />
+	<item key="Dialog.apply" value="Apply" />
+	<!-- 默认右键菜单 -->
+	<item key="RightMenu.cut" value="Cut" />
+	<item key="RightMenu.copy" value="Copy" />
+	<item key="RightMenu.paste" value="Paste" />
+	<item key="RightMenu.selectAll" value="Select All" />
+	<item key="RightMenu.clear" value="Clear" />
+	
+	<!-- 场景 -->
+	<item key="ZoomList.fit" value="Fit Stage" />
+	
+	<!-- 时间轴 -->
+	<item key="Timeline.panel.title" value="Timeline" />
+	<item key="Timeline.autoKey.tooltip" value="Auto Key" />
+	<item key="Timeline.addKey.tooltip" value="Add Key Frame{0}" />
+	<item key="Timeline.addZOrderKey.tooltip" value="Add Draw Order Key Frame" />
+	<item key="Timeline.copyKey.tooltip" value="Copy Key Frame{0}" />
+	<item key="Timeline.cutKey.tooltip" value="Cut Key Frame{0}" />
+	<item key="Timeline.pasteKey.tooltip" value="Paste Key Frame{0}" />
+	<item key="Timeline.delKey.tooltip" value="Delete Key Frame{0}" />
+	<item key="Timeline.autoTween.tooltip" value="Curve Editor" />
+	<item key="Timeline.addFrame.tooltip" value="Move Right " />
+	<item key="Timeline.delFrame.tooltip" value="Move Left " />
+	<item key="Timeline.adjust.tooltip" value="Adjust" />
+	<item key="Timeline.play.tooltip" value="Play Forward{0}" />
+	<item key="Timeline.playback.tooltip" value="Play Backward" />
+	<item key="Timeline.nextFrame.tooltip" value="Next Frame{0}" />
+	<item key="Timeline.prevFrame.tooltip" value="Prev Frame{0}" />
+	<item key="Timeline.1stFrame.tooltip" value="First Frame" />
+	<item key="Timeline.lastFrame.tooltip" value="Last Frame" />
+	<item key="Timeline.fit.tooltip" value="Best Fit" />
+	<item key="Timeline.zoomIn.tooltip" value="Zoom In" />
+	<item key="Timeline.zoomOut.tooltip" value="Zoom Out" />
+	<item key="Timeline.curFrame" value="Frame:" />
+	<item key="Timeline.curTime" value="Time:" />
+	<item key="Timeline.frameRate" value="FPS:" />
+	<item key="Timeline.second" value="s" />
+	<item key="Timeline.fps" value="fps" />
+	<item key="Timeline.collapse" value="Collapse" />
+	<item key="Timeline.expand" value="Expand" />
+	<item key="Timeline.event.timeline" value="Event" />
+	<item key="Timline.playRate" value="Speed:" />
+	<item key="Timeline.onion.tooltip" value="Onion layer" />
+	<item key="Timeline.basic.autoTween" value="Auto Tween" />
+	<item key="Timeline.basic.addLayer" value="New Layer" />
+	<item key="Timeline.basic.delLayer" value="Delete layer" />
+	<item key="Timeline.basic.newLayer" value="newLayer" />
+	<item key="Timeline.repeatPlay.tooltip" value="Repeat animation" />
+	<item key="Timeline.zOrder.timeline" value="Draw Order" />
+	<item key="Timeline.delUnnecessary.tooltip" value="Delete unnecessary keys" />
+	<item key="Timeline.filter.tooltip" value="Filter timeline, show the selected bones only.(Ctrl+D)" />
+	<!-- 动画 -->
+	<item key="AnimationPanel.title" value="Animation" />
+	<item key="AnimationPanel.totalTime" value="Total Time:  " />
+	<item key="AnimationPanel.blendTime" value="Blend Time:" />
+	<item key="AnimationPanel.playTimes" value="Play Times: " />
+	<item key="Animation.add.tooltip" value="Add Animation" />
+	<item key="Animation.duplicate.tooltip" value="Clone Animation" />
+	<item key="Animation.renameBtn.tooltip" value="Rename Animation" />
+	<item key="Animation.duplicate.name" value="_duplication" />
+	<!-- 新添加动画的名字 -->
+	<item key="Animation.add.name" value="newAnimation" />
+	<!-- 默认动画的名字 -->
+	<item key="Animation.new.name" value="animtion0" />
+	<item key="Animation.delete.tooltip" value="Delete Animation" />
+	<item key="Animation.import.tooltip" value="Import Animation" />
+	<item key="Animation.export.tooltip" value="Export Animation" />
+	<!-- Transform panel -->
+	<item key="Transform.title" value="Transform" />
+	<item key="Transform.translate" value="Position:" />
+	<item key="Transform.scale" value="Scale:" />
+	<item key="Transform.rotate" value="Rotate:" />
+	<item key="Transform.width" value="Width:" />
+	<item key="Transform.height" value="Height:" />
+	<item key="Transform.positionX" value="X:" />
+	<item key="Transform.positionY" value="Y:" />
+	<item key="Transform.degree" value="°" />
+	<item key="Transform.translate.tooltip" value="Move{0}" />
+	<item key="Transform.scale.tooltip" value="Scale{0}" />
+	<item key="Transform.rotate.tooltip" value="Rotate{0}" />
+	<item key="Transform.size.tooltip" value="Size{0}" />
+	
+	<item key="TransformPanel.WorldBtn_tooltip" value="World" />
+	<item key="TransformPanel.ParentBtn_tooltip" value="Parent" />
+	<item key="TransformPanel.LocalBtn_tooltip" value="Local" />
+	<!-- Property panel -->
+	<item key="Property.title" value="Property" />
+	<item key="Property.name" value="Name:" />
+	<item key="Property.type" value="Type:" />
+	<item key="Property.asset" value="Asset:" />
+	<item key="Property.action" value="Action:" />
+	<item key="Property.slot.displayIndex" value="Display:" />
+	<item key="Property.slot.color" value="Color:" />
+	<item key="Property.slot.alpha" value="Alpha:" />
+	<item key="Property.slot.color.tooltip" value="Set Color" />
+	<item key="Property.slot.pivot" value="Pivot" />
+	<item key="property.slot.displayTitle" value="Asset Property" />
+	<item key="Property.slot.blendMode" value="BlendMode:" />
+	<item key="Property.slot.blendMode.normal" value="Normal" />
+	<item key="Property.slot.blendMode.add" value="Add" />
+	<item key="Property.slot.blendMode.erase" value="Erase" />
+	
+	<item key="Property.frame.slot" value="Slot Frame: " />
+	<item key="Property.frame.bone" value="Bone Frame: " />
+	<item key="Property.frame.event" value="Event Frame" />
+	<item key="Property.frame.tween" value="Tweening" />
+	<item key="Property.frame.tween.type.none" value="None" />
+	<item key="Property.frame.tween.type.line" value="Line" />
+	<item key="Property.frame.tween.type.custom" value="Custom" />
+	<item key="Property.frame.tween.rotate" value="Rotate:" />
+	<item key="Property.frame.tween.rotate.f.tooltip" value="Rotate Direction" />
+	<item key="Property.frame.tween.rotate.n.tooltip" value="Rotate Number" />
+	<item key="Property.frame.tween.rotate.auto" value="Auto" />
+	<item key="Property.frame.tween.rotate.cw" value="CW" />
+	<item key="Property.frame.tween.rotate.ccw" value="CCW" />
+	<item key="Property.frame.event.addEvent" value="Add Custom Event" />
+	<item key="Property.frame.event.addSound" value="Add Sound Event" />
+	<item key="Property.frame.event.addAnimation" value="Add Animation Play" />
+	<item key="Property.frame.event.event" value="Event" />
+	<item key="Property.frame.event.sound" value="Sound" />
+	<item key="Property.frame.event.animation" value="Play" />
+	<item key="Property.frame.event.target" value="Target: " />
+	<item key="Property.frame.event.target.none" value="None" />
+	<item key="Property.frame.event.target.pick" value="Set bone target" />
+	<item key="Property.frame.event.target.tooltip" value="Pick a bone from scene tree" />
+	<item key="Property.frame.event.ints" value="Int: " />
+	<item key="Property.frame.event.floats" value="Float: " />
+	<item key="Property.frame.event.strings" value="String: " />
+	
+	<item key="Property.bone" value="Bone" />
+	<item key="Property.bone.name" value="Name:" />
+	<item key="Property.bone.ikConstraint" value="IKConstraint:" />
+	<item key="Property.bone.type" value="Bone:" />
+	<item key="Property.bone.length" value="Length:" />
+	<item key="Property.bone.inherit" value="Inherit:" />
+	<item key="Property.bone.inheritScale" value="Scale" />
+	<item key="Property.bone.inheritRotation" value="Rotation" />
+	<item key="Property.slot.type" value="Slot" />
+	<item key="Property.attribute" value="Attribute" />
+	<item key="Property.value" value="Value" />
+	<item key="Property.action.none" value="None" />
+	<item key="Property.action.event" value="Event" />
+	<item key="Property.action.action" value="Action" />
+	<item key="Property.action.sound" value="Sound" />
+	<item key="Property.placeholder.empty" value="Empty Slot" />
+	<item key="Property.display.empty" value="None" />
+	<item key="Property.display.ArmatureType" value="Armature" />
+	<item key="Property.display.MovieClipType" value="MovieClip" />
+	<item key="Property.display.MeshType" value="Mesh" />
+	<item key="Property.display.ImageType" value="Image" />
+	<item key="Property.display.BoundingBoxType" value="BoundingBox" />
+	<item key="Property.display.change2Mesh" value="Convert to Mesh" />
+	<item key="Property.display.change2Image" value="Convert to Image" />
+	<item key="Property.display.changeAsset" value="Replace Image" />
+	<item key="Property.boundingBoxSlot.type" value="BBSlot" />
+	<item key="Property.bone.resetcolor" value="Clear the customized bone color" />
+	
+	<item key="Property.ik.name" value="Name:" />
+	<item key="Property.ik.bones" value="Bone:" />
+	<item key="Property.ik.target" value="Target:" />
+	<item key="Property.ik.bend" value="Bend:" />
+	<item key="Property.ik.weight" value="Weight:" />
+	<item key="Property.ik.bendDirection" value="Positive" />
+	<item key="Property.ik.endPick" value="Create IK Contraint at End of the Bone" />
+	<item key="Property.ik.pick" value="Create IK by Pick" />
+	<item key="Property.ik.moreBones" value="Please do not select more than 2 bones." />
+	<item key="Property.ik.noInherit" value="Bones in IK chain must inherit rotation and scale." />
+	<item key="Property.canvas.size" value="Size:" />
+	<item key="Property.canvas.width" value="Width:" />
+	<item key="Property.canvas.height" value="Height:" />
+	<item key="Property.canvas.bg" value="Background:" />
+	<item key="Property.ik.foldtarget" value="IK Contraint Target" />
+	<item key="Property.ik.fold" value="IK Contraint" />
+	<item key="Property.armature.name" value="Name:" />
+	<item key="Property.armature.frameRate" value="FrameRate:" />
+	<item key="Property.armature.defaultAnimation" value="Default Animation:" />
+	<item key="Property.armature.currentAnimation" value="Play Animation:" />
+	<item key="Property.armature.fps" value="{0}fps" />
+	<item key="Property.mesh.weight" value="Weight" />
+	<item key="Property.mesh.bone" value="Bone" />
+	<item key="Property.weight.title" value="Weight:" />
+	<item key="Property.weight.edit" value="Edit weights" />
+	<item key="Property.weight.add" value="Add Bone to Bind" />
+	<item key="Property.weight.remove" value="Remove" />
+	<item key="Property.weight.autoWeight" value="Auto Generate Weight" />
+	<item key="Property.weight.bonelist" value="Bones with weight" />
+	<item key="BoundingBox.property.edit" value="Edit" />
+	<item key="BoundingBox.property.freeze" value="Freeze" />	
+	
+	<!-- 画布 -->
+	<item key="Canvas.x" value="X:"/>
+	<item key="Canvas.y" value="Y:"/>
+	<item key="Canvas.width" value="W:"/>
+	<item key="Canvas.height" value="H:"/>
+	<item key="Canvas.open" value="Canvas"/>
+	<item key="Canvas.size" value="Size"/>
+	<item key="Canvas.autoSize" value="Fit to the minimum animation area"/>
+	<item key="Canvas.color" value="BG Color"/>
+	<item key="Canvas.show" value="Show on Stage"/>
+	
+	<!-- 提示 -->
+	<item key="OpenProject.fail" value="create project fail!" />
+	<item key="AddBone_noParent" value="Please select a parent bone first!" />
+	<item key="Tip.name.conflict" value="The name already exists!" />
+	<item key="Tip.IK.MoreBones" value="Please select no more than 2 bones!" />
+	<item key="Tip.IK.HasConstraint" value="Selected bones already have IK constraint!" />								 
+	<item key="Tip.IK.NoChild" value="Cannot set child bones as IK constraint target!" />
+	<item key="Tip.IK.NoParentChild" value="Selected bones are not connected!" />			   
+	
+	<item key="Scene.Tree.Prompt" value="Search Library " />
+	<item key="Scene.Tree.SearchTextInput.Clear" value="Clear search criteria" />
+	<item key="Scene.Tree.SearchEmpty.ToolTip" value="No match results" />																	
+	
+	<item key="Tip.IK.RootNoIK" value="Cannot Set root as target!" />
+	<item key="Tip.Bone.Group.Success" value="{0} bone group success！Hotkey is {1}" />
+	<item key="Tip.Bone.Group.Undo" value="Ungroup" />
+	<item key="Tip.Select.Show" value="{0} items are selected " />
+	<item key="Tip.Bone.bind" value="Bind bone [{0}]" />
+	<item key="Tip.weight.noRig" value="Before adjusting the weights, please bind bones to mesh first" />
+	<item key="Tip.weight.noVertex" value="Before adjusting the weights, please select at least one vertex first" />
+	<item key="Tip.weight.noBone" value="Before adjusting the weights, please select a binded bone first" />
+	<item key="Tip.weight.autoWeight" value="Calculating weights, please wait..." />
+	<item key="Tip.weight.autoWeightEnd" value="Weights calculating complete" />
+	<item key="Tip.save.stopMeshEdit" value="Project cannot be saved before exiting the Edge editing mode" />
+	<item key="Tip.Rig.addBone" value="Please select bind bones" />
+	<item key="Tip.mesh.overSize" value="Width and height of the mesh image should not be over 2048" />
+	<item key="Tip.library.nameConflict" value="Name {0} is conflict in library. It may make cause exporting error！" />
+	<item key="Tip-pleaseSelectOneItem" value="Please select only one item as the paste target" />
+	<item key="Tip-noItemSelected" value="No item is selected as paste target" />
+	<item key="Tip-canPasteInArmatureMode" value="Paste can only be performed in Armature mode." />
+	<item key="Tip-pleaseSelectOneBone" value="Please select one bone as paste target" />
+	<item key="Tip-pleaseSelectSlot" value="Please select one slot as paste target" />
+	<item key="Tip-imageCanInsertBoundingBoxSlot" value="The image can not be insert into Bounding box slot" />
+	<item key="Tip-pleaseSelectBoneOrSlot" value="Please select one bone or slot as paste target" />
+	<item key="SelectivePaste.childBone" value="Child bones" />
+	<item key="SelectivePaste.animationKeyFrame" value="Key Frame" />
+	<item key="SelectivePaste.selectPasteContents" value="Contents of Paste special" />
+	<item key="Tip.selectboneorslot" value="Select a bone or slot first" />
+    <item key="Tip.selectbone" value="Select a bone first" />
+	<item key="Tip.deleteVertex.fail" value="The selected vertexs cannot be deleted" />
+	<item key="Tip.duplicate.canselectoneitem" value="请选中一个对象克隆" />
+	<item key="Tip-canduplicateInArmatureMode" value="骨骼装配模式下才能克隆" />
+		
+	<!-- 库 -->
+	<item key="LibraryPanel.Title" value="Library" />
+	<item key="LibraryPanel.import.tip" value="Import assets..." />
+	<item key="LibraryPanel.refresh.tip" value="Refresh" />
+	<item key="LibraryPanel.open.tip" value="Show library in explorer" />
+	<item key="LibraryPanel.error.outOfSize" value="Imported image should not be over 10M" />
+	<item key="LibraryPanel.newSymbol.tip" value="New Symbol..." />
+	<item key="LibraryPanel.changePath.tip" value="Relocate library path..." />
+	<!-- rename -->
+	<item key="RenameWindow.title" value="Rename" />
+	<item key="RenameWindow.newName" value="Please enter a new name" />
+	<item key="RenameWindow.error.same" value="" />
+	<item key="Rename.bone.same" value="A bone with the same name already exist." />
+	<item key="Rename.slot.same" value="A slot with the same name already exist." />
+	<item key="Rename.animation.same" value="A animation with this name already exist." />
+	<item key="Rename.illegal.fileName" value="File name is invaild!" />
+	<item key="Rename.invalid.name" value="A name cannot contain:{0}" />
+	<item key="Rename.toolang" value="File name length cannot over 20 characters!" />
+	<item key="Rename.display.same" value="存在同名图片！" />
+	
+	<!-- remove -->
+	<item key="RemoveWindow.title" value="Delete Confirm" />
+	<item key="RemoveWindow.content" value="Are you sure you want to delete?" />
+	<item key="RemoveWindow.NoPrompt" value="Don't show this dialog again."/>
+	<item key="RemoveWindow.noUndo" value="Are you sure to delete it? This action cannot be undone." />
+	<item key="ResetMesh.title" value="Reset Confirm" />
+	<item key="ResetMesh.content" value="Reset mesh will delete all exist vertices on current selected image, are you sure to reset?" />
+	<item key="OutlineMesh.title" value="Manually Recreate Outline Confirm." />
+	<item key="OutlineMesh.content" value="Recreate mesh outline will delete all exist vertices on current selected image, are you sure to recreate it manually?" />
+	<item key="AutoMesh.title" value="Auto Generate Outline Confirm" />
+	<item key="AutoMesh.content" value="Auto generate mesh outline will delete all exist vertices on current selected image, are your sure to generate it automatically?" />
+	<!-- Import -->
+	<item key="Import.Title" value="Import Data to Project" />
+	<item key="Import.projectType" value="Project Type:   " />
+	<item key="Import.type.new" value="Import to New Project" />
+	<item key="Import.type.current" value="Import to Current Project" />
+	<item key="Import.defaultFolder" value="Use Default Path" />
+	<item key="Import.filter.DbData" value="dragonbones data" />
+	<item key="Import.filter.json" value="json" />
+	<item key="Import.filter.png" value="png" />
+	<item key="Import.filter.zip" value="Package as Zip" />
+	<item key="Import.filter.image" value="image" />
+	<item key="Import.filter.textureConfig" value="texture config" />
+	<item key="Import.filter.asstes" value="assets" />
+	<item key="Import.filter.animation" value="DB animation" />
+	<item key="Import.dataPath" value="Data Path:" />
+	<item key="Import.dataPath.tooltip" value="Please enter data file path" />
+	<item key="Import.texturePath" value="Texture Path:" />
+	<item key="Import.texturePath.tooltip" value="Please enter texture file path" />
+	<item key="Import.textureConfigPath" value="Config Path: " />
+	<item key="Import.textureConfigPath.tooltip" value="Please enter texture configuration file path" />
+	<item key="Import.projectPath" value="Project Path:" />
+	<item key="Import.projectPath.tooltip" value="Project Directory" />
+	<item key="Import.normalTip" value="Support: DragonBones data file (JSON, XML, AMF3)\n                DragonBones data package (ZIP, PNG, DBSWF)" />
+	<item key="Import.data.json" value="              Import DragonBones JSON Data" />
+	<item key="Import.data.xml" value="              Import DragonBones XML Data" />
+	<item key="Import.data.amf3" value="              Import DragonBones AMF3 Data" />
+	<item key="Import.data.spine" value="              Import Spine JSON Data" />
+	<item key="Import.skinTextureTip" value="              Support for XML, json, amf3 format of the data, set for skin texture" />
+	<item key="Import.skinFilesTip" value="              Support for XML, json, amf3 format of the data, set for skin images" />
+	<item key="Import.zipTip" value="                                Import DragonBones ZIP Data Package" />
+	<item key="Import.pngTip" value="                                Import DragonBones PNG Data Package" />
+	<item key="Import.dbswfTip" value="                                Import DragonBones DBSWF Data Package" />
+	<item key="Import.skin.type" value="Image Type:  " />
+	<item key="Import.skin.files" value="Images" />
+	<item key="Import.skin.texture" value="Texture Atlas" />
+	<item key="Import.skinPath" value="Image Folder:" />
+	<item key="Import.skinPath.tooltip" value="Please enter images folder path" />
+	<item key="Import.savePath" value="Project Path:   " />
+	<item key="Import.savePath.tooltip" value="Please enter project path" />
+	<item key="Import.projectName" value="Project Name:" />
+	<item key="Import.projectName.tooltip" value="Project Name" />
+	<item key="Import.error.missTexture" value="Please enter the texture file path" />
+	<item key="Import.error.missTextureConfig" value="Please enter the texture configuration file path" />
+	<item key="Import.error.nosupport" value="Unknown Data" />
+	<item key="Import.error.zip" value="ZIP Data Error" />
+	<item key="Import.error.missData" value="No dragonBones data file" />
+	<item key="Import.error.noTextureConfig" value="No texture config file" />
+	<item key="Import.error.noTexture" value="No texture file" />
+	<item key="Import.error.png" value="PNG Data Error" />
+	<item key="Import.missProjectName" value="The project name cannot be empty" />
+	<item key="Import.error.unknow" value="Data Error" />
+	<item key="Import.error.noFile" value="No DragonBones Data File!" />
+	<item key="Import.error.fail" value="import project failed!" />
+	<item key="Import.warn.overwrite" value="There is asset in the library with same name, do you want to overwrite or rename to keep both files?" />
+	<item key="Import.overwrite.yes" value="Overwrite" />
+	<item key="Import.overwrite.no" value="Rename" />
+	<item key="Import.plugin.name" value="Use {0} plugin" />
+	<item key="Import.curProject.title" value="Import Data to Current Project" />
+	<item key="Import.armature.conflict" value="An armature with name {0} already exist, please choose a solution" />
+	<item key="Import.armature.saveAll" value="Import, but keep both" />
+	<item key="Import.armature.saveAllTip" value="Renamed the importing armature to {0}." />
+	<item key="Import.armature.replace" value="Import and replace" />
+	<item key="Import.armature.replaceTip" value="Replace the armature in project with the importing one." />
+	<item key="Import.armature.discard" value="Don't import" />
+	<item key="Import.armature.discardTip" value="Don't import this armature without any change." />
+	<item key="Import.file.conflict" value="A file with name {1} already exist in library {0}, please choose a solution" />
+	<item key="Import.file.saveAll" value="Import, but keep both" />
+	<item key="Import.file.saveAllTip" value="Renamed the importing file to {0}." />
+	<item key="Import.file.replace" value="Import and Replace" />
+	<item key="Import.file.replaceTip" value="Replace the file in project with the importing one." />
+	<item key="Import.file.discard" value="Don't import" />
+	<item key="Import.file.discardTip" value="Don't import this file without any change." />
+	<item key="Import.texture.title" value="A texture atlas with name {1} already exist in library {0}, please choose a solution" />
+	<item key="Import.texture.saveAll" value="Import, but keep both" />
+	<item key="Import.texture.saveAllTip" value="Renamed the importing texture atlas to {0}." />
+	<item key="Import.texture.replace" value="Import and replace" />
+	<item key="Import.texture.replaceTip" value="Replace the texture atlas in project with the importing one." />
+	<item key="Import.texture.discard" value="Don't import" />
+	<item key="Import.texture.discardTip" value="Don't import this texture atlas without any change." />
+	<item key="Import.curProject.batch" value="Do this fot the next {0} conflicts" />
+	<item key="Import.file.size" value="{0}kb" />
+	<item key="Import.file.date" value="{0}/{1}/{2}" />
+	<item key="Import.project.success" value="Import Sucessed!" />
+	<item key="Import.error.crossImport" value="Cannot import armature animation data to basic animation projet!" />
+	<item key="Import.file.addTip" value="Add files" />
+	<item key="Import.importCurrentLibrary" value="Use Current Library" />
+	<item key="Import.libraryPath" value="Library Path:" />
+	<item key="Import.libraryPath.tooltip" value="Library Path" />
+	<item key="Import.psd.typeChange" value="Import as symbol type" />
+	<item key="Import.psd.movieClip" value="MovieClip" />
+	<item key="Import.psd.armature" value="Armature" />
+	<item key="Import.psd.comic" value="Comic" />
+	<item key="Import.animation" value="import DragonBones Animation" />
+	<item key="Import.animation.fail" value="Import DragonBones animation faild." />
+	<item key="Import.animation.title" value="An animation with name {0} already exist, please choose a solution" />
+	<item key="Import.animation.saveAll" value="Import, but keep both" />
+	<item key="Import.animation.saveAllTip" value="Renamed the importing animation to {0}" />
+	<item key="Import.animation.replace" value="Import and replace" />
+	<item key="Import.animation.replaceTip" value="Replace the animation with the importing one." />
+	<item key="Import.animation.discard" value="Don't import" />
+	<item key="Import.animation.discardTip" value="Don't import this animation without any change." />
+	<item key="Import.psdexport.title" value="Import PSD" />
+	<item key="Import.psdexport.createSkeleton" value="Import to new armature: " />
+	<item key="Import.psdexport.onlyUpdateTexture" value="Update image only: " />
+	<item key="Import.psdexport.ignoreHiddenLayers" value="Ignore hidden layers: " />
+	<item key="Import.psdexport.originPoint" value="Root position: " />
+	<item key="Import.psdexport.scale" value="Scale: " />
+	<item key="Import.psdexport.export" value="Import" />
+	<item key="Import.psdexport.cancel" value="Cancel" />
+	<item key="Import.psdexport.errorTip" value="Import error.\nPlease make sure there is no Mask or Blending options on layers. Please Rasterize layer and try it again." />
+	<item key="Import.psdexport.tipMsg0" value="Parsing PSD, please wait..." />
+	<item key="Import.psdexport.tipMsg1" value="Parsing successfully, extracting images..." />
+	<item key="Import.psdexport.tipMsg2" value="Extracting {0}\{1}" />
+	<item key="Import.psdexport.tipMsg3" value="Extracting successfully, adding slot..." />
+	<item key="Import.psdexport.tipMsg4" value="Adding bones and armature..." />
+	<item key="Import.psdexport.sizeTip" value="The resource is larger than 10M, more time need." />
+	<item key="Import.psdexport.errorTip1" value="Layer error, please check layer in PSD." />
+    <item key="Import.psdexport.errorTip2" value="Blending option error, please check blending option in PSD." />
+    <item key="Import.psdexport.errorTip3" value="Mask error, please check mask in PSD." />
+    <item key="Import.psdexport.errorTip4" value="Parsing error, please check the PSD." />
+    <item key="Import.psdexport.errorTip5" value="The Photoshop version is too low, you need to update it to save the PSD." />
+   	<item key="Import.svgexport.errorTip" value="SVG parsing error." />
+	<item key="Import.swfexport.errorTip" value="Do not suppprt SWF with multiple keyframe on timeline." />
+
+	<!-- Export -->
+	<item key="ExportProjectWindow.Title" value="Export" />
+	<item key="Export.preview.areaFill" value="Padding X = {0}    Padding Y = {1}" />
+	<item key="Export.export_to" value="Export to: " />
+	<item key="Export.projectDic" value="Same folder as the project" />
+	<item key="Export.appointDic" value="Specific folder" />
+	<item key="Export.exportAppointDic" value="Choose folder later" />
+	<item key="Export.fail" value="Export Fail" />
+	<item key="Export.success" value="Export Success" />
+	<item key="Export.success_to" value="Successfully exported to the following folder. Click to open." />
+	<item key="Export.outputPath" value="Output Path:" />
+	<item key="Export.output.dataType" value="Data Format:" />
+	<item key="Export.json" value="Json" />
+	<item key="Export.xml" value="Xml" />
+	<item key="Export.skin.type" value="Image Type:" />
+	<item key="Export.skin.images" value="Images" />
+	<item key="Export.images.tooltip" value="Export each images to texture folder" />
+	<item key="Export.skin.texture" value="Texture Atlas" />
+	<item key="Export.texture.tooltip" value="Export packaged texture atlas" />
+	<item key="Export.output.scale" value="Output Scale:" />
+	<item key="Export.output.webscale" value="Output Scale:" />
+	<item key="Export.scale.tooltip" value="Scale all exported images and data" />
+	<item key="Export.zip" value="Zip" />
+	<item key="Export.zip.tooltip" value="Package exported files to zip" />
+	<item key="Export.background.color" value="BG Color" />
+	<item key="Export.background.color2" value="BG Color:" />
+	<item key="Export.background.tooltip" value="Set texture atlas background color. uncheck means transparent backgound." />
+	<item key="Export.color.no" value="Transparent" />
+	<item key="Export.color.canvas" value="Use Canvas Color" />
+	<item key="Export.color.custom" value="Custom" />
+	<item key="Export.waiting" value="Exporting. Please wait..." />
+	<item key="Export.error.2015" value="Export failed because of unsupported image size." />
+	<item key="Export.texture.setting" value="Settings..." />
+	<item key="Export.setting.tooltip" value="Texture Packager Settings" />
+	<item key="TexturePackertWindow.Title" value="Texture Packager Settings" />
+	<item key="Export.output.size" value="Output Size:" />
+	<item key="Export.texture.stipWhiteSpace" value="Strip whitespace" />
+	<item key="Export.stipWhiteSpace.tooltip" value="Strip transparent area around images to reduce the exported texture atlas' size" />
+	<item key="Export.texture.gapX" value="Padding X:" />
+	<item key="Export.gapX.tooltip" value="Horizontal padding between images (pixels)" />
+	<item key="Export.texture.gapY" value="Padding Y:" />
+	<item key="Export.gapY.tooltip" value="Vertical padding between images (pixels)" />
+	<item key="Export.texture.pow2" value="Power of two" />
+	<item key="Export.pow2.tooltip" value="Both of width and height of the exported texture atlas are power of two" />
+	<item key="Export.texture.square" value="Square" />
+	<item key="Export.square.tooltip" value="Export square texture atlas" />
+	<item key="Export.setting.default" value="Defaults" />
+	<item key="Export.setting.percent" value="Zoom:" />
+	<item key="Export.type" value="Type:" />
+	<item key="Export.type.dragonbones" value="DragonBones JSON" />
+	<item key="Export.type.Binary" value="DragonBones Binary" />
+	<item key="Export.type.Spine" value="Spine" />
+	<item key="Export.type.movieClip" value="Egret MC" />
+	<item key="Export.type.egret" value="Egret Fast" />
+	<item key="Export.image.content" value="Content" />
+	<item key="Export.image.image" value="Image" />
+	<item key="Export.image.bone" value="Bone" />
+	<item key="Export.error.2016" value="Export faild! Image over memory!" />
+	<item key="Export.alert.2017" value="Exported Texture over size. It has been auto resized to property size." />
+	<item key="Export.progress" value="Exporting. Please wait...{0}%" />
+	<item key="Export.error.noData" value="No data to export!" />
+	<item key="Export.error.unknow" value="Unknow error!" />
+	<item key="Export.error.saveFile" value="Error saving file!" />
+	<item key="Export.error.openFile" value="Error opening file!" />
+	<item key="Export.error.net" value="Network Error!" />
+	<item key="Export.error.smallSize" value="Texutre to export over max size 4096!" />
+	<item key="Export.setting.nextPage" value="Next Page" />
+	<item key="Export.setting.prevPage" value="Prev Page" />
+	<item key="Export.setting.page" value="{0}/{1}" />
+	<item key="Export.texture.maxWidth" value="Max width" />
+	<item key="Export.maxWidth.tooltip" value="Max width of a single texture, must larger than any image's width." />
+	<item key="Export.texture.maxHeight" value="Max height" />
+	<item key="Export.maxHeight.tooltip" value="Max height of a single texture, must larger than any image's height" />
+	<item key="Export.texture.autoSize" value="Auto Size" />
+	<item key="Export.alert.nameConflict" value="Image name conflict:{0}, do you want to continue export?" />
+	<item key="Export.alert.confirm" value="Back to rename" />
+	<item key="Export.alert.cancel" value="Ignore and continue export" />
+	<item key="Export.output.dataVersion" value="Data Version:" />
+	<item key="Export.version4_0" value="4.0" />
+	<item key="Export.version4_5" value="4.5" />
+	<item key="ExportSp.version3_3" value="3.3" />
+	<item key="Export.addStage" value="Add Stage" />
+	<item key="Export.cancel"   value="Cancel" />
+	<item key="Export.egretBinary.tip" value="Specific for Egret engine's fast data format. Improve 2x~3x performance. Reduce 70% memory cost. Reduce 50% data file size." />
+	<item key="Export.superType.data" value="Animation Data + Texture" />
+	<item key="Export.superType.image" value="Image" />
+	<item key="Export.superType.webpage" value="HTML" />
+	<item key="Export.include.data" value="Data" />
+	<item key="Export.setting.data" value="Data Config" />
+	<item key="Export.include.texture" value="Texture" />
+	<item key="Export.setting.texture" value="Texture Config" />
+	<item key="Export.target.label" value="Target:" />
+	<item key="Export.target.include" value="Include Child Symbol" />
+	<item key="Export.target.title" value="Change Target" />
+	<item key="Export.target.change" value="Change" />
+	<item key="Export.target.all" value="All Symbols" />
+	<item key="Export.target.selected" value="Selected Symbols" />
+	<item key="Export.target.opened" value="Opened Symbol" />
+	<item key="Export.target.custom" value="Custom" />
+	<item key="Export.outFile.label" value="Project Name:" />
+	<item key="Export.outFile.fileNames" value="Generated Files:" />
+	<item key="Export.image.preview" value="Preview" />
+	<item key="Export.image.single" value="Single Frame" />
+	<item key="Export.image.sheets" value="Sequence" />
+	<item key="Export.image.gif" value="GIF" />
+	<item key="Export.image.png" value="PNG" />
+	<item key="Export.image.jpg" value="JPG" />
+	<item key="Export.image.include" value="Image Contain:" />
+	<item key="Export.image.type" value="Type:" />
+	<item key="Export.image.format" value="Format:" />
+	<item key="Export.image.animations" value="Animations:" />
+	<item key="Export.image.animationAll" value="All" />
+	<item key="Export.image.animationCur" value="Current" />
+	<item key="Export.image.animationNone" value="Armature Setup" />
+	<item key="Export.image.custom" value="Custom" />
+	<item key="Export.btn.animationSingle" value="Confirm" />
+	<item key="Export.btn.animation" value="Confirm" />
+	<item key="Export.animation.select" value="Choose Animations" />
+	<item key="Export.image.animationSingle" value="Choose Animation:" />
+	<item key="Export.image.frame" value="Frame Index:" />
+	<item key="Export.image.fps" value="FPS:" />
+	<item key="Export.image.fpsTip" value="( Animation fps={0} )" />
+	<item key="Export.image.areaMin" value="Min image area" />
+	<item key="Export.image.areaCanvas" value="Canvas area" />
+	<item key="Export.image.areaCustom" value="Custom" />
+	<item key="Export.image.area" value="Image Contains:" />
+	<item key="Export.progress2" value="Exporting... Progress:{0}%; Time Estimation:{1}s" />
+	<item key="Export.image.texture" value="package texture" />
+	<item key="Export.illegal.fileName" value="Project name contains illegal characters!" />
+	<item key="Export.heuristic.label" value="Heuristics:" />
+	<item key="Export.heuristic.BestShortSideFit" value="BestShortSideFit" />
+	<item key="Export.heuristic.BestLongSideFit" value="BestLongSideFit" />
+	<item key="Export.heuristic.BestAreaFit" value="BestAreaFit" />
+	<item key="Export.heuristic.BottomLeftRule" value="BottomLeftRule" />
+	<item key="Export.heuristic.ContactPointRule" value="ContactPointRule" />
+	<item key="Export.texture.area" value="Regions" />
+	<item key="Export.texture.rotateEnable" value="Rotations" />
+	<item key="Export.texture.areaFill" value="Region Padding" />
+	<item key="Export.texture.fillNeighbor" value="Duplicate padding" />
+	<item key="Export.texture.page" value="Pages" />
+	<item key="Export.texture.out" value="Output" />
+	<item key="Export.taskQueue" value="Exporting ..." />
+	<item key="Export.queueTip" value="There are {0} export task processing, please don't close application." />
+	<item key="Export.toEgret" value="{0} is being exported\nTime Passed: {1}" />
+	<item key="Export.toEgretCompleted" value="{0} has been exported to\n{1}" />
+	<item key="Export.cancelToEgret.title" value="Cancel" />
+	<item key="Export.cancelToEgret.message" value="Are you sure to cancel export {0} to Egret Fast?" />
+	<item key="Export.toEgret.error.title" value="Export Failed" />
+	<item key="Export.toEgret.error.busy" value="Server is busy. Please try later." />
+	<item key="Export.toEgret.error.other" value="Export failed, please try again later.\n Error type: {1}" />
+	<item key="Export.waitting" value="Exporting,! Please try layer" />
+	<item key="export.web.grid" value="Show Grid:" />
+	<item key="export.web.water" value="Show watermark" />
+	<item key="export.web.watermark" value="www.DragonBones.com" />
+	<item key="export.checkMesh" value="This project contains Mesh or BoundingBox attachment, which cannot exprot “Egret Fast”. " />
+	<item key="Export.web.type" value="Type:"/>
+	<item key="Export.web.preview" value="Preivew"/>
+	<item key="Export.web.publish" value="Publish"/>
+	<item key="Export.canvas.noCanvas" value="Cannot select Canvas here, because the current symbol have no canvas. Please enable canvas in properties first."/>
+	<item key="Export.gif.repeat" value="Repeat times: " />
+	<item key="Export.gif.repeatTip" value="Default is 0, means endless loop" />
+	<item key="Export.gif.quality" value="Quality lost: " />
+	<item key="Export.gif.qualityTip" value="Higher quality lost value means faster exporting and worse color quality. \n1 means best quality, longest exporting time. \n20 means worst quality, shortest exporting time." />
+	<item key="Export.gifAlert.title" value="Processing" />
+	<item key="Export.gifAlert.label1" value="Exporting: {0}" />
+	<item key="Export.gifAlert.label2" value="Estimated time remaining:{0}" />
+	<item key="Export.gifAlert.label3" value="Extracting image:{0}" />
+	
+    <item key="Net.error.0001" value="Net error, please try again later." />
+	
+	<item key="Date.HMS" value="{0} h {1} m {2} s" />
+	<item key="Date.MS" value="{0} m {1} s" />
+	<item key="Date.S" value="{0} s" />
+		
+	<!-- ExportEgret -->
+	<item key="ExportEgretProjectWindow.Title" value="Egret Publish" />
+	<item key="ExportEgret.ScreenAuto" value="Auto" />
+	<item key="ExportEgret.ScreenVertical" value="Portrait" />
+	<item key="ExportEgret.ScreenHorizonta" value="Landscape" />
+	<item key="ExportEgret.ScreenHorizontaFlipped" value="Landscape flip" />
+	<item key="ExportEgret.ScreenShowAll" value="showAll" />
+	<item key="ExportEgret.ScreenNoScale" value="noScale" />
+	<item key="ExportEgret.ScreenNoBorder" value="noBorder" />
+	<item key="ExportEgret.ScreenExactFit" value="exactFit" />
+	<item key="ExportEgret.ScreenFixedWidth" value="fixedWidth" />
+	<item key="ExportEgret.ScreenFixedHeight" value="fixedHeight" />
+	<item key="ExportEgret.ScreenFixedNarrow" value="fixedNarrow" />
+	<item key="ExportEgret.ScreenFixedWide" value="fixedWide" />
+	<item key="ExportEgret.maxFps" value="FPS:" />
+	<item key="ExportEgret.showFps" value="Show FPS:" />
+	<item key="ExportEgret.screenDirection" value="Screen Orientation:" />
+	<item key="ExportEgret.screenMate" value="Screen Adaptation:" />
+	<item key="ExportEgret.texture.setting" value="Texture Setting..." />
+	<item key="ExportEgret.setting.tooltip" value="Texture Setting" />
+	<item key="ExportEgret.Image.Preview" value="Texture Preview:" />
+	<item key="ExportEgret.NoStage" value="Please add a Stage before publish." />
+	
+	<!-- Share -->
+	<item key="PreviewProject.PreviewTip" value="Egret Preview{0}" />
+	<item key="ShareProject.ToolTip" value="Share Project" />
+		
+	<!-- MainToolBar -->
+	<item key="NewProject.ToolTip" value="New Project{0}" />
+	<item key="OpenProject.ToolTip" value="Open Project{0}" />
+	<item key="SaveProject.ToolTip" value="Save Project{0}" />
+	<item key="Undo.ToolTip" value="Undo{0}" />
+	<item key="Redo.ToolTip" value="Redo{0}" />
+	<item key="ImportAssets.ToolTip" value="Import Assets to Stage" />
+	<item key="ImportProject.ToolTip" value="Import Data File to Project" />
+	<item key="ExportProject.ToolTip" value="Export Project{0}" />
+	<item key="Setting.ToolTip" value="Preferences" />
+	<item key="Open.Trello" value="Comments received" />												
+	
+	<!-- StagePanel -->
+	<item key="StagePanel.ArmatureMode" value="Armature" />
+	<item key="StagePanel.AnimationMode" value="Animation" />
+	<item key="StagePanel.SelectTool_tooltip" value="Select{0}" />
+	<item key="StagePanel.DragMoveTool_tooltip" value="Drag Move{0}" />
+	<item key="StagePanel.CreateBoneTool_tooltip" value="Create Bone{0}" />
+	<item key="StagePanel.PoseTool_tooltip" value="Pose{0}" />
+	<item key="StagePanel.PivotTool_tooltip" value="Pivot" />
+	<item key="StagePanel.WeightTool_tooltip" value="Weight{0}" />
+	
+	<!-- StageFilterBar -->
+	<item key="StageFilterBar.visible_tip" value="Visible" />
+	<item key="StageFilterBar.selectable_tip" value="Selectable" />
+	<item key="StageFilterBar.inherite_tip" value="Inherite" />
+	<item key="StageFilterBar.bone_visible_tip" value="Bone Visible{0}" />
+	<item key="StageFilterBar.bone_selectable_tip" value="Bone Selectable" />
+	<item key="StageFilterBar.bone_inherite_tip" value="Bone Inherite Controllable" />
+	<item key="StageFilterBar.image_visible_tip" value="Image Visible{0}" />
+	<item key="StageFilterBar.image_selectable_tip" value="Image Selectable" />
+	<item key="StageFilterBar.image_inherite_tip" value="Image Inherite Controllable" />
+
+	<!-- ScenePanel -->
+	<item key="ScenePanel.Title" value="Scene" />
+	<item key="ScenePanel.intelligentFilterButton.tooltip" value="Intelligent filter" />
+	<item key="ScenePanel.newBoneBtn.tooltip" value="New Bone" />
+	<item key="ScenePanel.newSlotBtn.tooltip" value="New Slot" />
+	<item key="ScenePanel.setParentBtn.tooltip" value="Set Parent{0}" />
+	<item key="ScenePanel.removeBtn.tooltip" value="Delete" />
+	<item key="ScenePanel.renameBtn.tooltip" value="Rename" />
+	<item key="ScenePanel.newBBoxBtn.tooltip" value="New BoundingBox" />
+	<item key="ScenePanel.newDropList.tooltip" value="New Element" />
+	
+	<!-- DrawOrderPanel -->
+	<item key="DrawOrderPanel.Title" value="Draw Order" />
+	<item key="DrawOrderPanel.upBtn.tooltip" value="Up{0}" />
+	<item key="DrawOrderPanel.downBtn.tooltip" value="Down{0}" />
+	
+	<!-- CurvePanel -->
+	<item key="CurvePanel.Title" value="Curve Editor" />
+	<item key="CurvePanel.EaseIn" value="EaseIn" />
+	<item key="CurvePanel.EaseOut" value="EaseOut" />
+	<item key="CurvePanel.EaseInOut" value="EaseBoth" />
+	<item key="CurvePanel.Linear" value="Linear" />
+	<item key="CurvePanel.None" value="None" />
+	<item key="CurvePanel.Copy" value="Copy" />
+	<item key="CurvePanel.Paste" value="Paste" />
+	<item key="CurvePanel.Accord" value="Accord" />
+	
+	<!-- MaterialPanel -->
+	<item key="MaterialPanel.Title" value="Material Library" />
+	<item key="MaterialPanel.SearchTips" value="Search Library" />
+	<item key="MaterialPanel.SearchBtn" value="Search" />
+	<item key="MaterialPanel.SearchContent" value="常用搜索标签:ui button 原画 纹理" />
+	<item key="MaterialPanel.Image" value="Image    " />
+	<item key="MaterialPanel.Animat" value="Animat    " />
+	<item key="MaterialPanel.Plugin" value="Plugin    " />
+	<item key="MaterialPanel.ResName" value="Uname" />
+	<item key="MaterialPanel.ResType" value="Type" />
+	<item key="MaterialPanel.ResAuthor" value="Author" />
+	<item key="MaterialPanel.ResAttention" value="Attention" />
+	<item key="MaterialPanel.ResDownLoad" value="Download" />
+	<item key="MaterialPanel.ResPreview" value="Preview" />
+	<item key="MaterialPanel.ResInstall" value="Install" />
+	
+	<!-- saveProject -->
+	<item key="SaveWindow.title" value="Save Project" />
+	<item key="SaveWindow.content" value="The file has been modified. Do you want to save the change?" />
+	
+	<!-- saveAsProject -->
+	<item key="SaveAsProjectWindow.Title" value="Save As" />
+	<item key="SaveAs.outputPath" value="Project Path:   " />
+	<item key="SaveAs.fail" value="Save as failed" />
+	<item key="Copy.Library" value="Copy Library" />
+	<item key="ProjectName.repeat" value="A project with this name already exist. It will be overrided if you continue the operation." />
+	<item key="ProjectName.repeatLibrary" value="A library with this name already exist. Files in it may be overrided."/>
+	<item key="ProjectName.projectLibNoShow" value="No library in targt folder, Images may be missing if you don't copy library."/>
+	
+	<!-- closeApplication -->
+	<item key="CloseApplication.title" value="Exit" />
+	<item key="CloseApplication.content" value="There are files haven't been saved. Do you want to exit the application without saving these files?" />
+	<item key="CloseApplication.saveAll1" value="Do this for the following " />
+	<item key="CloseApplication.saveAll2" value=" items" />
+	
+	<!-- Welcome Page -->
+	<item key="Welcome.Title" value="Welcome" />
+	<item key="Welcome.project" value="Project" />
+	<item key="Welcome.course" value="Tutorials" />
+	<item key="Welcome.resource" value="Resource" />
+	<item key="Welcome.newPro" value="New Project" />
+	<item key="Welcome.openPro" value="Open Project..." />
+	<item key="Welcome.importPro" value="Import..." />
+	<item key="Welcome.importExp" value="Import" />
+	<item key="Welcome.DBVideo" value="Video Tutorials" />
+	<item key="Welcome.DBUser" value="User Guide" />
+	<item key="Welcome.DBApi" value="API Reference" />
+	<item key="Welcome.resDemo" value="Official Online Demos" />
+	<item key="Welcome.newFeature" value="What's New in 5.6" />
+	<item key="Welcome.DBFormat" value="Data Instruction" />
+	<item key="Welcome.openDemo" value="Import Example Projects" />
+	<item key="Welcome.Dragon" value="Armature Demo" />
+	<item key="Welcome.Robot" value="Spine Convert" />
+	<item key="Welcome.DragonOpening" value="MovieClip Demo" />
+	<item key="Welcome.Demon" value="Cocos Convert" />
+	<item key="Welcome.Ubbie" value="Ubbie-Mesh" />
+	<item key="Welcome.Bicycle" value="Robot-IK" />
+	<item key="Welcome.TCl_Advertisement" value="TCL TV Ad" />
+	<item key="Welcome.SwordsMan" value="Nest Armature" />
+	<item key="Welcome.MonitorOye" value="Motion Comic" />
+	<item key="Welcome.egretWeb" value="Egret Website" />
+	<item key="Welcome.egretCp" value="DragonBones Page" />
+	<item key="Welcome.DBWeb" value="DragonBones Website" />
+	<item key="Welcome.DBCode" value="GitHub" />
+	<item key="Welcome.DBVideoCenter" value="Video Center" />
+	<item key="Welcome.egretDoc" value="Egret Dev Network" />
+	<item key="Welcome.trello" value="Trello" />
+	<item key="Welcome.egretForum" value="Forum" />
+	<item key="Welcome.sheep" value="Sheep" />
+	<item key="Welcome.cock" value="Cock" />
+	<item key="Welcome.myProject" value="My Projects" />
+	<item key="Welcome.openProNew" value="Open Project" />
+	<item key="Welcome.importProNew" value="Import Project Data" />
+	<item key="Welcome.study" value="Learn" />
+	<item key="Welcome.search" value="Search" />
+	<item key="Welcome.gold" value="Gold" />
+	<item key="Welcome.freeDown" value="Download" />
+	<item key="Welcome.buyPrompt" value="Purchase" />
+	<item key="Welcome.buySure" value="Confirm to purchase？" />
+	<item key="Welcome.goCharge" value="Not enough gold, go to Charge" />
+	<item key="Welcome.buyFail" value="Purchase failed, please login again." />
+	<item key="Welcome.untitled" value="Untitled" />
+	<item key="Welcome.More" value="More" />
+	<item key="Welcome.downFail" value="Download failed, please check your network and try again." />
+	<item key="Welcome.downPrompt" value="Download" />
+	<item key="Welcome.openFail" value="Cannot find project file" />
+	<item key="Welcome.openPrompt" value="Open Failed" />
+	<item key="Welcome.Sheet" value="Frames" />
+	
+	<!-- 	issue report -->
+	<item key="IssueReport.Title" value="Issue Report" />
+	<item key="IssueReport.intro" value="Encounter a problem? Tell us. We will help you!" />
+	<item key="IssueReport.type" value="*Issue Type" />
+	<item key="IssueReport.type.bug" value="Bug Report" />
+	<item key="IssueReport.type.quest" value="Functional Question" />
+	<item key="IssueReport.type.suggest" value="Suggestion" />
+	<item key="IssueReport.desc" value="*Description" />
+	<item key="IssueReport.upload" value="Upload currect project ({0})" />
+	<item key="IssueReport.upload.intro" value="Upload project will help us fix the problem more efficiently. We will keep your project confidential." />
+	<item key="IssueReport.attachment" value="Add Attachment" />
+	<item key="IssueReport.name" value="Name:  " />
+	<item key="IssueReport.phone" value="Phone:  " />
+	<item key="IssueReport.qq" value="QQ:      " />
+	<item key="IssueReport.weixin" value="Wechat:" />
+	<item key="IssueReport.email" value="Email:   " />
+	<item key="IssueReport.contact" value=" " />
+	<item key="IssueReport.send" value="Submit" />
+	<item key="IssueReport.sending" value="Sending..." />
+	<item key="IssueReport.attachment.tip" value="Please keep the attachment smaller than 5M." />
+	<item key="IssueReport.error.fileSize" value="File too large!" />
+	<item key="IssueReport.success" value="Submit successfully!" />
+	<item key="IssueReport.fail" value="Submit failed!" />
+	<item key="IssueReport.contacts" value="Contact Infomation" />
+	
+	<!-- 	share -->
+	<item key="Share.Title" value="Share" />
+	<item key="Share.intro" value="Share your lovely projects to Others in Egret Store!" />
+	<item key="Share.curProject" value=" Current Project:" />
+	<item key="Share.projectName" value="*Project Name:" />
+	<item key="Share.desc" value=" Description:" />
+	<item key="Share.uploadImage" value="Thumbnail" />
+	<item key="Share.uploadImage.tip" value="" />
+	<item key="Share.userName" value="Egret ID:" />
+	<item key="Share.name" value="Name:  " />
+	<item key="Share.phone" value="Phone:  " />
+	<item key="Share.qq" value="QQ:      " />
+	<item key="Share.weixin" value="Wechat:" />
+	<item key="Share.email" value="Email:   " />
+	<item key="Share.contact" value="The other customers need to pay for downlaoding. Part of this paid will be recharge to your personal account." />
+	<item key="Share.law" value="Agree EgretStore EULA" />
+	<item key="Share.upload" value="Upload" />
+	<item key="Share.upload.click" value="Click to upload" />
+	<item key="Share.uploading" value="Uploading..." />
+	<item key="Share.success" value="Upload successfully!" />
+	<item key="Share.fail" value="Upload failed!" />
+	<item key="Share.fail.size" value="Submit failed! Project file over size." />
+	<item key="Share.error.size" value="Project file over size limitation!" />
+	<item key="Share.noProject" value="No open project!" />
+	<item key="Share.activity" value="Details:" />
+	<item key="Share.introCon" value="Summary:" />
+	<item key="Share.introConTips" value=" Less than 60 letters. No line feed allowed." />;
+	<item key="Share.gotoStore" value="Go to Store>" />
+	<item key="Share.free" value="Free" />
+	<item key="Share.gold" value="Gold" />
+	<item key="Share.priceLabel" value="Price" />
+	
+	<!-- 	plugin -->
+	<item key="Plugin.Title" value="Plugin Manager" />
+	<item key="Plugin.SelectTitle" value="Plugin Select" />
+	<item key="Plugin.pluginNumber" value="{0} Plugin installed" />
+	<item key="Plugin.choose" value="Plugin Name" />
+	<item key="Plugin.icon" value="Icon" />
+	<item key="Plugin.name" value="Name" />
+	<item key="Plugin.type" value="Type" />
+	<item key="Plugin.version" value="Version" />
+	<item key="Plugin.author" value="Author" />
+	<item key="Plugin.status" value=" Status" />
+	<item key="Plugin.operation" value="Enabled" />
+	<item key="Plugin.complete" value="Finish" />
+	<item key="Plugin.start" value="       ON" />
+	<item key="Plugin.stop" value="            OFF" />
+	<item key="Plugin.status.start" value="Ture" />
+	<item key="Plugin.status.stop" value="False" />
+	<item key="Plugin.pluginButton" value="Choose Plugin..." />
+	<item key="Plugin.selectaplugin" value="Please select a plugin" />
+	<item key="Plugin.InvalidPath" value="Invalid file path" />
+	<item key="Plugin.NameIncluded" value="Name is included in the plugin,replace?" />
+	<item key="Plugin.formatError" value="Plugin format error" />
+	<item key="Plugin.PluginDamaged" value="The plugin file is damaged" />
+	<item key="Plugin.NoPluginPath" value="No found plugin path :{0}" />
+	<item key="Plugin.add.tooltip" value="Install plugin" />
+	<item key="Plugin.delete.tooltip" value="Uninstall selected plugin" />
+	<item key="Plugin.open.tooltip" value="Open Plugin Folder" />
+	
+	<!-- 	notice -->
+	<item key="Notice.Nonsupport version!" value="Animation data error, or data format is not supported by selected plugin, please choose another plugin and try again!" />
+	<item key="Notice.Nonsupport TextureAtlas!" value="Texture atlas data error, or data format is not supported by selected plugin, please choose another plugin and try again!" />
+	<item key="Notice.Nonsupport version texture!" value="Animation data error, Texture atlas data error, or data format is not supported by selected plugin, please choose another plugin and try again!" />
+	
+	<!-- 	setting -->
+	<item key="Setting.Normal" value="General" />
+	<item key="Setting.System" value="System" />
+	<item key="Setting.View" value="Interface" />
+	<item key="Setting.Account" value="Account" />
+	<item key="Setting.All.Change1" value="Are you sure you want to reset preferences? The current settings cannot be restore." />
+	<item key="Setting.Title" value="Preferences" />	
+	<item key="Setting.DeleteConfirmation" value="Delete confirmation" />
+	<item key="Setting.ImageSmooth" value="Smooth image" />
+	<item key="Setting.BoneBinding" value="Bone auto bind image" />
+	<item key="Setting.DeleteConfirmationTips" value="Ask if you are sure before each delete operation。" />
+	<item key="Setting.ImageSmoothTips" value="Smooth display scaled images using linear filtering.Disable to use nearest neighbor for pixel art." />
+	<item key="Setting.BoneBindingTips" value="Auto bind an approaching image with creating bone.（Press Ctrl key can switch to manually bind images with creating bone.）" />
+	<item key="Setting.Reset" value="Reset Preferences" />
+	<item key="Setting.Complete" value="Finish" />
+	<item key="Setting.BGColor" value="Background Color" />
+	<item key="Setting.BgColor.tooltip" value="Background Color" />
+	<item key="Setting.BOColor" value="Bone Color: " />
+	<item key="Setting.BoColor.tooltip" value="Default Bone Color" />
+	<item key="Setting.BGSize" value="Background Size" />
+	<item key="Setting.BOSize" value="Default Bone Size" />
+	<item key="Setting.CurrUser" value="Current User:" />
+	<item key="Setting.User" value="Not logged in" />
+	<item key="Setting.Logout" value="Logout" />
+	<item key="Setting.authorizationText" value="One user account can only authorize two devices at most. \n If you want to authorize a new device, then you must deauthorize one first." />
+	<item key="Setting.RevokeLicence" value="Deauthorize current device" />
+	<item key="Setting.Login" value="Login" />
+	<item key="Setting.preset" value="Presets" />
+	<item key="Setting.Convention" value="Options" />
+	<item key="Setting.Color" value="Color" />
+	<item key="Setting.Size" value="Size" />
+	<item key="Setting.curAccount" value="Account" />
+	<item key="Setting.hotkey" value="Hotkey" />
+	<item key="Setting.hotkey.set" value="Customize Hotkeys" />
+	<item key="Setting.logger" value="Log" />
+	<item key="Setting.logger.set" value="View Log" />
+	<item key="Setting.lang" value="Language" />
+	<item key="Setting.lang.zh" value="中文" />
+	<item key="Setting.lang.en" value="English" />
+	<item key="Setting.lang.ru" value="русский" />
+	<item key="Setting.app.title" value="Application" />
+	<item key="Setting.lang.success" value="Change language successful. Restart application to apply." />
+	<item key="Setting.hotkey.default" value="Reset hotkey to default" />
+	<item key="Setting.hotkey.change1" value="Are you sure to reset hotkey setting to defualt? Current setting cannot be restore." />
+	<item key="Setting.hotkey.change" value="Hotkey changes will take effect the next time you start DragonBones Pro." />
+	<item key="Setting.restart.ok" value="Restart Now" />
+	<item key="Setting.restart.cancel" value="Restart Later" />
+	<item key="Setting.hotkey.tip" value="Hotkey changes will take effect the next time you start DragonBones Pro." />
+	<item key="Setting.export.defalut" value="Reset Export Settings" />
+	<item key="Setting.export.label" value="Export" />
+	<item key="Setting.export.change1" value="This operation cannot be undone. Are you sure you want to restore the export settings?" />										  
+	<item key="Setting.export.loginTip" value="Login is requested" />
+	<item key="Setting.export.ruler" value="Rulers" />
+	<item key="Setting.export.rulerselect" value="Show Rulers" />
+	<item key="Setting.export.rlineshow" value="Show Guides" />
+	<item key="Setting.export.rlineselect" value="Guides movable" />
+	<item key="Setting.export.rlinecolor" value="Guides color" />
+		
+	<item key="Mesh.property.edit" value="Edit Mesh" />
+	<item key="Mesh.property.reset" value="Reset" />
+	<item key="Mesh.panel.editor" value="Mesh Editor" />													 
+	<item key="Mesh.property.ffd" value="FFD" />
+
+	<item key="Mesh.tool.add" value="Create{0}" />
+	<item key="Mesh.tool.modify" value="Modify{0}" />
+	<item key="Mesh.tool.delete" value="Delete{0}" />
+	<item key="Mesh.tool.outline" value="New Edge" />
+	<item key="Mesh.tool.reset" value="Reset" />
+	<item key="Mesh.tool.info" value="Vertices:{0}" />
+	<item key="Mesh.tool.deform" value="Deform" />
+	<item key="Mesh.tool.density" value="Density" />
+	<item key="Mesh.tool.autoOutline" value="Auto generate mesh outline.\nDensity 1~5, the greater the density, the more mesh vertices." />
+	
+	<!-- NewProjectWindow -->
+	<item key="NewProjectWindow.Title" value="New Project" />
+	<item key="NewProjectWindow.templet" value="Templet:" />
+	<item key="NewProjectWindow.armatureType" value="Armature Template" />
+	<item key="NewProjectWindow.sheetType" value="Frames Template"/>
+	<item key="NewProjectWindow.basicType" value="MovieClip Template" />
+	<item key="NewProjectWindow.stageType" value="Advertisement Template (Recommend use MovieClip template instead)" />
+	<item key="NewProjectWindow.customType" value="Custom" />
+	<item key="NewprojectWindow.canvas" value="Canvas:"/>
+	<item key="NewProjectWindow.openCanvas" value="Enable"/>
+	<item key="NewProjectWindow.Create" value="Create:" />
+	<item key="NewProjectWindow.CreateArmature" value="Armature" />
+	<item key="NewProjectWindow.CreateMovieClip" value="MovieClip" />
+	<item key="NewProjectWindow.CreateSheet" value="Frames"/>
+	<item key="NewProjectWindow.CreateStage" value="Stage" />
+	<item key="NewProjectWindow.ProjectName" value="Project Name:" />
+	<item key="NewProjectWindow.ProjectPath" value="Project Path:   " />
+	<item key="NewProjectWindow.prevPage" value="Back" />
+
+	<!-- ExitWindow -->
+	<item key="ExitWindow.ShowSaveProjects" value="Do you want to save the changes made to the project &quot; {0} &quot;?" />
+	<item key="ExitWindow.cancelExport.title" value="Confirm Exit" />
+	<item key="ExitWindow.cancelExport.message" value="There are {0} export task precossing. Are you sure to cancel these tasks and exit?" />
+	
+	<!-- NewSymbolWindow -->	
+	<item key="NewSymbolWindow.title" value="New Symbol" />
+	<item key="NewSymbolWindow.type" value="Symbol Type:" />
+	<item key="NewSymbolWindow.stageType" value="Stage" />
+	<item key="NewSymbolWindow.armatureType" value="Armature" />
+	<item key="NewSymbolWindow.mcType" value="MovieClip" />
+	<item key="NewSymbolWindow.sheetType" value="Frames"/>
+	<item key="NewSymbolWindow.name" value="Symbol Name:" />
+	<item key="NewSymbolWindow.libraryPath" value="Library Path:" />
+	<item key="NewSymbolWindow.nameConflict" value="A symbol with this name already exist." />
+	<item key="NewSymbolWindow.nameNull" value="Name cannot be empty." />
+	<item key="NewSymbolWindow.libraryPath.invalid" value="Library path is invalid." />
+	
+	<!-- CreateProjectWindow -->
+	<item key="CreateProjectWindow.Title" value="New Project" />
+	<item key="CreateProjectWindow.dragonbones.title" value="Create Animation" />
+	<item key="CreateProjectWindow.dragonbones.desc" value="Applicable to create character animation used in game, or AD animation based on HTML5." />
+	<item key="CreateProjectWindow.comic.title" value="Create Motion Comic" />
+	<item key="CreateProjectWindow.comic.desc" value="Applicable to create motion comic based on HTML5" />
+	
+	<!-- NewComicWindow -->
+	<item key="NewComicWindow.title" value="Create Motion Comic" />
+	<item key="NewComicWindow.phone" value="Phone" />
+	<item key="NewComicWindow.pad" value="Pad" />
+	<item key="NewComicWindow.custom" value="Custom" />
+	<item key="NewComicWindow.deviceTitle" value="Device" />
+	<item key="NewComicWindow.size" value="Size" />
+	<item key="NewComicWindow.direct" value="Orientation" />
+	<item key="NewComicWindow.horizon" value="Landscape" />
+	<item key="NewComicWindow.stageSize" value="Size" />
+	<item key="NewComicWindow.width" value="Width(px)" />
+	<item key="NewComicWindow.height" value="Height(px)" />
+	<item key="NewComicWindow.tip" value="Drag the picture onto the stage and start your creative journey." />
+	<item key="android_0" value="Android | 360x640" />
+	<item key="iphone_4" value="iPhone4 | 320x480" />
+	<item key="iphone_5" value="iPhone5 | 320x568" />
+	<item key="iphone_6" value="iPhone6 | 375x667" />
+	<item key="iphone_6+" value="iPhone6 plus | 414x736" />
+	<item key="custom" value="Custom" />
+	<item key="ipad_1" value="ipad 1 | 2 | mimi | 768x1024" />
+	<item key="ipad_2" value="ipad2 | 768x1024" />
+	<item key="ipad_3" value="ipad3 | 1536x2048" />
+	<item key="ipad_4" value="ipad 4 | Air | 1536x2048" />
+	<item key="ipad_air" value="ipad Air | 1536x2048" />
+	<item key="ipad_mini" value="ipad mini | 768x1024" />
+	<item key="table" value="Tablet 800x1280" />
+	
+	<!-- ComicWindow -->
+	<item key="ComicPropertyPanel.Title" value="Action Property" />
+	<item key="ComicPropertyPanel.Appear" value="Appear" />
+	<item key="ComicPropertyPanel.Action" value="Action" />
+	<item key="ComicPropertyPanel.Disappear" value="Disappear" />
+	<item key="ComicPropertyPanel.ShowOperation" value="Show" />
+	<item key="ComicPropertyPanel.AddAction" value="Add Action" />
+	<item key="ComicPropertyPanel.ActionOrder" value="Action Order" />
+	<item key="ComicPropertyPanel.AddEffect" value="Add Effect" />
+	<item key="ComicPropertyPanel.NoAction" value="No Action" />
+	<item key="ComicPropertyPanel.More" value="Multi Action" />
+	<item key="ComicPropertyPanel.ComingSoon" value="Coming soon" />
+	
+	<item key="ActionProperty.postion" value="Move" />
+	<item key="ActionProperty.alpha" value="Opacity" />
+	<item key="ActionProperty.rotation" value="Rotate" />
+	<item key="ActionProperty.scale" value="Scale" />
+	<item key="ActionProperty.shake" value="Shake" />
+	<item key="ActionProperty.swing" value="Swing" />
+	<item key="ActionProperty.heartbeat" value="Heartbeat" />
+	<item key="ActionProperty.twinkle" value="Twinkle" />
+	<item key="ActionProperty.invert" value="Flip" />
+	<item key="ActionProperty.composite" value="Combo Action" />
+	<item key="ActionProperty.change" value="Change" />
+	<item key="ActionProperty.preview" value="Preview" />
+	
+	<item key="ActionProperty.move" value="Move" />
+	<item key="ActionProperty.time" value="Duration" />
+	<item key="ActionProperty.speedup" value="Acceleration" />
+	<item key="ActionProperty.rota" value="Angle" />
+	<item key="ActionProperty.sca" value="Scale" />
+	<item key="ActionProperty.alp" value="Opacity" />
+	
+	<item key="ActionPropertyGroup.none" value="None" />
+	<item key="ActionPropertyGroup.in" value="EaseIn" />
+	<item key="ActionPropertyGroup.out" value="EaseOut" />
+	<item key="ActionPropertyGroup.inout" value="EaseBoth" />
+	
+	<item key="ActionPropertyGroup.speed" value="Speed" />
+	<item key="ActionPropertyGroup.intensity" value="Intensity" />
+	<item key="ActionPropertyGroup.direction" value="Direction" />
+	<item key="ActionPropertyGroup.loop" value="Loop" />
+	
+	<item key="ActionPropertyGroup.speed0" value="Very Slow" />
+	<item key="ActionPropertyGroup.speed1" value="Slow" />
+	<item key="ActionPropertyGroup.speed2" value="Normal" />
+	<item key="ActionPropertyGroup.speed3" value="Fast" />
+	<item key="ActionPropertyGroup.speed4" value="Very Fast" />
+	
+	<item key="ActionPropertyGroup.intensity0" value="Tiny" />
+	<item key="ActionPropertyGroup.intensity1" value="Small" />
+	<item key="ActionPropertyGroup.intensity2" value="Middle" />
+	<item key="ActionPropertyGroup.intensity3" value="Large" />
+	
+	<item key="ActionPropertyGroup.directionHeart0" value="Shrink" />
+	<item key="ActionPropertyGroup.directionHeart1" value="Expand" />
+	
+	<item key="ActionPropertyGroup.directionShake0" value="Horizontal" />
+	<item key="ActionPropertyGroup.directionShake1" value="Vertical" />
+	<item key="ActionPropertyGroup.directionShake2" value="Random" />
+	
+	<item key="AppearProperty.postion" value="Move In" />
+	<item key="AppearProperty.alpha" value="Dissolve" />
+	<item key="AppearProperty.scale" value="Scale" />
+	<item key="AppearProperty.drop" value="Drop" />
+	<item key="AppearProperty.left" value="Left to Right" />
+	<item key="AppearProperty.right" value="Right to Left" />
+	<item key="AppearProperty.flyType" value="Type" />
+	
+	<item key="DisappearProperty.postion" value="Move Out" />
+	<item key="DisappearProperty.alpha" value="Fade Out" />
+	
+	<item key="ComicOrderPanel.title" value="Animation Order" />
+	<item key="ComicOrderPanel.delay" value="Delay" />
+	<item key="ComicOrderPanel.play" value="Playback timing" />
+	<item key="ComicOrderPanel.playEnterPrint" value="When entering the screen" />
+	<item key="ComicOrderPanel.playTogether" value="Together with the animation {0}" />
+	<item key="ComicOrderPanel.playAfter" value="After {0} Animation" />
+	<item key="ComicStageProperty.stage" value="Stage" />
+	<item key="ComicStageProperty.type" value="Stage" />
+	
+	<item key="SwapImageWindow.title" value="Replace Image" />
+	<item key="SwapImageWindow.swap" value="Replace" />
+	<item key="SwapImageWindow.tip" value="Drag image file here\n or\n Click“ + ” to browse。" />
+	<item key="SwapImageWindow.newTitle" value="Select an image to replace" />
+	<item key="SwapImageWindow.replace" value="Replace" />
+	
+	<!-- 	PSD引导 -->
+	<item key="PSDGuide.Title" value="PSD Export Plugin Installation Guildline" />
+	<item key="PSDGuide.lable1" value="In DragonBones Installation Folder," />
+	<item key="PSDGuide.lable2" value="open PhotoshopPlugin folder," />
+	<item key="PSDGuide.lable3" value="find install.JSX." />
+	<item key="PSDGuide.lable21" value="Launch photoshop with administrator." />
+	<item key="PSDGuide.lable22" value="Click menu File-Script-Browse." />
+	<item key="PSDGuide.lable23" value="Find install.JSX and click Load." />
+	<item key="PSDGuide.lable31" value="Installation Finished." />
+	<item key="PSDGuide.lable32" value="You can use this plugin in anytime." />
+	<item key="PSDGuide.lable33" value="Click menu File-Script-Export to DragonBones to open the plugin." />
+	
+	<!-- 	导出Spine数据 -->
+	<item key="SpineTrans.try" value="Network Error! Please try agine later." />
+	<item key="SpineTrans.fail" value="Export Failed!" />
+	
+	<!-- 	边界框 -->
+	<item key="BoundingBoxPanel.title" value="Edit Bounding Box" />
+	<item key="BoundingBoxPanel.btn.create" value="Create" />
+	<item key="BoundingBoxPanel.btn.delete" value="Delete" />
+	<item key="BoundingBoxPanel.btn.new" value="New" />
+	<item key="BoundingBoxPanel.vertices" value="Vertices:{0}" />
+	
+	<!-- 	CrashWindow -->
+	<item key="CrashWindow.title" value="Fatal Error" />
+	<item key="CrashWindow.restart.tip" value="Fatal error occurred. Current project have been save to the same folder. Please restert application." />
+	<item key="CrashWindow.restart.btn" value="Restart" />
+	<item key="CrashWindow.clearCache.tip" value="If this fatal error occurred repeatly, please clear cache and restart application." />
+	<item key="CrashWindow.clearCache.btn" value="Clear Cache" />
+	<item key="CrashWindow.upload.tip" value="If this fatal error occurred every time when applcation launched, then your project maybe broken. Please input eamil and upload your project. We will help you fix the project and send it back to you." />
+	<item key="CrashWindow.upload.btn" value="Upload" />
+	<item key="CrashWindow.mail" value="Email" />
+	<item key="CrashWindow.close" value="Restart" />
+	
+	<!-- 登录相关 -->
+	<item key="LoginLimitedWindow.title" value="The number of authorized devices has reached the limit" />
+	<item key="LoginLimitedWindow.warning" value="Login failed! The number of authorized devices for this account has reached the limit." />
+	<item key="LoginLimitedWindow.provideOption" value="If you still want to log in to the current device, you can:" />
+	<item key="LoginLimitedWindow.optionAText" value="Log in to an authorized device and deauthorize it." />
+	<item key="LoginLimitedWindow.optionBText" value="Forced to log in to the current device. System will automatically deauthorize an earlier authorized device." />
+	<item key="LoginLimitedWindow.optionCText" value="If you haven't logged in to any device before, your account may have been stolen. You can reset your password and system will automatically clear the authorized devices list." />
+	
+	<item key="LoginLimitedWindow.showTutorial" value="Tutorial" />
+	<item key="LoginLimitedWindow.forceLogin" value="Force Login" />
+	<item key="LoginLimitedWindow.resetPassword" value="Reset Password" />
+	
+	<item key="LoginLimitedWindow.option" value="Option{0}: " />
+	<item key="LoginLimitedWindow.ignore" value="Ignore" />
+	
+	<item key="Alert.needPay" value="This feature is only enabled for pay user" />
+	
+	<item key="Alert.deauthorizeConfirm" value="Are you sure you want to deauthorize this device? \n After that, you can still authorize this device again by login. \n Each device can be deauthorized once a day at most." />
+	<item key="Alert.forceLoginConfirm" value="Are you sure you want to force log in to current device? \n It will cause system to deauthorize an earlier authorized device. \n Each account can be forced login twice a day at most." />
+	<item key="Alert.resetPasswordConfirm" value="Are you sure you want to reset your password? \n It will clear the authorized devices list. \n Each account can be reset password once a day at most." />
+	
+	<item key="Alert.deauthorizeLimit" value="Deauthorization is limit in currect device!" />
+	<item key="Alert.forceLoginLimit" value="Force login is limit in currect device!" />
+	
+	<item key="Alert.logoutFailed" value="Logout Failed"/>
+	<item key="Alert.checkOnlineFailed" value="You have been forced offline. Please login again."/>
+	<item key="Alert.deauthorizeSucess" value="Deauthorize Success!"/>
+	<item key="Alert.operateSuccessful" value="Operate Success"/>
+	
+	<!-- 支付面板 -->
+	<item key="Pay.day.after" value="Days Later"/>
+	<item key="Pay.function.ban" value="DragonBones Pro Will be Reduced Functionality"/>
+	<item key="Pay.title" value="Important Anncement"/>
+	<item key="Pay.desc" value="DragonBones Pro will launch paid membership from &lt;b>{0}&lt;/b>. Then some features will be only enabled to &lt;b>paid members&lt;/b>."/>
+	<item key="Pay.desc2" value="The original price of paid membership is &lt;b>{0} USD&lt;/b> per year.\nIn order to thank the great support of past DragonBones users, there is a &lt;b>Pre-order discount&lt;/b>:"/>
+	<item key="Pay.limit.no" value="(No Limitation)"/>
+	<item key="Pay.limit.num" value="(Daily Quota Limitation)"/>
+	
+	<item key="Pay.main.title" value="Become Paid Member Now to Enjoy Discounts"/>
+	<item key="Pay.price.year" value="{0} USD per Year"/>
+	<item key="Pay.select" value="Choose: "/>
+	<item key="Pay.detail.1" value="{0}"/>
+	<item key="Pay.today.sellout" value="(Sold out today)"/>
+	<item key="Pay.today.few" value="(About to sell out)"/>
+	<item key="Pay.today.some" value="(Quota limitation)"/>
+	<item key="Pay.law.agree" value="Agree"/>
+	<item key="Pay.law.agreement" value="DragonBones Paid Membership Agreement"/>
+	
+	<item key="Pay.confirm.title1" value="Order Confirmation"/>
+	<item key="Pay.confirm.title2" value="Please Confirm Your Order"/>
+	<item key="Pay.open.account" value="Account: "/>
+	<item key="Pay.open.time" value="Duration: "/>
+	<item key="Pay.time.to" value="{0} Monthes (End in {1})"/>
+	<item key="Pay.need.pay" value="Total: "/>
+	<item key="Pay.money.unit" value="{0} USD"/>
+	<item key="Pay.pay.channel" value="Channel: "/>
+	<item key="Pay.weixin" value="WeChat"/>
+	<item key="Pay.ali" value="Alipay"/>
+	
+	<item key="Pay.learn.more" value="Learn paid membership details"/>
+	
+	<item key="Pay.notice.later" value="Remind Later"/>
+	<item key="Pay.buy.now" value="Purchase Now"/>
+	<item key="Pay.step.prev" value="Back"/>
+	<item key="Pay.step.next" value="Next"/>
+	<item key="Pay.pay" value="Pay"/>
+	
+	<!-- 支付-温馨提示 -->
+	<item key="Pay.tip.title" value="Warning"/>
+	<item key="Pay.login.tip" value="Please login to use this feature!"/>
+	<item key="Pay.tip" value="Only paid member can use this feature!"/>
+	<item key="Pay.launch.tip" value="DragonBones Pro is reduced functionality now. Please login to unlock more features!"/>
+	<item key="Pay.pay.tip" value="DragonBones Pro is reduced functionality now. Become a paid member can unlock more features!"/>
+	<item key="Pay.noTip" value="Don't show this dialog again."/>
+	
+	<item key="Pay.go.login" value="Go to Login"/>
+	<item key="Pay.vip.pay" value="Become Paid Member"/>
+	<item key="Pay.say.no" value="Decline"/>
+	
+	<!-- 支付-渠道 -->
+	<item key="Pay.paypal" value="Paypal"/>
+	<item key="Pay.weixin.title" value="WeChat Pay"/>
+	<item key="Pay.ali.title" value="Alipay"/>
+	<item key="Pay.paypal.title" value="Paypal"/>
+	<item key="Pay.weixin.desc" value="请在微信上扫描以下二维码完成支付"/>
+	<item key="Pay.ali.desc" value="请在弹出窗口中完成支付"/>
+	<item key="Pay.paypal.desc" value="Please finish your payment in pop up brower"/>
+	<item key="Pay.pay.after" value="Once the payment is complete, please click"/>
+	<item key="Pay.pay.complete" value="Payment Complete"/>
+	<item key="Pay.pay.contact" value="Ask for support by email to support@egret.com"/>
+	<item key="Pay.order.check" value="Verifying..."/>
+	<item key="Pay.order.noPay" value="The Order has not been paid."/>
+	<item key="Pay.pay.success" value="Paid Success"/>
+	
+	<item key="Pay.pay.levelup" value="Congratulations! You have become a DragonBones paid member!"/>
+	<item key="Pay.level.company" value="Free Upgrade to Enterprise Member"/>
+	
+	<item key="Pay.company.title" value="Apply Enterprise Membership"/>
+	<item key="Pay.company.desc" value="Input following information to apply Enterprise Membership"/>
+	<item key="Pay.company.mail" value="Email:"/>
+	<item key="Pay.company.name" value="Name:"/>
+	<item key="Pay.company.company" value="Company:"/>
+	<item key="Pay.company.position" value="Title:"/>
+	<item key="Pay.company.contact" value="Contact:"/>
+	<item key="Pay.company.more" value="Learn enterprise membership details"/>
+	<item key="Pay.company.apply" value="Submit"/>
+	<item key="Pay.company.qq" value="QQ"/>
+	<item key="Pay.company.wechat" value="WeChat"/>
+	<item key="Pay.company.skype" value="Skype"/>
+	<item key="Pay.company.applySuccess" value="Apply Success!"/>
+	<item key="Pay.pay.copyOrder" value="Order #: {0} (Click to copy to clipboard)"/>
+	<item key="Pay.fun.limit" value="Only login member can use this feature"/>
+
+	<!-- 序列帧 -->
+	<item key="Sheet.panel.title" value="Frames"/>
+	<item key="Sheet.onion.prev" value="Prev Frame Onion"/>
+	<item key="Sheet.onion.next" value="Next Frame Onion"/>
+	<item key="Sheet.frame.current" value="Frame:"/>
+	<item key="Sheet.frame.show" value="{0}/{1}"/>
+	<item key="Sheet.frame.rate" value="FPS:"/>
+	<item key="Sheet.anim.time" value="Repeat Times:"/>
+	<item key="Sheet.anim.loop" value="Loop"/>
+	<item key="Sheet.showframe" value="Show Border"/>
+	<item key="Sheet.first.tip" value="Drag Images Here"/>
+	<item key="Sheet.relative" value="Rel"/>
+	<item key="Sheet.abs" value="Abs"/>
+	<item key="Sheet.flipx.tip" value="Horizontal Flip (Hold Shift to flip entire animation)"/>
+	<item key="Sheet.flipy.tip" value="Vertical Flip (Hold Shift to flip entire animation)"/>
+	<item key="Sheet.apply.all" value="Apply entire animation"/>
+		
+	<item key="Timeline.filter.lock" value="Prevent timeline items from changing to selected bones"/>
+	<item key="Timeline.filter.refresh" value="Update timeline items to selected bones"/>
+	<item key="Timeline.filter.select" value="Select the bones shown in the timeline"/>
+		
+	<item key="Timeline.translate.timeline" value="Translate"/>
+	<item key="Timeline.rotate.timeline" value="Rotate"/>
+	<item key="Timeline.scale.timeline" value="Scale"/>
+	<item key="Timeline.color.timeline" value="Color"/>
+	<item key="Timeline.ik.timeline" value="IK"/>
+	<item key="Timeline.displayIndex.timeline" value="Display index"/>
+	<item key="Timeline.visible.timeline" value="Visible"/>
+	<item key="Timeline.null.timeline" value="Blank"/>
+	<item key="Timeline.play.current" value="C"/>
+	<item key="Timeline.play.start" value="S"/>
+	<item key="Timeline.play.end" value="E"/>
+	<item key="Timeline.play.currentTip" value="Current\nAutomatically scroll timeline during playback"/>
+	<item key="Timeline.play.startTip" value="Start\nSet loop start to current frame\nClick again to clear"/>
+	<item key="Timeline.play.endTip" value="End\nSet loop end to current frame\nClick again to clear"/>
+	
+	<item key="StageView.Auxiliary.HelperLine.Tips" value="Right click to remove"/>	
+	<item key="StageView.compute.area" value="Calculating minimum animation area, Please wait..."/>	
+	<item key="StageView.compute.complete" value="Calculate complete"/>	
+    <item key="FolderFactory.alert.tip" value="No permission to operate {0} or the path does not exist, please check it."/>			
+    
+    <item key="ImportGIF.msg" value="Parsing GIF file, please wait."/>		
+	<item key="ImportGIF.error" value="Error occurs when importing GIF."/>		
+	<item key="SaveProject.tip" value="Please save the project first, then the library path can be modified."/>	
+		<item key="Export.tooLarge.alert" value="The Texture is oversize, please choose a way to resolve it."/>		
+	<item key="Export.tooLarge.scale" value="Scale"/>	
+	<item key="Export.tooLarge.mult" value="Multiple textures"/>	
+</keys>

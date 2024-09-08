@@ -1,0 +1,171 @@
+package _935
+{
+   import _1045.TabBarButton;
+   import _1045._1046;
+   import _1045._1084;
+   import _1185._1188;
+   import _1185._1189;
+   
+   public class _13220 extends _1084
+   {
+      public var _2490:_1046;
+      
+      public function _13220()
+      {
+         super();
+         this.states = ["normal","disabled"];
+      }
+      
+      override protected function _2438() : void
+      {
+         super._2438();
+         this._2490 = new _1046();
+         this._2490.percentWidth = 100;
+         this._2490.percentHeight = 100;
+         this.addElement(this._2490);
+         var _loc1_:_1189 = new _1189();
+         _loc1_.gap = -1;
+         _loc1_._2401 = _1188.JUSTIFY;
+         this._2490.layout = _loc1_;
+         this._2490.itemRenderer = TabBarButton;
+         this._2490._2514 = TextTabBarButtonSkin;
+      }
+   }
+}
+
+import _1045.Group;
+import _1045.Label;
+import _1045._1082;
+import _1045._1084;
+import flash.text.TextFormatAlign;
+
+class TextTabBarButtonSkin extends _1084
+{
+   public var _2530:_1082;
+   
+   public var _2528:_1082;
+   
+   public var focusRect:_1082;
+   
+   public var labelDisplay:Label;
+   
+   public function TextTabBarButtonSkin()
+   {
+      super();
+      this.minHeight = 25;
+      states = ["up","over","down","disabled","upAndSelected","overAndSelected","downAndSelected","disabledAndSelected","focus"];
+   }
+   
+   override protected function _2438() : void
+   {
+      super._2438();
+      this._2530 = new _1082();
+      this._2530._2563 = 1777701;
+      this._2530._2564 = 1;
+      this._2530.fillColor = 2238510;
+      this._2530.top = 0;
+      this._2530.left = 0;
+      this._2530.right = 0;
+      this._2530.bottom = 0;
+      this.addElement(this._2530);
+      this._2528 = new _1082();
+      this._2528.fillColor = 3622226;
+      this._2528.bottom = 0;
+      this._2528.height = 1;
+      this._2528.left = 1;
+      this._2528.right = 1;
+      this.addElement(this._2528);
+      this.focusRect = new _1082();
+      this.focusRect.mouseEnabled = false;
+      this.focusRect.visible = false;
+      this.focusRect.top = 1;
+      this.focusRect.left = 1;
+      this.focusRect.bottom = 0;
+      this.focusRect.right = 0;
+      this.focusRect.fillColor = 3622226;
+      this.addElement(this.focusRect);
+      var _loc1_:Group = new Group();
+      _loc1_.percentWidth = 100;
+      _loc1_.verticalCenter = 0;
+      _loc1_.clipAndEnableScrolling = true;
+      this.addElement(_loc1_);
+      this.labelDisplay = new Label();
+      this.labelDisplay.textAlign = TextFormatAlign.CENTER;
+      this.labelDisplay.left = 1;
+      this.labelDisplay.right = 1;
+      this.labelDisplay._6080 = 1;
+      this.labelDisplay.textColor = 16711422;
+      this.labelDisplay.verticalCenter = 0;
+      _loc1_.addElement(this.labelDisplay);
+      this._2528._2529 = 0;
+   }
+   
+   override protected function _2519() : void
+   {
+      super._2519();
+      if(_2080 == "over")
+      {
+         this._2530.fillColor = 2699835;
+      }
+      else
+      {
+         this._2530.fillColor = 2238510;
+      }
+      if(_2080 == "upAndSelected" || _2080 == "overAndSelected" || _2080 == "focus" || _2080 == "downAndSelected" || _2080 == "disabledAndSelected" || _2080 == "down")
+      {
+         if(_2080 == "focus" || _2080 == "down")
+         {
+            this._2530.fillColor = 3622226;
+         }
+         else
+         {
+            this._2530.fillColor = 2699835;
+         }
+         this.labelDisplay.textColor = 16711422;
+         if(_2080 == "down")
+         {
+            this._2528.visible = false;
+         }
+         else
+         {
+            this._2528.visible = true;
+         }
+      }
+      else
+      {
+         this._2528.visible = false;
+         if(_2080 == "over")
+         {
+            this.labelDisplay.textColor = 16711422;
+         }
+         else
+         {
+            this.labelDisplay.textColor = 6580589;
+         }
+      }
+      if(_2080 == "focus")
+      {
+         this._2530.fillColor = 3622226;
+         this.focusRect.visible = true;
+         this._2528.fillColor = 3622226;
+      }
+      else
+      {
+         this._2528.fillColor = 2699835;
+         this.focusRect.visible = false;
+      }
+      if(_2080 == "over")
+      {
+         this._2530.fillColor = 3687762;
+      }
+      else
+      {
+         this._2530.fillColor = 2699835;
+      }
+      if(_2080 == "upAndSelected" || _2080 == "overAndSelected" || _2080 == "downAndSelected" || _2080 == "disabledAndSelected" || _2080 == "down")
+      {
+         this._2530.fillColor = 1382686;
+      }
+   }
+}
+

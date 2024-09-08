@@ -1,0 +1,80 @@
+<keys>
+  <item key="ColorWindow.Title" value="Выбор цвета"/>
+  <item key="ColorWindow.SelectColor" value="Выберите цвет:"/>
+  <item key="ColorWindow.NewColor" value="Новый:"/>
+  <item key="ColorWindow.CurrentColor" value="Текущий:"/>
+  <item key="ColorWindow.UseDefault" value="Использовать цвет по умолчанию"/>
+  <item key="ColorWindow.Restore" value="Сброс"/>
+  <item key="CloseTabButtonSkin.CloseButton.ToolTip" value="Закрыть"/>
+  <item key="AlertWindowSkin.ButtonOne" value="Да"/>
+  <item key="AlertWindowSkin.ButtonTwo" value="Нет"/>
+  <item key="AlertWindowSkin.ButtonThree" value="Отмена"/>
+  <item key="FileUtil.Browse" value="Просмотр файлов"/>
+  <item key="FileUtil.Save" value="Сохранить файлы"/>
+  <item key="StatuBar.EditArea" value="Редактировать"/>
+  <item key="StatuBar.Restore" value="Продолжить"/>
+  <item key="TabGroup.MenuButton" value="Вкладка Группа"/>
+  <item key="TabGroup.Close" value="Закрыть"/>
+  <item key="TabGroup.Minimum" value="Минимизировать"/>
+  <item key="TabGroup.CloseTab" value="Закрыть вкладку группы"/>
+  <item key="CloseTabButton.Close" value="Закрыть"/>
+  <item key="CloseTabButton.CloseOther" value="Закрыть другие вкладки"/>
+  <item key="CloseTabButton.CloseAll" value="Закрыть все"/>
+  <item key="LoginWindow.TitleLogin" value="Авторизоваться"/>
+  <item key="LoginWindow.TitleRegister" value="Регистрация"/>
+  <item key="LoginWindow.TitleChangePassword" value="Сброс пароля"/>
+  <item key="LoginWindow.TitleResetPassword" value="Reset Password"/>
+  <item key="LoginWindow.Email" value="Email:"/>
+  <item key="LoginWindow.Code" value="Code:"/>
+  <item key="LoginWindow.Username" value="Username:"/>
+  <item key="LoginWindow.OldPassword" value="Old Password:"/>
+  <item key="LoginWindow.Password" value="Пароль:"/>
+  <item key="LoginWindow.ConfirmPassword" value="Confirm Password:"/>
+  <item key="LoginWindow.NewPassword" value="New Password:"/>
+  <item key="LoginWindow.ConfirmNewPassword" value="Confirm New Password:"/>
+  <item key="LoginWindow.CodePrompt" value="Please enter the received code in email"/>
+  <item key="LoginWindow.Login" value="Авторизоваться"/>
+  <item key="LoginWindow.Register" value="Регистрация"/>
+  <item key="LoginWindow.Back" value="Back"/>
+  <item key="LoginWindow.Prev" value="Back"/>
+  <item key="LoginWindow.Next" value="Next"/>
+  <item key="LoginWindow.Submit" value="Submit"/>
+  <item key="LoginWindow.RemeberPassword" value="Запомнить пароль"/>
+  <item key="LoginWindow.RetrievePassword" value="Восстановить пароль"/>
+  <item key="LoginWindow.EmailInvalid" value="Invalid email address"/>
+  <item key="LoginWindow.EmailAlreadyExist" value="Email address already be registered"/>
+  <item key="LoginWindow.EmailSent" value="Code has been sent to above email"/>
+  <item key="LoginWindow.EmailSentTimerToSentAgain" value="{0}s later, you can send email again"/>
+  <item key="LoginWindow.SendEmailAgain" value="Click to send email again"/>
+  <item key="LoginWindow.Username3-15" value="Username's length should be between 3 and 15 characters"/>
+  <item key="LoginWindow.UsernameSpecialLetter" value="Username contains special characters"/>
+  <item key="LoginWindow.UsernameInvalid" value="Invalid Username"/>
+  <item key="LoginWindow.UsernameAlreadyExist" value="Username already exists"/>
+  <item key="LoginWindow.PasswordTooShort" value="Password should contain at least 6 characters"/>
+  <item key="LoginWindow.PasswordTooSimple" value="Password should contain at least one lower case letter"/>
+  <item key="LoginWindow.PasswordInvalid" value="Invalid Password"/>
+  <item key="LoginWindow.ConfirmPasswordNotSame" value="Password is inconsistent with above"/>
+  <item key="LoginWindow.Loading" value="пожалуйста подождите..."/>
+  <item key="LoginWindow.EmailOrPasswordError" value="Email or password is incorrect."/>
+  <item key="LoginWindow.EmailNotExist" value="Email not exist"/>
+  <item key="LoginWindow.AccountFreezed" value="Account is locked, please contact support@egret.com"/>
+  <item key="LoginWindow.CodeIncorrect" value="Code incorrect"/>
+  <item key="LoginWindow.RetrievePasswordLimit" value="Retrieve password is limited today"/>
+  <item key="AboutWindow.Title" value="О {0}"/>
+  <item key="AboutWindow.Version" value="Версия: {0}"/>
+  <item key="AboutWindow.TechGroup" value="Техническая поддержка"/>
+  <item key="AboutWindow.ContactGroup" value="Свяжитесь с нами"/>
+  <item key="AboutWindow.BusinessGroup" value="Деловое сотрудничество"/>
+  <item key="AboutWindow.PromiseGroup" value="Egret обещает"/>
+  <item key="AboutWindow.BBS" value="BBS: {0}"/>
+  <item key="AboutWindow.SupportMail" value="Email: {0}"/>
+  <item key="AboutWindow.DeveloperQQ" value="DragonBones QQ Группа: {0}"/>
+  <item key="AboutWindow.Telephone" value="Тел: {0}"/>
+  <item key="AboutWindow.Website" value="Веб-сайт: {0}"/>
+  <item key="AboutWindow.Address" value="Адрес: {0}"/>
+  <item key="AboutWindow.BusinessMail" value="Email: {0}"/>
+  <item key="AboutWindow.ProductQQ" value="Сотрудничество по товарам QQ: {0}"/>
+  <item key="AboutWindow.ChannelQQ" value="Канал сотрудничества QQ: {0}"/>
+  <item key="AboutWindow.Twitter" value="Twitter: {0}"/>
+  <item key="AboutWindow.Facebook" value="Facebook: {0}"/>
+</keys>

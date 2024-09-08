@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keys>
+	<!-- 窗口 -->
+	<item key="BrowseButton" value="浏览..." />
+	<!-- 菜单项 -->
+	<item key="Menu.File" value="文件" />
+	<item key="Menu.File.NewProject" value="新建项目..." />
+	<item key="Menu.File.OpenProject" value="打开项目..." />
+	<item key="Menu.File.SaveProject" value="保存项目" />
+	<item key="Menu.File.SaveAsProject" value="项目另存为..." />
+	<item key="Menu.File.CloseProject" value="关闭项目" />
+	<item key="Menu.File.ImportAssets" value="导入资源到舞台..." />
+	<item key="Menu.File.ImportAssetsToLib" value="导入资源到资源库..." />
+	<item key="Menu.File.Import" value="导入数据到项目..." />
+	<item key="Menu.File.Export" value="导出..." />
+	<item key="Menu.File.Setting" value="偏好设置..." />
+	<item key="Menu.File.Preview" value="预览" />
+	<item key="Menu.File.ExportEgret" value="发布..." />
+	<item key="Menu.File.Share" value="作品分享..." />
+	<item key="Menu.File.Exit" value="退出" />
+	
+	<item key="Menu.Edit" value="编辑" />
+	<item key="Menu.Edit.Updo" value="撤销" />
+	<item key="Menu.Edit.Redo" value="重做" />
+	<item key="Menu.Edit.SelectAll" value="全选" />
+	<item key="Menu.Window" value="窗口" />
+	<item key="Menu.Window.Reset" value="重置面板" />
+	<item key="Menu.Window.SceneTree" value="场景树" />
+	<item key="Menu.Window.Layer" value="层级" />
+	<item key="Menu.Window.Resources" value="资源" />
+	<item key="Menu.Window.Property" value="属性" />
+	<item key="Menu.Window.Transform" value="变换" />
+	<item key="Menu.Window.Timeline" value="时间轴" />
+	<item key="Menu.Window.Animations" value="动画" />
+	<item key="Menu.Window.Curve" value="曲线编辑器" />
+	<item key="Menu.Window.Material" value="素材库" />
+	<item key="Menu.Window.Mesh" value="网格编辑器" />
+	<item key="Menu.Window.Comic" value="动画属性" />
+	<item key="Menu.Window.ComicOrder" value="动画顺序" />
+	<item key="Menu.Window.SheetPanel" value="序列帧时间轴"/>
+	
+	<item key="Menu.Help" value="帮助" />
+	<item key="Menu.Help.LearnDB" value="学习DragonBones" />
+	<item key="Menu.Help.WelcomePage" value="欢迎页" />
+	<item key="Menu.Help.IssueReport" value="问题反馈..." />
+	<item key="Menu.Help.OpenTrello" value="意见收集" />
+	<item key="Menu.Help.Questionnaire" value="问卷调查" />
+	<item key="Menu.Help.Plugin" value="插件管理..." />
+	<item key="Menu.Help.PSDPluginGuide" value="PSD导出插件安装指引" />
+	<item key="Menu.Help.InstallFlashPlugin" value="为FlashPro安装插件" />
+	<item key="Menu.Help.About" value="关于 DragonBones Pro" />
+	<item key="Menu.Help.NewFeature" value="新版本特性" />
+
+	<!-- 右键菜单 -->
+	<item key="MenuItem-null" value="[空]" />
+	<item key="MenuItem-import" value="导入..." />
+	<item key="MenuItem-export" value="导出..." />
+	<item key="MenuItem-importImages" value="导入资源到舞台..." />
+	<item key="MenuItem-importSequenceImages" value="导入序列帧到舞台..." />
+	<item key="MenuItem-duplicate" value="克隆" />
+	<item key="MenuItem-copyTransform" value="复制变换" />
+	<item key="MenuItem-pasteTransform" value="粘贴变换" />
+	<item key="MenuItem-cut" value="剪切" />
+	<item key="MenuItem-copy" value="拷贝" />
+	<item key="MenuItem-paste" value="粘贴" />
+	<item key="MenuItem-delete" value="删除" />
+	<item key="MenuItem-deleteSlot" value="删除插槽" />
+	<item key="MenuItem-deleteDisplay" value="删除显示对象" />
+	
+	<item key="MenuItem-selectAll" value="全选" />
+	<item key="MenuItem-selectInverse" value="反选" />
+	<item key="MenuItem-selectParent" value="选择父级" />
+	<item key="MenuItem-selectChildBones" value="选择子骨骼" />
+	<item key="MenuItem-selectChildSlots" value="选择子插槽" />
+	
+	<item key="MenuItem-hide" value="隐藏" />
+	<item key="MenuItem-lock" value="锁定" />
+	<item key="MenuItem-hideIrrelevant" value="隐藏无关" />
+	<item key="MenuItem-lockIrrelevant" value="锁定无关" />
+	<item key="MenuItem-hideOthers" value="隐藏其他" />
+	<item key="MenuItem-lockOthers" value="锁定其他" />
+	<item key="MenuItem-hideOthersLayer" value="隐藏其他" />
+	<item key="MenuItem-lockOthersLayer" value="锁定其他" />
+	<item key="MenuItem-showAll" value="显示并解锁 全部" />
+	<item key="MenuItem-hideRelated" value="隐藏相关" />
+	<item key="MenuItem-lockRelated" value="锁定相关" />
+	<item key="MenuItem-clearRulerLines" value="清除所有辅助线" />
+	
+	<item key="MenuItem-bringToFront" value="移到最上层" />
+	<item key="MenuItem-bringForward" value="移到上一层" />
+	<item key="MenuItem-sendBackward" value="移到下一层" />
+	<item key="MenuItem-sendToBottom" value="移到最下层" />
+	
+	<item key="MenuItem-ruler" value="辅助标尺" />
+	<item key="MenuItem-grid" value="背景网格" />
+	
+	<item key="MenuItem-expandAll" value="展开全部" />
+	<item key="MenuItem-collapseAll" value="折叠全部" />
+	<item key="MenuItem-expandSelected" value="展开选中" />
+	<item key="MenuItem-collapseSelected" value="折叠选中" />
+								  	
+	<item key="MenuItem-edit" value="编辑" />
+	<item key="MenuItem-setParent" value="设置父级" />
+	<item key="MenuItem-rename" value="重命名..." />
+	<item key="MenuItem-distributeToFrames" value="分布到关键帧" />
+	<item key="MenuItem-distributeSlotToFrames" value="分布到关键帧" />
+	
+	<item key="MenuItem-convertToMesh" value="转换为网格" />
+	<item key="MenuItem-convertToImage" value="转换为图片" />
+	<item key="MenuItem-convertToSymbol" value="转换为元件..." />
+	<item key="MenuItem-mesh" value="网格" />
+	
+	<item key="MenuItem-swapResource" value="交换资源" />
+	<item key="MenuItem-switchDisplay" value="切换显示对象" />
+	
+	<item key="MenuItem-showInLibrary" value="在资源库中显示" />
+	<item key="MenuItem-keyFrame" value="添加关键帧" />
+	<item key="MenuItem-clearKeyFrames" value="清除关键帧" />
+	<item key="MenuItem-modifyTween" value="编辑补间" />
+	<item key="MenuItem-selectAllKeyFrames" value="选中全部关键帧" />
+	
+	<item key="MenuItem-cutFrames" value="剪切帧" />
+	<item key="MenuItem-copyFrames" value="复制帧" />
+	<item key="MenuItem-pasteFrames" value="粘贴帧" />
+	
+	<item key="MenuItem-insertKeyFrame" value="插入关键帧" />
+	<item key="MenuItem-deleteFrames" value="删除帧" />													 
+	
+	<item key="MenuItem-duplicateLayers" value="克隆层" />
+	<item key="MenuItem-cutLayers" value="剪切层" />
+	<item key="MenuItem-copyLayers" value="复制层" />
+	<item key="MenuItem-pasteLayers" value="粘贴层" />
+	<item key="MenuItem-insertLayer" value="插入层" />
+	<item key="MenuItem-deleteLayers" value="删除层" />
+	
+	<item key="MenuItem-showInExplorer" value="在系统中显示" />
+	<item key="MenuItem-relocatePath" value="重新定位..." />															  
+	
+	<item key="MenuItem-newSymbol" value="新建元件" />
+	<item key="MenuItem-convertToArmature" value="转换为骨架元件" />
+	<item key="MenuItem-convertToMovieClip" value="转换为基本动画元件" />
+	<item key="MenuItem-convertToStage" value="转换为舞台元件"/>
+	
+	<item key="MenuItem-packageTextureAtlas" value="打包纹理集..." />
+	<item key="MenuItem-breakToImages" value="打散为碎图" />
+	
+	<item key="MenuItem-insert" value="插入" />
+	<item key="MenuItem-bone" value="骨骼" />
+	<item key="MenuItem-slot" value="插槽" />
+	<item key="MenuItem-boundingBox" value="边界框" />
+	<item key="MenuItem-importAsset" value="导入资源..." />
+	<item key="MenuItem-deleteArmature" value="删除" />
+	<item key="MenuItem-deleteVitualFolder" value="删除" />
+
+	<item key="MenuItem-cloneAnimation" value="克隆" />
+	<item key="MenuItem-addAnimation" value="插入" />
+	<item key="MenuItem-deleteAnimation" value="删除" />
+	<item key="MenuItem-addTween" value="添加补间" />
+	<item key="MenuItem-deleteTween" value="删除补间" />
+	<item key="MenuItem-swapImage" value="替换图片" />
+	<item key="MenuItem-copyBone" value="复制" />
+	<item key="MenuItem-copySlot" value="复制" />
+	<item key="MenuItem-copyDisplay" value="复制" />
+	<item key="MenuItem-pasteBone" value="粘贴" />
+	<item key="MenuItem-pasteSlot" value="粘贴" />
+	<item key="MenuItem-pasteDisplay" value="粘贴" />
+	<item key="MenuItem-selectivePaste" value="选择性粘贴" />
+	<item key="MenuItem-pasteSlotProperty" value="粘贴插槽属性" />
+	<item key="MenuItem-copySlotProperty" value="复制插槽属性" />
+	<item key="MenuItem-showItem" value="显示对象" />
+
+	<!-- 动漫 -->
+	<item key="MenuItem-tweenAlpha" value="透明" />
+	<item key="MenuItem-tweenPosition" value="移到" />
+	<item key="MenuItem-tweenRotation" value="旋转" />
+	<item key="MenuItem-tweenScale" value="缩放" />
+	<item key="MenuItem-tweenShake" value="抖动" />
+	<item key="MenuItem-tweenSwing" value="摆动" />
+	<item key="MenuItem-tweenHeartbeat" value="心跳" />
+	<item key="MenuItem-tweenTwinkle" value="闪烁" />
+	<item key="MenuItem-tweenInvert" value="翻转" />
+	
+	<item key="MenuItem-tweenAppearPosition" value="移入" />
+	<item key="MenuItem-tweenAppearScale" value="缩放" />
+	<item key="MenuItem-tweenAppearAlpha" value="渐现" />
+	<item key="MenuItem-tweenAppearDrop" value="掉落" />
+	
+	<item key="MenuItem-tweenDisappearPosition" value="移出" />
+	<item key="MenuItem-tweenDisappearAlpha" value="渐隐" />
+	
+	<item key="MenuItem-changeTweenNull" value="无" />
+	<item key="MenuItem-changeTweenAlpha" value="透明" />
+	<item key="MenuItem-changeTweenPosition" value="平移" />
+	<item key="MenuItem-changeTweenRotation" value="旋转" />
+	<item key="MenuItem-changeTweenScale" value="缩放" />
+	<item key="MenuItem-changeTweenShake" value="抖动" />
+	<item key="MenuItem-changeTweenSwing" value="摆动" />
+	<item key="MenuItem-changeTweenHeartbeat" value="心跳" />
+	<item key="MenuItem-changeTweenTwinkle" value="闪烁" />
+	<item key="MenuItem-changeTweenInvert" value="翻转" />
+	<item key="MenuItem-changeAppearTweenNull" value="无" />
+	<item key="MenuItem-changeAppearTweenAlpha" value="渐现" />
+	<item key="MenuItem-changeAppearTweenPosition" value="移入" />
+	<item key="MenuItem-changeAppearTweenScale" value="缩放" />
+	<item key="MenuItem-changeAppearTweenDrop" value="掉落" />
+	<item key="MenuItem-changeDisappearTweenNull" value="无" />
+	<item key="MenuItem-changeDisappearTweenPosition" value="移出" />
+	<item key="MenuItem-changeDisappearTweenAlpha" value="渐隐" />
+	
+	<!-- 弹出框 -->
+	<item key="Project.Browse" value="浏览" />
+	<item key="BasePage.SelectProjectPath" value="选择项目路径" />
+	<item key="BasePage.ImportAsset" value="选择导入的图片" />
+
+	<!-- 其他 -->
+	<item key="Alert.Confirm" value="确定" />
+	<item key="Alert.Cancel" value="取消" />
+	<item key="Alert.Yes" value="是" />
+	<item key="Alert.No" value="否" />
+	<item key="Alert.Error" value="错误" />
+	<item key="Alert.Complete" value="完成" />
+	<item key="Alert.Apply" value="应用" />
+	<item key="Alert.RootNoDuplicate" value="根骨骼不可以被克隆" />									 
+	
+	<!-- 对话框 -->
+	<item key="Dialog.ok" value="确定" />
+	<item key="Dialog.cancel" value="取消" />
+	<item key="Dialog.defaults" value="恢复默认值" />
+	<item key="Dialog.apply" value="应用" />
+
+	<!-- 默认右键菜单 -->
+	<item key="RightMenu.cut" value="剪切" />
+	<item key="RightMenu.copy" value="复制" />
+	<item key="RightMenu.paste" value="粘贴" />
+	<item key="RightMenu.selectAll" value="全选" />
+	<item key="RightMenu.clear" value="删除" />
+	
+	<!-- 场景 -->
+	<item key="ZoomList.fit" value="显示全部" />
+	
+	<!-- 时间轴 -->
+	<item key="Timeline.panel.title" value="时间轴" />
+	<item key="Timeline.autoKey.tooltip" value="自动关键帧" />
+	<item key="Timeline.addKey.tooltip" value="添加关键帧{0}" />
+	<item key="Timeline.addZOrderKey.tooltip" value="添加层级关键帧" />
+	<item key="Timeline.copyKey.tooltip" value="拷贝关键帧{0}" />
+	<item key="Timeline.cutKey.tooltip" value="剪切关键帧{0}" />
+	<item key="Timeline.pasteKey.tooltip" value="粘贴关键帧{0}" />
+	<item key="Timeline.delKey.tooltip" value="删除关键帧{0}" />
+	<item key="Timeline.autoTween.tooltip" value="曲线编辑器" />
+	<item key="Timeline.addFrame.tooltip" value="向右移动帧" />
+	<item key="Timeline.delFrame.tooltip" value="向左移动帧" />
+	<item key="Timeline.adjust.tooltip" value="编辑多帧" />
+	<item key="Timeline.play.tooltip" value="播放{0}" />
+	<item key="Timeline.playback.tooltip" value="倒放" />
+	<item key="Timeline.nextFrame.tooltip" value="下一帧{0}" />
+	<item key="Timeline.prevFrame.tooltip" value="前一帧{0}" />
+	<item key="Timeline.1stFrame.tooltip" value="首帧" />
+	<item key="Timeline.lastFrame.tooltip" value="尾帧" />
+	<item key="Timeline.fit.tooltip" value="最适合" />
+	<item key="Timeline.zoomIn.tooltip" value="放大" />
+	<item key="Timeline.zoomOut.tooltip" value="缩小" />
+	<item key="Timeline.curFrame" value="帧:" />
+	<item key="Timeline.curTime" value="时间:" />
+	<item key="Timeline.frameRate" value="帧率:" />
+	<item key="Timeline.second" value="s" />
+	<item key="Timeline.fps" value="fps" />
+	<item key="Timeline.collapse" value="折叠列表" />
+	<item key="Timeline.expand" value="展开列表" />
+	<item key="Timeline.event.timeline" value="事件" />
+	<item key="Timline.playRate" value="速度:" />
+	<item key="Timeline.onion.tooltip" value="洋葱皮" />
+	<item key="Timeline.basic.autoTween" value="自动补间" />
+	<item key="Timeline.basic.addLayer" value="新建图层" />
+	<item key="Timeline.basic.delLayer" value="删除图层" />
+	<item key="Timeline.basic.newLayer" value="newLayer" />
+	<item key="Timeline.repeatPlay.tooltip" value="循环播放" />
+	<item key="Timeline.zOrder.timeline" value="绘制顺序" />
+	<item key="Timeline.delUnnecessary.tooltip" value="删除非必要帧" />
+	<item key="Timeline.filter.tooltip" value="只显示选中时间轴(Ctrl+D)" />
+	<!-- 动画 -->
+	<item key="AnimationPanel.title" value="动画" />
+	<item key="AnimationPanel.totalTime" value="动画时间：" />
+	<item key="AnimationPanel.blendTime" value="过渡时间：" />
+	<item key="AnimationPanel.playTimes" value="播放次数：" />
+	<item key="Animation.add.tooltip" value="添加动画" />
+	<item key="Animation.duplicate.tooltip" value="克隆动画" />
+	<item key="Animation.renameBtn.tooltip" value="重命名" />
+	<item key="Animation.duplicate.name" value="_复制" />
+	<!-- 新添加动画的名字 -->
+	<item key="Animation.add.name" value="newAnimation" />
+	<!-- 默认动画的名字 -->
+	<item key="Animation.new.name" value="newAnimation" />
+	<item key="Animation.delete.tooltip" value="删除动画" />
+	<item key="Animation.import.tooltip" value="导入动画" />
+	<item key="Animation.export.tooltip" value="导出动画" />
+	<!-- Transform panel -->
+	<item key="Transform.title" value="变换" />
+	<item key="Transform.translate" value="位置：" />
+	<item key="Transform.scale" value="缩放：" />
+	<item key="Transform.rotate" value="旋转：" />
+	<item key="Transform.width" value="宽:" />
+	<item key="Transform.height" value="高:" />
+	<item key="Transform.positionX" value="X:" />
+	<item key="Transform.positionY" value="Y:" />
+	<item key="Transform.degree" value="°" />
+	<item key="Transform.translate.tooltip" value="平移{0}" />
+	<item key="Transform.scale.tooltip" value="缩放{0}" />
+	<item key="Transform.rotate.tooltip" value="旋转{0}" />
+	<item key="Transform.size.tooltip" value="宽高{0}" />
+	
+	<item key="TransformPanel.WorldBtn_tooltip" value="世界坐标系" />
+	<item key="TransformPanel.ParentBtn_tooltip" value="父坐标系" />
+	<item key="TransformPanel.LocalBtn_tooltip" value="本地坐标系" />
+	<!-- Property panel -->
+	<item key="Property.title" value="属性" />
+	<item key="Property.name" value="名字：" />
+	<item key="Property.type" value="类型：" />
+	<item key="Property.asset" value="资源：" />
+	<item key="Property.action" value="动作：" />
+	<item key="Property.slot.displayIndex" value="显示资源：" />
+	<item key="Property.slot.color" value="颜色：  " />
+	<item key="Property.slot.alpha" value="不透明： " />
+	<item key="Property.slot.color.tooltip" value="修改颜色" />
+	<item key="Property.slot.pivot" value="注册点" />
+	<item key="property.slot.displayTitle" value="资源属性" />
+	<item key="Property.slot.blendMode" value="混合：" />
+	<item key="Property.slot.blendMode.normal" value="正常" />
+	<item key="Property.slot.blendMode.add" value="叠加" />
+	<item key="Property.slot.blendMode.erase" value="擦除" />
+	
+	<item key="Property.frame.slot" value="插槽关键帧" />
+	<item key="Property.frame.bone" value="骨骼关键帧：" />
+	<item key="Property.frame.event" value="事件帧" />
+	<item key="Property.frame.tween" value="补间" />
+	<item key="Property.frame.tween.type.none" value="不补间" />
+	<item key="Property.frame.tween.type.line" value="线性" />
+	<item key="Property.frame.tween.type.custom" value="自定义" />
+	<item key="Property.frame.tween.rotate" value="旋转：" />
+	<item key="Property.frame.tween.rotate.f.tooltip" value="旋转方向" />
+	<item key="Property.frame.tween.rotate.n.tooltip" value="旋转圈数" />
+	<item key="Property.frame.tween.rotate.auto" value="自动" />
+	<item key="Property.frame.tween.rotate.cw" value="顺时针" />
+	<item key="Property.frame.tween.rotate.ccw" value="逆时针" />
+	<item key="Property.frame.event.addEvent" value="添加自定义事件" />
+	<item key="Property.frame.event.addSound" value="添加声音事件　" />
+	<item key="Property.frame.event.addAnimation" value="添加动画控制　" />
+	<item key="Property.frame.event.event" value="事件" />
+	<item key="Property.frame.event.sound" value="声音" />
+	<item key="Property.frame.event.animation" value="播放" />
+	<item key="Property.frame.event.target" value="目标：" />
+	<item key="Property.frame.event.target.none" value="无" />
+	<item key="Property.frame.event.target.pick" value="设置骨骼目标" />
+	<item key="Property.frame.event.target.tooltip" value="从场景树中选取一个骨骼" />
+	<item key="Property.frame.event.ints" value="整型：" />
+	<item key="Property.frame.event.floats" value="浮点：" />
+	<item key="Property.frame.event.strings" value="字符串：" />
+	
+	<item key="Property.bone" value="骨骼" />
+	<item key="Property.bone.name" value="名称：" />
+	<item key="Property.bone.ikConstraint" value="IK约束：" />
+	<item key="Property.bone.type" value="骨骼：" />
+	<item key="Property.bone.length" value="长度：" />
+	<item key="Property.bone.inherit" value="继承：" />
+	<item key="Property.bone.inheritScale" value="缩放" />
+	<item key="Property.bone.inheritRotation" value="旋转" />
+	<item key="Property.slot.type" value="插槽" />
+	<item key="Property.attribute" value="属性" />
+	<item key="Property.value" value="值" />
+	<item key="Property.action.none" value="空" />
+	<item key="Property.action.event" value="事件" />
+	<item key="Property.action.action" value="跳转" />
+	<item key="Property.action.sound" value="声音" />
+	<item key="Property.placeholder.empty" value="空插槽" />
+	<item key="Property.display.empty" value="空" />
+	<item key="Property.display.ArmatureType" value="骨架" />
+	<item key="Property.display.MovieClipType" value="基本动画" />
+	<item key="Property.display.MeshType" value="网格" />
+	<item key="Property.display.ImageType" value="图片" />
+	<item key="Property.display.BoundingBoxType" value="边界框" />
+	<item key="Property.display.change2Mesh" value="转换成网格" />
+	<item key="Property.display.change2Image" value="转换成图片" />
+	<item key="Property.display.changeAsset" value="替换图片" />
+	<item key="Property.boundingBoxSlot.type" value="边界框插槽" />
+	<item key="Property.bone.resetcolor" value="清除自定义骨骼颜色" />
+	
+	<item key="Property.ik.name" value="名称：" />
+	<item key="Property.ik.bones" value="骨骼：" />
+	<item key="Property.ik.target" value="目标：" />
+	<item key="Property.ik.bend" value="弯曲：" />
+	<item key="Property.ik.weight" value="IK权重：" />
+	<item key="Property.ik.bendDirection" value="正向" />
+	<item key="Property.ik.endPick" value="在骨骼末端生成约束目标" />
+	<item key="Property.ik.pick" value="设置约束目标" />
+	<item key="Property.ik.moreBones" value="请不要选择多于2根骨骼" />
+	<item key="Property.ik.noInherit" value="添加约束骨骼必须继承旋转缩放" />
+	<item key="Property.canvas.size" value="尺寸：" />
+	<item key="Property.canvas.width" value="宽度：" />
+	<item key="Property.canvas.height" value="高度：" />
+	<item key="Property.canvas.bg" value="背景：" />
+	<item key="Property.ik.foldtarget" value="IK约束目标" />
+	<item key="Property.ik.fold" value="IK约束" />
+	<item key="Property.armature.name" value="名称：" />
+	<item key="Property.armature.frameRate" value="帧率：" />
+	<item key="Property.armature.defaultAnimation" value="默认播放：" />
+	<item key="Property.armature.currentAnimation" value="播放动画：" />
+	<item key="Property.armature.fps" value="{0}fps" />
+	<item key="Property.mesh.weight" value="权重" />
+	<item key="Property.mesh.bone" value="骨骼" />
+	<item key="Property.weight.title" value="权重：" />
+	<item key="Property.weight.edit" value="开启编辑" />
+	<item key="Property.weight.add" value="添加绑定骨骼" />
+	<item key="Property.weight.remove" value="删除绑定骨骼" />
+	<item key="Property.weight.autoWeight" value="自动计算权重" />
+	<item key="Property.weight.bonelist" value="权重骨骼列表" />
+	<item key="BoundingBox.property.edit" value="编辑" />
+	<item key="BoundingBox.property.freeze" value="固化" />	
+	
+	<!-- 画布 -->
+	<item key="Canvas.x" value="X:"/>
+	<item key="Canvas.y" value="Y:"/>
+	<item key="Canvas.width" value="宽:"/>
+	<item key="Canvas.height" value="高:"/>
+	<item key="Canvas.open" value="画布"/>
+	<item key="Canvas.size" value="尺寸"/>
+	<item key="Canvas.autoSize" value="匹配最小动画区域"/>
+	<item key="Canvas.color" value="颜色"/>
+	<item key="Canvas.show" value="在舞台显示"/>
+	
+	<!-- 提示 -->
+	<item key="OpenProject.fail" value="创建项目失败！" />
+	<item key="AddBone_noParent" value="请先选择一个父骨骼" />
+	<item key="Tip.name.conflict" value="已经有相同的名字了！" />
+	<item key="Tip.IK.MoreBones" value="请选择不多于2根骨骼！" />
+	<item key="Tip.IK.HasConstraint" value="选择骨骼已经有约束骨骼，请重新选择！" />
+	<item key="Tip.IK.NoChild" value="不可将子骨骼设置为约束目标！" />
+	<item key="Tip.IK.NoParentChild" value="所选骨骼非连续骨骼！" />
+
+	<item key="Scene.Tree.Prompt" value="请输入名称！" />
+	<item key="Scene.Tree.SearchTextInput.Clear" value="清除搜索条件" />
+	<item key="Scene.Tree.SearchEmpty.ToolTip" value="未搜索到匹配项" />
+	
+	<item key="Tip.IK.RootNoIK" value="不可选择根骨骼!" />
+	<item key="Tip.Bone.Group.Success" value="{0}项编组成功！快捷键{1}" />
+	<item key="Tip.Bone.Group.Undo" value="编组撤销" />
+	<item key="Tip.Select.Show" value="{0}项被选中" />
+	<item key="Tip.Bone.bind" value="骨骼将绑定[{0}]" />
+	<item key="Tip.weight.noRig" value="要调节权重，请先给网格绑定骨骼" />
+	<item key="Tip.weight.noVertex" value="要调节权重，选择一个网格上的点" />
+	<item key="Tip.weight.noBone" value="要调节权重，请先选择一个绑定的骨骼" />
+	<item key="Tip.weight.autoWeight" value="正在自动计算权重，请稍后..." />
+	<item key="Tip.weight.autoWeightEnd" value="权重计算完毕" />
+	<item key="Tip.save.stopMeshEdit" value="保存项目前，先要退出编辑边线状态" />
+	<item key="Tip.Rig.addBone" value="请选择需要绑定的骨骼" />
+	<item key="Tip.mesh.overSize" value="转换成Mesh的图片的宽和高都不能大于2048" />
+	<item key="Tip.library.nameConflict" value="当前库中存在同名图片：{0}，同名文件可能会导致导出错误！" />
+	<item key="Tip-pleaseSelectOneItem" value="粘贴时，请选中单个对象作为目标" />
+	<item key="Tip-noItemSelected" value="请选中一个对象，作为粘贴目标" />
+	<item key="Tip-canPasteInArmatureMode" value="骨骼装配模式下才能粘贴" />
+	<item key="Tip-pleaseSelectOneBone" value="请选中一个骨骼，作为粘贴目标" />
+	<item key="Tip-pleaseSelectSlot" value="请选中插槽，作为粘贴目标" />
+	<item key="Tip-imageCanInsertBoundingBoxSlot" value="图片不能被插入到碰撞框" />
+	<item key="Tip-pleaseselectboneorslot" value="请选中一个骨骼或插槽，作为粘贴目标" />
+    <item key="SelectivePaste.childBone" value="子骨骼" />
+    <item key="SelectivePaste.animationKeyFrame" value="动画关键帧" />
+    <item key="SelectivePaste.selectPasteContents" value="选择粘贴内容" />
+    <item key="Tip.selectboneorslot" value="请选择骨骼或插槽" />
+    <item key="Tip.selectbone" value="请选择骨骼" />
+    <item key="Tip.deleteVertex.fail" value="所选择的点不能被删除" />
+	<item key="Tip.duplicate.canselectoneitem" value="请选中一个对象克隆" />
+	<item key="Tip-canduplicateInArmatureMode" value="骨骼装配模式下才能克隆" />
+
+
+
+	<!-- 库 -->
+	<item key="LibraryPanel.Title" value="资源" />
+	<item key="LibraryPanel.import.tip" value="导入资源" />
+	<item key="LibraryPanel.refresh.tip" value="刷新所有资源" />
+	<item key="LibraryPanel.open.tip" value="打开资源目录" />
+	<item key="LibraryPanel.error.outOfSize" value="导入的图片文件不能超过10M" />
+	<item key="LibraryPanel.newSymbol.tip" value="新建元件..." />
+	<item key="LibraryPanel.changePath.tip" value="修改库路径" />
+	<!-- rename -->
+	<item key="RenameWindow.title" value="重新命名" />
+	<item key="RenameWindow.newName" value="请输入新的名字" />
+	<item key="RenameWindow.error.same" value="" />
+	<item key="Rename.bone.same" value="存在同名骨骼！" />
+	<item key="Rename.slot.same" value="存在同名插槽！" />
+	<item key="Rename.animation.same" value="存在同名动画！" />
+	<item key="Rename.illegal.fileName" value="不合法的文件名！" />
+	<item key="Rename.invalid.name" value="名字不能包含非法字符：{0}" />
+	<item key="Rename.toolang" value="名字不能超过20个字符！" />
+	<item key="Rename.display.same" value="存在同名！" />
+
+	<!-- remove -->
+	<item key="RemoveWindow.title" value="删除确认" />
+	<item key="RemoveWindow.content" value="您确定要删除吗？" />
+	<item key="RemoveWindow.NoPrompt" value="不再提示" />
+	<item key="RemoveWindow.noUndo" value="您确定要删除吗？该删除操作不可撤销！" />
+	<item key="ResetMesh.title" value="重置网格" />
+	<item key="ResetMesh.content" value="重置网格会删除当前选中图片上所有已添加的网格点，删除所有绑定的骨骼权重，并删除相对应的时间轴关键帧，您确定要重置网格吗？" />
+	<item key="OutlineMesh.title" value="重绘网格边线" />
+	<item key="OutlineMesh.content" value="重绘网格边线会删除当前选中图片上所有已添加的网格点，删除所有绑定的骨骼权重，并删除相对应的时间轴关键帧，您确定要手动重绘网格边线吗？" />
+	<item key="AutoMesh.title" value="自动生成网格边线" />
+	<item key="AutoMesh.content" value="自动生成网格边线会删除当前选中图片上所有已添加的网格点，删除所有绑定的骨骼权重，并删除相对应的时间轴关键帧，您确定要开始自动生成网格边线吗？" />
+
+	<!-- Import -->
+	<item key="Import.Title" value="导入数据到项目" />
+	<item key="Import.projectType" value="项目类型：" />
+	<item key="Import.type.new" value="导入到新建项目" />
+	<item key="Import.type.current" value="导入到当前项目" />
+	<item key="Import.defaultFolder" value="使用默认位置" />
+	<item key="Import.filter.DbData" value="dragonBones数据" />
+	<item key="Import.filter.json" value="json" />
+	<item key="Import.filter.png" value="png" />
+	<item key="Import.filter.zip" value="zip" />
+	<item key="Import.filter.image" value="图片" />
+	<item key="Import.filter.textureConfig" value="纹理配置" />
+	<item key="Import.filter.asstes" value="资源" />
+	<item key="Import.filter.animation" value="龙骨动画" />
+	<item key="Import.dataPath" value="数据路径：" />
+	<item key="Import.dataPath.tooltip" value="请输入数据文件路径" />
+	<item key="Import.texturePath" value="　纹理集：" />
+	<item key="Import.texturePath.tooltip" value="请输入纹理集图片数据的地址" />
+	<item key="Import.textureConfigPath" value="配置文件：" />
+	<item key="Import.textureConfigPath.tooltip" value="请输入纹理集配置数据的地址" />
+	<item key="Import.projectPath" value="项目路径：" />
+	<item key="Import.projectPath.tooltip" value="项目保存的目录" />
+	<item key="Import.normalTip" value="支持导入：　DragonBones 数据文件(JSON,XML,AMF3)\n　　　　　　DragonBones 数据包(ZIP,PNG,DBSWF)" />
+	<item key="Import.data.json" value="　　　　　　准备导入DraonBones JSON数据" />
+	<item key="Import.data.xml" value="　　　　　　准备导入DraonBones XML数据" />
+	<item key="Import.data.amf3" value="　　　　　　准备导入DraonBones AMF3数据" />
+	<item key="Import.data.spine" value="　　　　　　准备导入Spine JSON数据" />
+	<item key="Import.skinTextureTip" value="　　　　　　准备导入DraonBones JSON数据" />
+	<item key="Import.skinFilesTip" value="　　　　　　准备导入DraonBones JSON数据" />
+	<item key="Import.zipTip" value="　　　　　　准备导入DragonBones ZIP数据包" />
+	<item key="Import.pngTip" value="　　　　　　准备导入DragonBones PNG数据包" />
+	<item key="Import.dbswfTip" value="　　　　　　准备导入DragonBones DBSWF数据包" />
+	<item key="Import.skin.type" value="纹理类型：" />
+	<item key="Import.skin.files" value="图片文件" />
+	<item key="Import.skin.texture" value="纹理集" />
+	<item key="Import.skinPath" value="图片目录：" />
+	<item key="Import.skinPath.tooltip" value="请输入皮肤图片的文件夹地址" />
+	<item key="Import.savePath" value="项目位置：" />
+	<item key="Import.savePath.tooltip" value="请输入要存储项目的目录" />
+	<item key="Import.projectName" value="项目名称：" />
+	<item key="Import.projectName.tooltip" value="项目名称" />
+	<item key="Import.error.missTexture" value="请输入纹理图片地址" />
+	<item key="Import.error.missTextureConfig" value="请输入纹理配置地址" />
+	<item key="Import.error.nosupport" value="未知数据" />
+	<item key="Import.error.zip" value="ZIP 数据错误" />
+	<item key="Import.error.missData" value="缺少dragonBones数据" />
+	<item key="Import.error.noTextureConfig" value="缺少纹理集配置数据" />
+	<item key="Import.error.noTexture" value="缺少纹理集数据" />
+	<item key="Import.error.png" value="PNG 数据错误" />
+	<item key="Import.missProjectName" value="项目名称不能为空" />
+	<item key="Import.error.unknow" value="数据错误" />
+	<item key="Import.error.noFile" value="DragonBones 数据文件不存在！" />
+	<item key="Import.error.fail" value="导入项目失败" />
+	<item key="Import.warn.overwrite" value="库中已经存在相同命名的资源，覆盖或者重命名以保留两者？" />
+	<item key="Import.overwrite.yes" value="覆盖" />
+	<item key="Import.overwrite.no" value="重命名" />
+	<item key="Import.plugin.name" value="使用{0}插件" />
+	<item key="Import.curProject.title" value="导入数据到当前项目" />
+	<item key="Import.armature.conflict" value="当前项目中包含同名骨架{0},请选择处理方式" />
+	<item key="Import.armature.saveAll" value="导入并保留两者" />
+	<item key="Import.armature.saveAllTip" value="将导入的骨架重命名为{0}" />
+	<item key="Import.armature.replace" value="导入并替换" />
+	<item key="Import.armature.replaceTip" value="使用正在导入的骨架替换当前项目中的同名骨架" />
+	<item key="Import.armature.discard" value="不导入" />
+	<item key="Import.armature.discardTip" value="不导入这个骨架，不会产生任何修改" />
+	<item key="Import.file.conflict" value="资源文件夹{0}中包含同名文件{1},请选择处理方式" />
+	<item key="Import.file.saveAll" value="导入并保留两者" />
+	<item key="Import.file.saveAllTip" value="将导入的文件重命名为{0}" />
+	<item key="Import.file.replace" value="导入并替换" />
+	<item key="Import.file.replaceTip" value="使用正在导入的文件替换当前文件夹中的同名文件" />
+	<item key="Import.file.discard" value="不导入" />
+	<item key="Import.file.discardTip" value="不导入这个文件，不会产生任何修改" />
+	<item key="Import.texture.title" value="资源文件夹{0}中包含同名纹理集{1},请选择处理方式" />
+	<item key="Import.texture.saveAll" value="导入并保留两者" />
+	<item key="Import.texture.saveAllTip" value="将导入的纹理集重命名为{0}" />
+	<item key="Import.texture.replace" value="导入并替换" />
+	<item key="Import.texture.replaceTip" value="使用正在导入的纹理集替换当前文件夹中的同名纹理集" />
+	<item key="Import.texture.discard" value="不导入" />
+	<item key="Import.texture.discardTip" value="不导入这个纹理集，不会产生任何修改" />
+	<item key="Import.curProject.batch" value="为之后的{0}个冲突执行此操作" />
+	<item key="Import.file.size" value="{0}kb" />
+	<item key="Import.file.date" value="{0}/{1}/{2}" />
+	<item key="Import.project.success" value="导入成功！" />
+	<item key="Import.error.crossImport" value="不可导入骨骼动画数据到基本动画项目中！" />
+	<item key="Import.file.addTip" value="添加文件" />
+	<item key="Import.importCurrentLibrary" value="导入到当前库" />
+	<item key="Import.libraryPath" value="库路径：" />
+	<item key="Import.libraryPath.tooltip" value="库路径" />
+	<item key="Import.psd.typeChange" value="请选择导入动画的类型" />
+	<item key="Import.psd.movieClip" value="基本动画" />
+	<item key="Import.psd.armature" value="骨骼动画" />
+	<item key="Import.psd.comic" value="动态漫画" />
+	<item key="Import.animation" value="导入龙骨动画" />
+	<item key="Import.animation.fail" value="导入龙骨动画失败" />
+	<item key="Import.animation.title" value="当前元件中已经包含同名动画{0}，请选择处理方式" />
+	<item key="Import.animation.saveAll" value="保留两者" />
+	<item key="Import.animation.saveAllTip" value="将导入的动画重命名为{0}" />
+	<item key="Import.animation.replace" value="替换" />
+	<item key="Import.animation.replaceTip" value="使用正在导入的动画替换元件中的同名动画" />
+	<item key="Import.animation.discard" value="不替换" />
+	<item key="Import.animation.discardTip" value="不做任何修改" />
+	<item key="Import.psdexport.title" value="导入PSD" />
+	<item key="Import.psdexport.createSkeleton" value="导入到新建骨架：" />
+	<item key="Import.psdexport.onlyUpdateTexture" value="只更新贴图：" />
+	<item key="Import.psdexport.ignoreHiddenLayers" value="忽略隐藏图层：" />
+	<item key="Import.psdexport.originPoint" value="原点位置：" />
+	<item key="Import.psdexport.scale" value="缩放：" />
+	<item key="Import.psdexport.export" value="导入" />
+	<item key="Import.psdexport.cancel" value="取消" />
+	<item key="Import.psdexport.errorTip" value="导入出现错误。\n可能由于您的PSD文件中包含遮罩、滤镜等，请栅格化图层后再继续尝试。" />
+	<item key="Import.psdexport.tipMsg0" value="开始解析PSD文件,请耐心等待" />
+	<item key="Import.psdexport.tipMsg1" value="解析成功,开始提取资源" />
+	<item key="Import.psdexport.tipMsg2" value="资源提取{0}\{1}" />
+	<item key="Import.psdexport.tipMsg3" value="资源提取完成，添加插槽" />
+	<item key="Import.psdexport.tipMsg4" value="创建骨架" />
+	<item key="Import.psdexport.sizeTip" value="资源大小超过10M，导入可能会花一些时间" />
+	<item key="Import.psdexport.errorTip1" value="图层错误，请检查PSD图层" />
+	<item key="Import.psdexport.errorTip2" value="混合模式错误，请检查PSD混合模式" />
+	<item key="Import.psdexport.errorTip3" value="遮罩错误，请检查PSD遮罩是否正确" />
+	<item key="Import.psdexport.errorTip4" value="解析出错，请检查PSD文件是否正确" />
+	<item key="Import.psdexport.errorTip5" value="Photoshop版本过低，请升级Photoshop后重新保存PSD。" />
+	<item key="Import.svgexport.errorTip" value="SVG文件解析错误" />
+	<item key="Import.swfexport.errorTip" value="SWF文件不支持时间轴上有多帧" />
+	
+	<!-- Export -->
+	<item key="ExportProjectWindow.Title" value="导出" />
+	<item key="Export.preview.areaFill" value="水平间隔 = {0} 垂直间隔 = {1}" />
+	<item key="Export.export_to" value="导出到：" />
+	<item key="Export.projectDic" value="项目所在文件夹" />
+	<item key="Export.appointDic" value="指定文件夹" />
+	<item key="Export.exportAppointDic" value="导出时指定" />
+	<item key="Export.fail" value="导出失败" />
+	<item key="Export.success" value="导出成功" />
+	<item key="Export.success_to" value="成功导出到下面的目录，点击下面的链接地址可以打开" />
+	<item key="Export.outputPath" value="路  径：" />
+	<item key="Export.output.dataType" value="数据格式：" />
+	<item key="Export.json" value="Json" />
+	<item key="Export.xml" value="Xml" />
+	<item key="Export.skin.type" value="纹理类型：" />
+	<item key="Export.skin.images" value="碎图" />
+	<item key="Export.images.tooltip" value="每张图片单独导出到texture文件夹里" />
+	<item key="Export.skin.texture" value="纹理集" />
+	<item key="Export.texture.tooltip" value="将所有图片打包成纹理集导出" />
+	<item key="Export.output.scale" value="输出比例：" />
+	<item key="Export.output.webscale" value="输出比例：" />
+	<item key="Export.scale.tooltip" value="将导出的图片和数据按比例缩放" />
+	<item key="Export.zip" value="打包zip" />
+	<item key="Export.zip.tooltip" value="将导出的图片和数据文件打包成zip" />
+	<item key="Export.background.color" value="背景色" />
+	<item key="Export.background.color2" value="背景颜色：" />
+	<item key="Export.background.tooltip" value="设置纹理集背景色，默认不勾选背景色为透明" />
+	<item key="Export.color.no" value="透明" />
+	<item key="Export.color.canvas" value="使用画布颜色" />
+	<item key="Export.color.custom" value="自定义" />
+	<item key="Export.waiting" value="正在导出，请耐心等待..." />
+	<item key="Export.error.2015" value="导出项目出错,可能由于导出的图片太大，请修改缩放比例再试一次" />
+	<item key="Export.texture.setting" value="设置..." />
+	<item key="Export.setting.tooltip" value="纹理集设置" />
+	<item key="TexturePackertWindow.Title" value="纹理集设置" />
+	<item key="Export.output.size" value="输出尺寸：" />
+	<item key="Export.texture.stipWhiteSpace" value="去除空白区域" />
+	<item key="Export.stipWhiteSpace.tooltip" value="裁剪图片周围的透明区域，减少导出纹理尺寸" />
+	<item key="Export.texture.gapX" value="水平间隔：" />
+	<item key="Export.gapX.tooltip" value="图片间水平间隔像素数" />
+	<item key="Export.texture.gapY" value="垂直间隔：" />
+	<item key="Export.gapY.tooltip" value="图片间垂直间隔像素数" />
+	<item key="Export.texture.pow2" value="2的幂" />
+	<item key="Export.pow2.tooltip" value="导出纹理集宽高为2的幂" />
+	<item key="Export.texture.square" value="正方形" />
+	<item key="Export.square.tooltip" value="导出纹理集为正方形" />
+	<item key="Export.setting.default" value="恢复默认设置" />
+	<item key="Export.setting.percent" value="显示比例：" />
+	<item key="Export.type" value="数据类型：" />
+	<item key="Export.type.dragonbones" value="DragonBones JSON" />
+	<item key="Export.type.Binary" value="DragonBones 二进制" />
+	<item key="Export.type.Spine" value="Spine" />
+	<item key="Export.type.movieClip" value="Egret MC" />
+	<item key="Export.type.egret" value="Egret 极速" />
+	<item key="Export.image.content" value="导出内容" />
+	<item key="Export.image.image" value="图片" />
+	<item key="Export.image.bone" value="骨骼" />
+	<item key="Export.error.2016" value="图片太大，超过内存限制，不可导出！" />
+	<item key="Export.alert.2017" value="导出的纹理超过最大尺寸，自动缩小到合适的比例。" />
+	<item key="Export.progress" value="正在导出，请耐心等待...{0}%" />
+	<item key="Export.error.noData" value="没有需要导出的数据" />
+	<item key="Export.error.unknow" value="未知错误" />
+	<item key="Export.error.saveFile" value="保存文件出错" />
+	<item key="Export.error.openFile" value="打开文件出错" />
+	<item key="Export.error.smallSize" value="导出纹理集超过最大尺寸!" />
+	<item key="Export.error.net" value="网络错误！" />
+	<item key="Export.setting.nextPage" value="下一页" />
+	<item key="Export.setting.prevPage" value="上一页" />
+	<item key="Export.setting.page" value="{0}/{1}" />
+	<item key="Export.texture.maxWidth" value="最大宽度" />
+	<item key="Export.maxWidth.tooltip" value="设置单张纹理集的最大宽度，不得低于单张图片的最大宽度" />
+	<item key="Export.texture.maxHeight" value="最大高度" />
+	<item key="Export.maxHeight.tooltip" value="设置单张纹理集的最大高度，不得低于单张图片的最大高度" />
+	<item key="Export.texture.autoSize" value="自动尺寸" />
+	<item key="Export.alert.nameConflict" value="存在多个同名的图片：{0}，是否继续导出？" />
+	<item key="Export.alert.confirm" value="返回改名" />
+	<item key="Export.alert.cancel" value="忽略并继续导出" />
+	<item key="Export.output.dataVersion" value="数据版本：" />
+	<item key="Export.version4_0" value="4.0" />
+	<item key="Export.version4_5" value="4.5" />
+	<item key="ExportSp.version3_3" value="3.3" />
+	<item key="Export.addStage" value="添加主舞台" />
+	<item key="Export.cancel" value="取消" />
+	<item key="Export.egretBinary.tip" value="针对 Egret 的专属数据格式。性能提升2-3倍,内存减少70%，配置文件体积减少50%-70%。" />
+	<item key="Export.superType.data"  value="动画数据+纹理" />
+	<item key="Export.superType.image" value="图 片" />
+	<item key="Export.superType.webpage" value="HTML" />
+	<item key="Export.include.data" value="数据" />
+	<item key="Export.setting.data" value="数据设置" />
+	<item key="Export.include.texture" value="纹理" />
+	<item key="Export.setting.texture" value="纹理设置" />
+	<item key="Export.target.label" value="目  标：" />
+	<item key="Export.target.include" value="包含子元件" />
+	<item key="Export.target.title" value="更改导出目标" />
+	<item key="Export.target.change" value="更改" />
+	<item key="Export.target.all" value="全部元件" />
+	<item key="Export.target.selected" value="选中元件" />
+	<item key="Export.target.opened" value="打开元件" />
+	<item key="Export.target.custom" value="自定义" />
+	<item key="Export.outFile.label" value="项目名：" />
+	<item key="Export.outFile.fileNames" value="生  成：" />
+	<item key="Export.image.preview" value="预览" />
+	<item key="Export.image.single" value="单张" />
+	<item key="Export.image.sheets" value="序列" />
+	<item key="Export.image.gif" value="GIF" />
+	<item key="Export.image.png" value="PNG" />
+	<item key="Export.image.jpg" value="JPG" />
+	<item key="Export.image.include" value="图像包含：" />
+	<item key="Export.image.type" value="图片类型：" />
+	<item key="Export.image.format" value="图片格式：" />
+	<item key="Export.image.animations" value="动画包含：" />
+	<item key="Export.image.animationAll" value="全部" />
+	<item key="Export.image.animationCur" value="当前" />
+	<item key="Export.image.animationNone" value="骨架装配" />
+	<item key="Export.image.custom" value="自定义" />
+	<item key="Export.btn.animationSingle" value="选择" />
+	<item key="Export.btn.animation" value="选择" />
+	<item key="Export.animation.select" value="选择导出动画" />
+	<item key="Export.image.animationSingle" value="指定动画：" />
+	<item key="Export.image.frame" value="帧号：" />
+	<item key="Export.image.fps" value="FPS：" />
+	<item key="Export.image.fpsTip" value="（原动画fps={0}）" />
+	<item key="Export.image.areaMin" value="最小图像区域" />
+	<item key="Export.image.areaCanvas" value="画布区域" />
+	<item key="Export.image.areaCustom" value="自定义大小" />
+	<item key="Export.image.area" value="图片包含：" />
+	<item key="Export.progress2" value="正在导出，当前进度：{0}%, 预计剩余时间：{1}秒" />
+	<item key="Export.image.texture" value="打包纹理：" />
+	<item key="Export.illegal.fileName" value="项目名称包含非法特殊字符！" />
+	<item key="Export.heuristic.label" value="排列算法：" />
+	<item key="Export.heuristic.BestShortSideFit" value="短边优先" />
+	<item key="Export.heuristic.BestLongSideFit" value="长边优先" />
+	<item key="Export.heuristic.BestAreaFit" value="面积优先" />
+	<item key="Export.heuristic.BottomLeftRule" value="对齐优先" />
+	<item key="Export.heuristic.ContactPointRule" value="贴紧优先" />
+	<item key="Export.texture.area" value="区域" />
+	<item key="Export.texture.rotateEnable" value="可旋转" />
+	<item key="Export.texture.areaFill" value="区域填充" />
+	<item key="Export.texture.fillNeighbor" value="复制临近像素填充" />
+	<item key="Export.texture.page" value="页面" />
+	<item key="Export.texture.out" value="输出" />
+	<item key="Export.taskQueue" value="导出进行中 ..." />
+	<item key="Export.queueTip" value="有 {0} 个任务正在运行，请不要关闭程序。" />
+	<item key="Export.toEgret" value="正在导出 {0}\n已用时 {1}" />
+	<item key="Export.toEgretCompleted" value="成功导出 {0} 到\n{1}" />
+	<item key="Export.cancelToEgret.title" value="取消任务" />
+	<item key="Export.cancelToEgret.message" value="确定取消 {0} 导出 Egret 极速格式的任务吗？" />
+	<item key="Export.toEgret.error.title" value="导出失败" />
+	<item key="Export.toEgret.error.busy" value="导出服务忙，请稍后重试" />
+	<item key="Export.toEgret.error.other" value="导出错误，请稍后重试。|n错误原因：{1}" />
+	<item key="Export.waitting" value="正在导出，请稍后再试" />
+	<item key="export.web.grid" value="显示网格：" />
+	<item key="export.web.water" value="显示水印" />
+	<item key="export.web.watermark" value="www.DragonBones.com" />
+	<item key="export.checkMesh" value="当前项目中包含网格或碰撞框，无法导出为“Egret 极速”格式，请选择其他数据类型。" />
+	<item key="Export.web.type" value="导出类型："/>
+	<item key="Export.web.preview" value="预览"/>
+	<item key="Export.web.publish" value="发布"/>
+	<item key="Export.canvas.noCanvas" value="无法选择画布区域，因为当前元件还未开启画布。请先在元件的属性面板中开启画布。"/>
+	<item key="Export.gif.repeat" value="重复次数：" />
+	<item key="Export.gif.repeatTip" value="默认0是循环播放" />
+	<item key="Export.gif.quality" value="品质损失：" />
+	<item key="Export.gif.qualityTip" value="品质损失值越高，导出速度越快，导出的色彩品质越差。\n1 表示品质最好，速度最慢。\n20表示品质最差，速度最快。" />
+	<item key="Export.gifAlert.title" value="导出进度" />
+	<item key="Export.gifAlert.label1" value="正在导出：“{0}”" />
+	<item key="Export.gifAlert.label2" value="预计剩余时间：{0}" />
+	<item key="Export.gifAlert.label3" value="提取图片资源：{0}" />
+	
+	<item key="Net.error.0001" value="网络错误，请稍后重试." />
+	
+	<item key="Date.HMS" value="{0} 小时 {1} 分 {2} 秒" />
+	<item key="Date.MS" value="{0} 分 {1} 秒" />
+	<item key="Date.S" value="{0} 秒" />
+	
+	<!-- ExportEgret -->
+	<item key="ExportEgretProjectWindow.Title" value="Egret发布" />
+	<item key="ExportEgret.ScreenAuto" value="自适应" />
+	<item key="ExportEgret.ScreenVertical" value="竖屏" />
+	<item key="ExportEgret.ScreenHorizonta" value="横屏" />
+	<item key="ExportEgret.ScreenHorizontaFlipped" value="横屏翻转" />
+	<item key="ExportEgret.ScreenShowAll" value="全显不拉伸 - showAll" />
+	<item key="ExportEgret.ScreenNoScale" value="裁切不拉伸 - noScale" />
+	<item key="ExportEgret.ScreenNoBorder" value="等比缩放 - noBorder" />
+	<item key="ExportEgret.ScreenExactFit" value="全显拉伸 - exactFit" />
+	<item key="ExportEgret.ScreenFixedWidth" value="固定宽 - fixedWidth" />
+	<item key="ExportEgret.ScreenFixedHeight" value="固定高 - fixedHeight" />
+	<item key="ExportEgret.ScreenFixedNarrow" value="固定短边 - fixedNarrow" />
+	<item key="ExportEgret.ScreenFixedWide" value="固定长边 - fixedWide" />
+	<item key="ExportEgret.maxFps" value="最大帧率：" />
+	<item key="ExportEgret.showFps" value="显示帧率" />
+	<item key="ExportEgret.screenDirection" value="屏幕方向：" />
+	<item key="ExportEgret.screenMate" value="屏幕适配：" />
+	<item key="ExportEgret.texture.setting" value="纹理集设置" />
+	<item key="ExportEgret.setting.tooltip" value="纹理集设置" />
+	<item key="ExportEgret.Image.Preview" value="图片预览：" />
+	<item key="ExportEgret.NoStage" value="当前项目缺少主舞台元件，请添加主舞台后再发布" />
+	
+	<!-- Share -->
+	<item key="PreviewProject.PreviewTip" value="Egret预览{0}" />
+	<item key="ShareProject.ToolTip" value="作品分享" />
+	<!-- MainToolBar -->
+	<item key="NewProject.ToolTip" value="新建项目{0}" />
+	<item key="OpenProject.ToolTip" value="打开项目{0}" />
+	<item key="SaveProject.ToolTip" value="保存项目{0}" />
+	<item key="Undo.ToolTip" value="撤销{0}" />
+	<item key="Redo.ToolTip" value="重做{0}" />
+	<item key="ImportAssets.ToolTip" value="导入资源到舞台" />
+	<item key="ImportProject.ToolTip" value="导入数据到项目" />
+	<item key="ExportProject.ToolTip" value="导出项目{0}" />
+	<item key="Setting.ToolTip" value="偏好设置" />
+	<item key="Open.Trello" value="意见收集" />
+	
+	<!-- StagePanel -->
+	<item key="StagePanel.ArmatureMode" value="骨架装配" />
+	<item key="StagePanel.AnimationMode" value="动画制作" />
+	<item key="StagePanel.SelectTool_tooltip" value="选择工具{0}" />
+	<item key="StagePanel.DragMoveTool_tooltip" value="拖动工具{0}" />
+	<item key="StagePanel.CreateBoneTool_tooltip" value="创建骨骼{0}" />
+	<item key="StagePanel.PoseTool_tooltip" value="Pose工具{0}" />
+	<item key="StagePanel.PivotTool_tooltip" value="轴点工具" />
+	<item key="StagePanel.WeightTool_tooltip" value="权重工具{0}" />
+	
+	<!-- StageFilterBar -->
+	<item key="StageFilterBar.visible_tip" value="可见控制" />
+	<item key="StageFilterBar.selectable_tip" value="选择控制" />
+	<item key="StageFilterBar.inherite_tip" value="继承控制" />
+	<item key="StageFilterBar.bone_visible_tip" value="骨骼可见{0}" />
+	<item key="StageFilterBar.bone_selectable_tip" value="骨骼可选" />
+	<item key="StageFilterBar.bone_inherite_tip" value="子骨骼可控" />
+	<item key="StageFilterBar.image_visible_tip" value="图片可见{0}" />
+	<item key="StageFilterBar.image_selectable_tip" value="图片可选" />
+	<item key="StageFilterBar.image_inherite_tip" value="子图片可控" />
+	
+	<!-- ScenePanel -->
+	<item key="ScenePanel.Title" value="场景树" />
+	<item key="ScenePanel.intelligentFilterButton.tooltip" value="智能过滤" />
+	<item key="ScenePanel.newBoneBtn.tooltip" value="创建骨骼" />
+	<item key="ScenePanel.newSlotBtn.tooltip" value="创建插槽" />
+	<item key="ScenePanel.setParentBtn.tooltip" value="设置父级{0}" />
+	<item key="ScenePanel.removeBtn.tooltip" value="删除" />
+	<item key="ScenePanel.renameBtn.tooltip" value="重命名" />
+	<item key="ScenePanel.newBBoxBtn.tooltip" value="创建边界框" />
+	<item key="ScenePanel.newDropList.tooltip" value="创建" />
+	
+	<!-- DrawOrderPanel -->
+	<item key="DrawOrderPanel.Title" value="层级" />
+	<item key="DrawOrderPanel.upBtn.tooltip" value="上移{0}" />
+	<item key="DrawOrderPanel.downBtn.tooltip" value="下移{0}" />
+	
+	<!-- CurvePanel -->
+	<item key="CurvePanel.Title" value="曲线编辑器" />
+	<item key="CurvePanel.EaseIn" value="淡入" />
+	<item key="CurvePanel.EaseOut" value="淡出" />
+	<item key="CurvePanel.EaseInOut" value="淡入淡出" />
+	<item key="CurvePanel.Linear" value="线性" />
+	<item key="CurvePanel.None" value="无" />
+	<item key="CurvePanel.Copy" value="复制" />
+	<item key="CurvePanel.Paste" value="粘贴" />
+	<item key="CurvePanel.Accord" value="匹配" />
+	
+	<!-- MaterialPanel -->
+	<item key="MaterialPanel.Title" value="素材库" />
+	<item key="MaterialPanel.SearchTips" value="请输入要搜索的内容" />
+	<item key="MaterialPanel.SearchBtn" value="搜索" />
+	<item key="MaterialPanel.SearchContent" value="常用搜索标签：ui button 原画 纹理" />
+	<item key="MaterialPanel.Image" value="图片    " />
+	<item key="MaterialPanel.Animat" value="动画    " />
+	<item key="MaterialPanel.Plugin" value="插件    " />
+	<item key="MaterialPanel.ResName" value="匿名" />
+	<item key="MaterialPanel.ResType" value="类型" />
+	<item key="MaterialPanel.ResAuthor" value="作者" />
+	<item key="MaterialPanel.ResAttention" value="关注" />
+	<item key="MaterialPanel.ResDownLoad" value="下载" />
+	<item key="MaterialPanel.ResPreview" value="预览" />
+	<item key="MaterialPanel.ResInstall" value="安装" />
+	
+	<!-- saveProject -->
+	<item key="SaveWindow.title" value="保存项目" />
+	<item key="SaveWindow.content" value="文件有修改，要保存更改吗？" />
+	
+	<!-- saveAsProject -->
+	<item key="SaveAsProjectWindow.Title" value="另存为" />
+	<item key="SaveAs.outputPath" value="文件夹:" />
+	<item key="SaveAs.fail" value="另存为失败" />
+	<item key="Copy.Library" value="拷贝资源库" />
+	<item key="ProjectName.repeat" value="目标目录存在同名项目，继续操作会覆盖该项目" />
+	<item key="ProjectName.repeatLibrary" value="目标目录已存在同名资源库文件夹，拷贝资源库可能会覆盖库中的文件"/>
+	<item key="ProjectName.projectLibNoShow" value="目标目录不存在资源库文件夹，不拷贝资源库可能会使新项目中的图片无法显示"/>
+	
+	<!-- closeApplication -->
+	<item key="CloseApplication.title" value="确认退出" />
+	<item key="CloseApplication.content" value="有未保存的项目，是否希望不保存这些项目而继续关闭程序？" />
+	<item key="CloseApplication.saveAll1" value="为后续" />
+	<item key="CloseApplication.saveAll2" value="个项目执行此操作" />
+	
+	<!-- 	欢迎页面 -->
+	<item key="Welcome.Title" value="欢迎" />
+	<item key="Welcome.project" value="项目" />
+	<item key="Welcome.course" value="教程" />
+	<item key="Welcome.resource" value="资源" />
+	<item key="Welcome.newPro" value="新建项目" />
+	<item key="Welcome.openPro" value="打开项目..." />
+	<item key="Welcome.importPro" value="导入..." />
+	<item key="Welcome.importExp" value="导入示例" />
+	<item key="Welcome.DBVideo" value="视频教学" />
+	<item key="Welcome.DBUser" value="在线文档" />
+	<item key="Welcome.DBApi" value="API 文档" />
+	<item key="Welcome.resDemo" value="官方在线示例" />
+	<item key="Welcome.newFeature" value="5.6 新特性" />
+	<item key="Welcome.DBFormat" value="格式说明" />
+	<item key="Welcome.openDemo" value="导入示例项目" />
+	<item key="Welcome.Dragon" value="骨骼动画示例 " />
+	<item key="Welcome.Robot" value="Spine 动画转换" />
+	<item key="Welcome.DragonOpening" value="补间动画示例 " />
+	<item key="Welcome.Demon" value="Cocos 动画转换" />
+	<item key="Welcome.Ubbie" value="优彼熊-Mesh" />
+	<item key="Welcome.Bicycle" value="机器人骑车-IK" />
+	<item key="Welcome.TCl_Advertisement" value="TCL营销案例" />
+	<item key="Welcome.SwordsMan" value="剑客-骨骼嵌套" />
+	<item key="Welcome.MonitorOye" value="条漫-班长欧叶" />
+	<item key="Welcome.egretWeb" value="Egret官网" />
+	<item key="Welcome.egretCp" value="DragonBones产品页" />
+	<item key="Welcome.DBWeb" value="DragonBones官网" />
+	<item key="Welcome.DBCode" value="开源代码库" />
+	<item key="Welcome.DBVideoCenter" value="视频中心" />
+	<item key="Welcome.egretDoc" value="文档中心" />
+	<item key="Welcome.trello" value="意见收集" />
+	<item key="Welcome.egretForum" value="论坛" />
+	<item key="Welcome.sheep" value="羊" />
+	<item key="Welcome.cock" value="鸡" />
+	<item key="Welcome.myProject" value="我的项目" />
+	<item key="Welcome.openProNew" value="打开项目" />
+	<item key="Welcome.importProNew" value="导入项目数据" />
+	<item key="Welcome.study" value="学　　习" />
+	<item key="Welcome.search" value="搜索" />
+	<item key="Welcome.gold" value="金币" />
+	<item key="Welcome.freeDown" value="免费下载" />
+	<item key="Welcome.buyPrompt" value="购买提示" />
+	<item key="Welcome.buySure" value="确定要购买吗？" />
+	<item key="Welcome.goCharge" value="余额不足，去充值？" />
+	<item key="Welcome.buyFail" value="购买失败，请重新登录" />
+	<item key="Welcome.untitled" value="未命名" />
+	<item key="Welcome.More" value="更多" />
+	<item key="Welcome.downFail" value="下载失败，请检查网络，或稍后再试" />
+	<item key="Welcome.downPrompt" value="下载提示" />
+	<item key="Welcome.openFail" value="项目文件不存在" />
+	<item key="Welcome.openPrompt" value="打开失败" />
+	<item key="Welcome.Sheet" value="序列帧" />
+	
+	<!-- 	issue report -->
+	<item key="IssueReport.Title" value="问题反馈" />
+	<item key="IssueReport.intro" value="遇到问题，心塞了？ 告诉我，兄弟帮你搞定！" />
+	<item key="IssueReport.type" value="*问题类型" />
+	<item key="IssueReport.type.bug" value="Bug反馈" />
+	<item key="IssueReport.type.quest" value="功能使用" />
+	<item key="IssueReport.type.suggest" value="意见建议" />
+	<item key="IssueReport.desc" value="*问题描述" />
+	<item key="IssueReport.upload" value="上传当前项目({0})" />
+	<item key="IssueReport.upload.intro" value="上传项目文件能够帮助我们更有效的定位问题，解决问题，我们保证不会对外公开您的项目" />
+	<item key="IssueReport.attachment" value="添加附件" />
+	<item key="IssueReport.name" value="姓名：" />
+	<item key="IssueReport.phone" value="电话：" />
+	<item key="IssueReport.qq" value="ＱＱ：" />
+	<item key="IssueReport.weixin" value="微信：" />
+	<item key="IssueReport.email" value="邮箱：" />
+	<item key="IssueReport.contact" value="留下联系方式能帮我们更好的为您解决问题和寄送礼品。" />
+	<item key="IssueReport.send" value="发　送" />
+	<item key="IssueReport.sending" value="发　送　中..." />
+	<item key="IssueReport.attachment.tip" value="上传的附件不要超过5M大小" />
+	<item key="IssueReport.error.fileSize" value="文件太大，请不要超过5M" />
+	<item key="IssueReport.success" value="发送成功！\n谢谢您的反馈，我们会尽快处理您的问题，必要时会与您联系。" />
+	<item key="IssueReport.fail" value="发送失败" />
+	<item key="IssueReport.contacts" value="联系方式" />
+	
+	<!-- 	share -->
+	<item key="Share.Title" value="作品分享" />
+	<item key="Share.intro" value="分享作品至Egret商城，让它沐浴着阳光成长！" />
+	<item key="Share.curProject" value=" 当前作品：" />
+	<item key="Share.projectName" value="*作品名称：" />
+	<item key="Share.desc" value=" 作品描述：" />
+	<item key="Share.uploadImage" value="封面" />
+	<item key="Share.uploadImage.tip" value="" />
+	<item key="Share.userName" value="Egret ID：" />
+	<item key="Share.name" value="姓名：" />
+	<item key="Share.phone" value="电话：" />
+	<item key="Share.qq" value="ＱＱ：" />
+	<item key="Share.weixin" value="微信：" />
+	<item key="Share.email" value="邮箱：" />
+	<item key="Share.contact" value="其它用户需要支付该费用才能下载。该费用中的一定比例会放入您的个人账户中。" />
+	<item key="Share.law" value="同意EgretStore用户协议" />
+	<item key="Share.upload" value="上　传" />
+	<item key="Share.upload.click" value="点击上传" />
+	<item key="Share.uploading" value="上　传　中..." />
+	<item key="Share.success" value="上传成功！\n谢谢您的分享，我们会尽快审核您的作品，必要时会与您联系。" />
+	<item key="Share.fail" value="上传失败" />
+	<item key="Share.fail.size" value="上传失败！项目资源体积过大，请减少项目资源体积后再试一次。" />
+	<item key="Share.error.size" value="项目资源体积超过上传限制，无法上传！请减少项目资源体积后再试一次。" />
+	<item key="Share.noProject" value="没有打开的项目！" />
+	<item key="Share.activity" value="详细说明" />
+	<item key="Share.introCon" value=" 作品简介：" />
+	<item key="Share.introConTips" value=" 最多三十个字(或60个字符，不能换行)" />;
+	<item key="Share.gotoStore" value="前往商城>" />
+	<item key="Share.free" value="免费" />
+	<item key="Share.gold" value="金币" />
+	<item key="Share.priceLabel" value="费用" />
+	
+	<!-- 	plugin -->
+	<item key="Plugin.Title" value="插件管理" />
+	<item key="Plugin.SelectTitle" value="选择插件" />
+	<item key="Plugin.pluginNumber" value="已安装插件{0}款" />
+	<item key="Plugin.choose" value="插件名称" />
+	<item key="Plugin.icon" value="图标" />
+	<item key="Plugin.name" value="名称" />
+	<item key="Plugin.type" value="类型" />
+	<item key="Plugin.version" value="版本" />
+	<item key="Plugin.author" value="作者" />
+	<item key="Plugin.status" value="当前状态" />
+	<item key="Plugin.operation" value="设置" />
+	<item key="Plugin.complete" value="完成" />
+	<item key="Plugin.start" value="  开启 " />
+	<item key="Plugin.stop" value="     禁用" />
+	<item key="Plugin.status.start" value="已启用" />
+	<item key="Plugin.status.stop" value="已禁用" />
+	<item key="Plugin.pluginButton" value="选择插件..." />
+	<item key="Plugin.selectaplugin" value="请选择一个插件" />
+	<item key="Plugin.InvalidPath" value="文件路径无效" />
+	<item key="Plugin.NameIncluded" value="已存在同名插件,是否替换" />
+	<item key="Plugin.formatError" value="插件格式错误" />
+	<item key="Plugin.PluginDamaged" value="插件已损坏" />
+	<item key="Plugin.NoPluginPath" value="找不到插件路径:{0}" />
+	<item key="Plugin.add.tooltip" value="安装插件" />
+	<item key="Plugin.delete.tooltip" value="卸载选中的插件" />
+	<item key="Plugin.open.tooltip" value="打开插件目录" />
+	
+	<!-- 	notice -->
+	<item key="Notice.Nonsupport version!" value="动画数据格式错误，或者所选导入插件不支持当前格式，请更换插件，再次尝试" />
+	<item key="Notice.Nonsupport TextureAtlas!" value="纹理集数据格式错误，或者所选导入插件不支持当前格式，请更换插件，再次尝试" />
+	<item key="Notice.Nonsupport version texture!" value="动画数据格式错误，纹理集数据格式错误，或者所选导入插件不支持当前格式，请更换插件，再次尝试" />
+	
+	<!-- 	setting -->
+	<item key="Setting.Normal" value="常规" />
+	<item key="Setting.System" value="系统" />
+	<item key="Setting.View" value="界面" />
+	<item key="Setting.Account" value="账户" />
+	<item key="Setting.All.Change1" value="确认重置所有偏好设置吗？当前设置将无法恢复。" />															  
+	<item key="Setting.Title" value="偏好设置" />
+	<item key="Setting.DeleteConfirmation" value="删除确认提示" />
+	<item key="Setting.ImageSmooth" value="图片平滑显示" />
+	<item key="Setting.BoneBinding" value="骨骼自动绑定图片" />
+	<item key="Setting.DeleteConfirmationTips" value="删除前弹出确认对话框。" />
+	<item key="Setting.ImageSmoothTips" value="使用线性过滤平滑显示缩放图像，图像可能会模糊。关闭则使用最近邻像素显示，图像会比较锐利。" />
+	<item key="Setting.BoneBindingTips" value="创建骨骼时自动绑定临近图片（创建骨骼时按住Ctrl键，可临时切换为手动绑定)。" />
+	<item key="Setting.Reset" value="重置所有偏好设置" />
+	<item key="Setting.Complete" value="完成" />
+	<item key="Setting.BGColor" value="背景颜色" />
+	<item key="Setting.BgColor.tooltip" value="背景颜色" />
+	<item key="Setting.BOColor" value="骨骼颜色" />
+	<item key="Setting.BoColor.tooltip" value="默认骨骼颜色" />
+	<item key="Setting.BGSize" value="背景网格尺寸" />
+	<item key="Setting.BOSize" value="默认骨骼尺寸" />
+	<item key="Setting.CurrUser" value="当前用户：" />
+	<item key="Setting.User" value="未登录" />
+	<item key="Setting.Logout" value="登出" />
+	<item key="Setting.authorizationText" value="每个账户最多可以在两台设备登录使用。\n若当前账户已登录过两台设备，想要在第三台设备登录，需要先\n清除当前设备的登录记录，然后才能在新的设备上登录该账户。" />
+	<item key="Setting.RevokeLicence" value="清除当前设备登录记录" />
+	<item key="Setting.Login" value="登录" />
+	<item key="Setting.preset" value="预设" />
+	<item key="Setting.Convention" value="选项" />
+	<item key="Setting.Color" value="颜色" />
+	<item key="Setting.Size" value="尺寸" />
+	<item key="Setting.curAccount" value="当前登录账户" />
+	<item key="Setting.hotkey" value="快捷键" />
+	<item key="Setting.hotkey.set" value="设置快捷键" />
+	<item key="Setting.logger" value="日志" />
+	<item key="Setting.logger.set" value="查看日志" />
+	<item key="Setting.lang" value="语言" />
+	<item key="Setting.lang.zh" value="中文" />
+	<item key="Setting.lang.en" value="English" />
+	<item key="Setting.lang.ru" value="русский" />
+	<item key="Setting.app.title" value="应用程序" />
+	<item key="Setting.lang.success" value="更改语言成功，重新启动软件后生效。" />
+	<item key="Setting.hotkey.default" value="恢复默认快捷键设置" />
+	<item key="Setting.hotkey.change1" value="确认重置快捷键设置吗？当前快捷键设置将无法恢复" />
+	<item key="Setting.hotkey.change" value="快捷键修改将在下一次启动 DragonBones Pro 时生效" />
+	<item key="Setting.restart.ok" value="立即重启" />
+	<item key="Setting.restart.cancel" value="稍后再说" />
+	<item key="Setting.hotkey.tip" value="快捷键修改将在下一次启动 DragonBones Pro 时生效" />
+	<item key="Setting.export.defalut" value="重置导出设置" />
+	<item key="Setting.export.label" value="导出" />
+	<item key="Setting.export.change1" value="确认重置导出设置吗？当前导出设置将无法恢复。" />
+	<item key="Setting.export.loginTip" value="请先登录" />
+	<item key="Setting.export.ruler" value="标尺" />
+	<item key="Setting.export.rulerselect" value="启用标尺" />
+	<item key="Setting.export.rlineshow" value="显示辅助线" />
+	<item key="Setting.export.rlineselect" value="辅助线可选" />
+	<item key="Setting.export.rlinecolor" value="辅助线颜色" />
+		
+	<item key="Mesh.property.edit" value="编辑网格" />
+	<item key="Mesh.property.reset" value="重置网格" />
+	<item key="Mesh.panel.editor" value="网格编辑器" />
+	<item key="Mesh.property.ffd" value="FFD" />
+	<item key="Mesh.tool.add" value="添加工具{0}" />
+	<item key="Mesh.tool.modify" value="编辑工具{0}" />
+	<item key="Mesh.tool.delete" value="删除工具{0}" />
+	<item key="Mesh.tool.outline" value="手动绘制边线工具" />
+	<item key="Mesh.tool.reset" value="重置" />
+	<item key="Mesh.tool.info" value="顶点数：{0}" />
+	<item key="Mesh.tool.deform" value="变形" />
+	<item key="Mesh.tool.density" value="密度" />
+	<item key="Mesh.tool.autoOutline" value="自动生成边线\n密度范围1~5，数值越大边线点越多。" />
+	
+	<!-- NewProjectWindow -->
+	<item key="NewProjectWindow.Title" value="新建项目" />
+	<item key="NewProjectWindow.templet" value="模 板：" />
+	<item key="NewProjectWindow.armatureType" value="骨骼动画模版" />
+	<item key="NewProjectWindow.sheetType" value="逐帧动画模板"/>
+	<item key="NewProjectWindow.basicType" value="补间动画模版" />
+	<item key="NewProjectWindow.stageType" value="营销动画模版（只为兼容老板本, 推荐使用补间动画模版代替）" />
+	<item key="NewProjectWindow.customType" value="自定义" />
+	<item key="NewprojectWindow.canvas" value="画 布："/>
+	<item key="NewProjectWindow.openCanvas" value="启用"/>
+	<item key="NewProjectWindow.Create" value="创 建：" />
+	<item key="NewProjectWindow.CreateArmature" value="骨架" />
+	<item key="NewProjectWindow.CreateSheet" value="序列帧"/>
+	<item key="NewProjectWindow.CreateMovieClip" value="影片剪辑" />
+	<item key="NewProjectWindow.CreateStage" value="主舞台" />
+	<item key="NewProjectWindow.ProjectName" value="项目名:" />
+	<item key="NewProjectWindow.ProjectPath" value="文件夹:" />
+	<item key="NewProjectWindow.prevPage" value="上一步" />
+	
+	<!-- ExitWindow -->
+	<item key="ExitWindow.ShowSaveProjects" value="项目：“ {0} ”未保存，是否保存？" />
+	<item key="ExitWindow.cancelExport.title" value="确认退出" />
+	<item key="ExitWindow.cancelExport.message" value="还有 {0} 个导出任务正在进行中，确定要退出并中止导出吗？" />
+	
+	<!-- NewSymbolWindow -->
+	<item key="NewSymbolWindow.title" value="新建元件" />
+	<item key="NewSymbolWindow.type" value="类　型:" />
+	<item key="NewSymbolWindow.stageType" value="主舞台" />
+	<item key="NewSymbolWindow.armatureType" value="骨架" />
+	<item key="NewSymbolWindow.mcType" value="影片剪辑" />
+	<item key="NewSymbolWindow.sheetType" value="序列帧"/>
+	<item key="NewSymbolWindow.name" value="元件名:" />
+	<item key="NewSymbolWindow.libraryPath" value="库路径:" />
+	<item key="NewSymbolWindow.nameConflict" value="已经有相同名字的元件了！" />
+	<item key="NewSymbolWindow.nameNull" value="元件名字不能为空！" />
+	<item key="NewSymbolWindow.libraryPath.invalid" value="库路径不合法" />
+	
+	<!-- CreateProjectWindow -->
+	<item key="CreateProjectWindow.Title" value="新建项目" />
+	<item key="CreateProjectWindow.dragonbones.title" value="创建龙骨动画" />
+	<item key="CreateProjectWindow.dragonbones.desc" value="适用于制作基于游戏中使用的角色动画或基于H5的广告营销动画" />
+	<item key="CreateProjectWindow.comic.title" value="创建动态条漫" />
+	<item key="CreateProjectWindow.comic.desc" value="适用于制作基于H5的包含动画效果的条漫" />
+	
+	<!-- NewComicWindow -->
+	<item key="NewComicWindow.title" value="创建动态条漫" />
+	<item key="NewComicWindow.phone" value="手机" />
+	<item key="NewComicWindow.pad" value="平板" />
+	<item key="NewComicWindow.custom" value="自定义" />
+	<item key="NewComicWindow.deviceTitle" value="设备选择" />
+	<item key="NewComicWindow.size" value="尺 寸：" />
+	<item key="NewComicWindow.direct" value="屏幕方向" />
+	<item key="NewComicWindow.horizon" value="横屏" />
+	<item key="NewComicWindow.stageSize" value="舞台尺寸" />
+	<item key="NewComicWindow.width" value="宽(px)" />
+	<item key="NewComicWindow.height" value="高(px)" />
+	<item key="NewComicWindow.tip" value="拖拽图片到舞台上\n开始你的创作之旅" />
+	<item key="android_0" value="Android | 360x640" />
+	<item key="iphone_4" value="iPhone4 | 320x480" />
+	<item key="iphone_5" value="iPhone5 | 320x568" />
+	<item key="iphone_6" value="iPhone6 | 375x667" />
+	<item key="iphone_6+" value="iPhone6 plus | 414x736" />
+	<item key="custom" value="自定义" />
+	<item key="ipad_1" value="ipad 1 | 2 | mimi | 768x1024" />
+	<item key="ipad_2" value="ipad2 | 768x1024" />
+	<item key="ipad_3" value="ipad3 | 1536x2048" />
+	<item key="ipad_4" value="ipad 4 | Air | 1536x2048" />
+	<item key="ipad_air" value="ipad Air | 1536x2048" />
+	<item key="ipad_mini" value="ipad mini | 768x1024" />
+	<item key="table" value="Tablet 800x1280" />
+	
+	<!-- ComicWindow -->
+	<item key="ComicPropertyPanel.Title" value="动画属性" />
+	<item key="ComicPropertyPanel.Appear" value="出现" />
+	<item key="ComicPropertyPanel.Action" value="动作" />
+	<item key="ComicPropertyPanel.Disappear" value="消失" />
+	<item key="ComicPropertyPanel.ShowOperation" value="显示" />
+	<item key="ComicPropertyPanel.AddAction" value="添加动画" />
+	<item key="ComicPropertyPanel.ActionOrder" value="动画顺序" />
+	<item key="ComicPropertyPanel.AddEffect" value="添加效果" />
+	<item key="ComicPropertyPanel.NoAction" value="无动画" />
+	<item key="ComicPropertyPanel.More" value="多个动作" />
+	<item key="ComicPropertyPanel.ComingSoon" value="敬请期待" />
+	
+	<item key="ActionProperty.postion" value="移到" />
+	<item key="ActionProperty.alpha" value="透明" />
+	<item key="ActionProperty.rotation" value="旋转" />
+	<item key="ActionProperty.scale" value="缩放" />
+	<item key="ActionProperty.shake" value="抖动" />
+	<item key="ActionProperty.swing" value="摆动" />
+	<item key="ActionProperty.heartbeat" value="心跳" />
+	<item key="ActionProperty.twinkle" value="闪烁" />
+	<item key="ActionProperty.invert" value="翻转" />
+	<item key="ActionProperty.composite" value="组合动作" />
+	<item key="ActionProperty.change" value="更改" />
+	<item key="ActionProperty.preview" value="预览" />
+	
+	<item key="ActionProperty.move" value="移　到" />
+	<item key="ActionProperty.time" value="时　长" />
+	<item key="ActionProperty.speedup" value="加　速" />
+	<item key="ActionProperty.rota" value="旋　转" />
+	<item key="ActionProperty.sca" value="缩　放" />
+	<item key="ActionProperty.alp" value="不透明" />
+	
+	<item key="ActionPropertyGroup.none" value="无" />
+	<item key="ActionPropertyGroup.in" value="淡入" />
+	<item key="ActionPropertyGroup.out" value="淡出" />
+	<item key="ActionPropertyGroup.inout" value="淡入淡出" />
+	
+	<item key="ActionPropertyGroup.speed" value="速率" />
+	<item key="ActionPropertyGroup.intensity" value="幅度" />
+	<item key="ActionPropertyGroup.direction" value="方向" />
+	<item key="ActionPropertyGroup.loop" value="循环动画" />
+	
+	<item key="ActionPropertyGroup.speed0" value="缓慢" />
+	<item key="ActionPropertyGroup.speed1" value="慢速" />
+	<item key="ActionPropertyGroup.speed2" value="中速" />
+	<item key="ActionPropertyGroup.speed3" value="快速" />
+	<item key="ActionPropertyGroup.speed4" value="极速" />
+	
+	<item key="ActionPropertyGroup.intensity0" value="微小幅度" />
+	<item key="ActionPropertyGroup.intensity1" value="小幅度" />
+	<item key="ActionPropertyGroup.intensity2" value="中等幅度" />
+	<item key="ActionPropertyGroup.intensity3" value="大幅度" />
+	
+	<item key="ActionPropertyGroup.directionHeart0" value="收缩" />
+	<item key="ActionPropertyGroup.directionHeart1" value="扩张" />
+	
+	<item key="ActionPropertyGroup.directionShake0" value="水平抖动" />
+	<item key="ActionPropertyGroup.directionShake1" value="垂直抖动" />
+	<item key="ActionPropertyGroup.directionShake2" value="不规则抖动" />
+	
+	<item key="AppearProperty.postion" value="移入" />
+	<item key="AppearProperty.alpha" value="渐现" />
+	<item key="AppearProperty.scale" value="缩放" />
+	<item key="AppearProperty.drop" value="掉落" />
+	<item key="AppearProperty.left" value="从左到右" />
+	<item key="AppearProperty.right" value="从右到左" />
+	<item key="AppearProperty.flyType" value="方　式" />
+	
+	<item key="DisappearProperty.postion" value="移出" />
+	<item key="DisappearProperty.alpha" value="渐隐" />
+	
+	<item key="ComicOrderPanel.title" value="动画顺序" />
+	<item key="ComicOrderPanel.delay" value="延迟" />
+	<item key="ComicOrderPanel.play" value="播放时机" />
+	<item key="ComicOrderPanel.playEnterPrint" value="进入屏幕时" />
+	<item key="ComicOrderPanel.playTogether" value="与动画{0}一起" />
+	<item key="ComicOrderPanel.playAfter" value="在动画{0}之后" />
+	<item key="ComicStageProperty.stage" value="Stage" />
+	<item key="ComicStageProperty.type" value="主舞台" />
+	
+	<item key="SwapImageWindow.title" value="替换图片" />
+	<item key="SwapImageWindow.swap" value="替换" />
+	<item key="SwapImageWindow.tip" value="直接把文件拖进来\n或\n点击“ + ”添加任意本地文件。" />
+	<item key="SwapImageWindow.newTitle" value="选择替换图片" />
+	<item key="SwapImageWindow.replace" value="替换" />
+	
+	<!-- 	PSD引导 -->
+	<item key="PSDGuide.Title" value="PSD导出插件安装指引" />
+	<item key="PSDGuide.lable1" value="在DragonBones安装目录下，" />
+	<item key="PSDGuide.lable2" value="找到PhotoshopPlugin文件夹，" />
+	<item key="PSDGuide.lable3" value="打开文件夹找到install.JSX文件。" />
+	<item key="PSDGuide.lable21" value="以管理员身份运行Photoshop，" />
+	<item key="PSDGuide.lable22" value="在Photoshop内依次点击：文件—脚本—浏览，" />
+	<item key="PSDGuide.lable23" value="在弹出的浏览页面中浏览到刚才定位的install.JSX文件，点击载入。" />
+	<item key="PSDGuide.lable31" value="载入后，点击弹出窗口中的确定按钮，即可安装完成。" />
+	<item key="PSDGuide.lable32" value="接下来就可以随时使用此插件" />
+	<item key="PSDGuide.lable33" value="PS中打开方式为：文件—脚本—导出到DragonBones" />
+	
+	<!-- 	导出Spine数据 -->
+	<item key="SpineTrans.try" value="网络错误，请稍后重试" />
+	<item key="SpineTrans.fail" value="导出Spine数据失败" />
+	
+	<!-- 	边界框 -->
+	<item key="BoundingBoxPanel.title" value="编辑边界框" />
+	<item key="BoundingBoxPanel.btn.create" value="添加点" />
+	<item key="BoundingBoxPanel.btn.delete" value="删除点" />
+	<item key="BoundingBoxPanel.btn.new" value="重新画" />
+	<item key="BoundingBoxPanel.vertices" value="顶点数：{0}" />
+	
+	<!-- 	CrashWindow -->
+	<item key="CrashWindow.title" value="系统错误" />
+	<item key="CrashWindow.restart.tip" value="发生系统错误，当前项目已自动保存到同级目录。请尝试重启应用程序。" />
+	<item key="CrashWindow.restart.btn" value="重新启动" />
+	<item key="CrashWindow.clearCache.tip" value="如果错误反复出现，请尝试清除缓存再重新启动（清除缓存会导致您的窗口布局被重置）。" />
+	<item key="CrashWindow.clearCache.btn" value="清除缓存" />
+	<item key="CrashWindow.upload.tip" value="如果每次打开项目都报错，可能是您的项目数据已经损坏，请留下邮箱并把项目上传给我们，我们会帮您修复项目。" />
+	<item key="CrashWindow.upload.btn" value="上传项目" />
+	<item key="CrashWindow.mail" value="邮箱" />
+	<item key="CrashWindow.close" value="重新启动应用程序" />
+	
+	<!-- 登录相关 -->
+	<item key="LoginLimitedWindow.title" value="授权设备数已达上限" />
+	<item key="LoginLimitedWindow.warning" value="登录失败！该账户授权的设备数已经达到上限。" />
+	<item key="LoginLimitedWindow.provideOption" value="如果仍然希望在当前设备上登录，您可以:" />
+	<item key="LoginLimitedWindow.optionAText" value="登录一台已授权的设备，然后清除它的登录记录。" />
+	<item key="LoginLimitedWindow.optionBText" value="强制登录当前设备。系统会自动清除另外一台较早已授权设备的登录记录。" />
+	<item key="LoginLimitedWindow.optionCText" value="如果您之前未登录过其他设备，可能您的账户已经被盗。您可以重置密码，系统会自动清空登录设备列表。" />
+	
+	<item key="LoginLimitedWindow.showTutorial" value="查看教程" />
+	<item key="LoginLimitedWindow.forceLogin" value="强制登录" />
+	<item key="LoginLimitedWindow.resetPassword" value="重置密码" />
+	
+	<item key="LoginLimitedWindow.option" value="方案{0}: " />
+	<item key="LoginLimitedWindow.ignore" value="忽略" />
+	
+	<item key="Alert.needPay" value="本功能仅对付费用户开放" />
+	
+	<item key="Alert.deauthorizeConfirm" value="确定清除当前设备的登录记录吗？\n清除登录记录之后仍然可以通过登录账户的方式再次授权该设备。\n每个设备每天最多能清除登录记录1次。" />
+	<item key="Alert.forceLoginConfirm" value="确定要强制登录当前设备吗？\n强制登录会导致系统将另外一台较早已授权的设备的登录记录被清除。\n每个账户每天最多能强制登录2次。" />
+	<item key="Alert.resetPasswordConfirm" value="确定要重置密码吗？\n重置密码会清空登录设备列表。\n每个账户每天最多能重置密码1次。" />
+	
+	<item key="Alert.deauthorizeLimit" value="当前设备清除登录记录次数超限!" />
+	<item key="Alert.forceLoginLimit" value="当前账户强制登录次数超限!" />
+	
+	<item key="Alert.logoutFailed" value="登出失败!"/>
+	<item key="Alert.checkOnlineFailed" value="您已被迫下线请重新登录!"/>
+	<item key="Alert.deauthorizeSucess" value="清除登录记录成功!"/>
+	<item key="Alert.operateSuccessful" value="操作成功!"/>
+	
+	<!-- 支付面板 -->
+	<item key="Pay.day.after" value="日之后"/>
+	<item key="Pay.function.ban" value="您的DragonBones Pro将受到功能限制"/>
+	<item key="Pay.title" value="重要说明"/>
+	<item key="Pay.desc" value="DragonBones 将于&lt;b>{0}&lt;/b>正式启动付费会员机制。届时部分功能将只对&lt;b>付费会员&lt;/b>开放。"/>
+	<item key="Pay.desc2" value="开通付费会员的价格为原价&lt;b>{0}元/年&lt;/b>。为了答谢广大用户对DragonBones 的支持，现在推出以下预购会员优惠活动。"/>
+	<item key="Pay.limit.no" value="(名额不限)"/>
+	<item key="Pay.limit.num" value="(每天名额有限)"/>
+	
+	<item key="Pay.main.title" value="现在开通会员 尽享优惠折扣"/>
+	<item key="Pay.price.year" value="￥{0}/年"/>
+	<item key="Pay.select" value="选择套餐: "/>
+	<item key="Pay.detail.1" value="{0}，价值￥{1}"/>
+	<item key="Pay.today.sellout" value="(今天已卖完)"/>
+	<item key="Pay.today.few" value="(即将卖完)"/>
+	<item key="Pay.today.some" value="(名额有限)"/>
+	<item key="Pay.law.agree" value="同意"/>
+	<item key="Pay.law.agreement" value="龙骨付费会员协议"/>
+	
+	<item key="Pay.confirm.title1" value="确认订单"/>
+	<item key="Pay.confirm.title2" value="请确认您的支付信息"/>
+	<item key="Pay.open.account" value="开通账号: "/>
+	<item key="Pay.open.time" value="开通时长: "/>
+	<item key="Pay.time.to" value="{0}个月(至{1})"/>
+	<item key="Pay.need.pay" value="需要支付: "/>
+	<item key="Pay.money.unit" value="￥{0}"/>
+	<item key="Pay.pay.channel" value="支付渠道: "/>
+	<item key="Pay.weixin" value="微信"/>
+	<item key="Pay.ali" value="支付宝"/>
+	
+	<item key="Pay.learn.more" value="详细了解付费会员特权"/>
+	
+	<item key="Pay.notice.later" value="稍后提醒"/>
+	<item key="Pay.buy.now" value="立即购买"/>
+	<item key="Pay.step.prev" value="上一步"/>
+	<item key="Pay.step.next" value="下一步"/>
+	<item key="Pay.pay" value="支付"/>
+	
+	<!-- 支付-温馨提示 -->
+	<item key="Pay.tip.title" value="温馨提示"/>
+	<item key="Pay.login.tip" value="该功能必须登录才能使用!"/>
+	<item key="Pay.tip" value="该功能为付费会员专属，开通付费会员立即享有!"/>
+	<item key="Pay.launch.tip" value="当前处于功能受限模式。建议您注册龙骨会员并登录，以解锁更多功能！"/>
+	<item key="Pay.pay.tip" value="当前处于功能受限模式。注册并开通龙骨付费会员，可以享受更多功能哦！"/>
+	<item key="Pay.noTip" value="不再提示"/>
+	
+	<item key="Pay.go.login" value="去登录"/>
+	<item key="Pay.vip.pay" value="开通龙骨付费会员"/>
+	<item key="Pay.say.no" value="残忍拒绝"/>
+	
+	<!-- 支付-渠道 -->
+	<item key="Pay.paypal" value="Paypal"/>
+	<item key="Pay.weixin.title" value="微信支付"/>
+	<item key="Pay.ali.title" value="支付宝支付"/>
+	<item key="Pay.paypal.title" value="Paypal"/>
+	<item key="Pay.weixin.desc" value="请在微信上扫描以下二维码完成支付"/>
+	<item key="Pay.ali.desc" value="请在弹出窗口中完成支付"/>
+	<item key="Pay.paypal.desc" value="请在弹出窗口中完成支付"/>
+	<item key="Pay.pay.after" value="支付完成后请点击"/>
+	<item key="Pay.pay.complete" value="我已完成付款"/>
+	<item key="Pay.pay.contact" value="有任何问题请发邮件联系support@egret.com"/>
+	<item key="Pay.order.check" value="验证中..."/>
+	<item key="Pay.order.noPay" value="订单未支付"/>
+	<item key="Pay.pay.success" value="支付成功"/>
+	
+	<item key="Pay.pay.levelup" value="恭喜您已经成为龙骨付费会员"/>
+	<item key="Pay.level.company" value="免费升级为企业会员"/>
+	
+	<item key="Pay.company.title" value="免费升级成为企业会员"/>
+	<item key="Pay.company.desc" value="填写下面的信息，免费升级为企业会员"/>
+	<item key="Pay.company.mail" value="邮箱:"/>
+	<item key="Pay.company.name" value="姓名:"/>
+	<item key="Pay.company.company" value="公司:"/>
+	<item key="Pay.company.position" value="职位:"/>
+	<item key="Pay.company.contact" value="联系:"/>
+	<item key="Pay.company.more" value="详细了解企业会员特权"/>
+	<item key="Pay.company.apply" value="提交申请"/>
+	<item key="Pay.company.qq" value="QQ"/>
+	<item key="Pay.company.wechat" value="WeChat"/>
+	<item key="Pay.company.skype" value="Skype"/>
+	<item key="Pay.company.applySuccess" value="申请成功"/>
+	<item key="Pay.pay.copyOrder" value="订单号: {0} (点击复制)"/>
+	<item key="Pay.fun.limit" value="该功能仅对登录用户开放"/>
+
+	<!-- 序列帧 -->
+	<item key="Sheet.panel.title" value="序列帧"/>
+	<item key="Sheet.onion.prev" value="前一帧洋葱皮"/>
+	<item key="Sheet.onion.next" value="后一帧洋葱皮"/>
+	<item key="Sheet.frame.current" value="帧："/>
+	<item key="Sheet.frame.show" value="{0}/{1}"/>
+	<item key="Sheet.frame.rate" value="帧频："/>
+	<item key="Sheet.anim.time" value="播放次数："/>
+	<item key="Sheet.anim.loop" value="循环"/>
+	<item key="Sheet.showframe" value="显示边框"/>
+	<item key="Sheet.first.tip" value="拖拽图片到这里"/>
+	<item key="Sheet.relative" value="相对"/>
+	<item key="Sheet.abs" value="绝对"/>
+	<item key="Sheet.flipx.tip" value="水平翻转（按住Shift键翻转所有帧）"/>
+	<item key="Sheet.flipy.tip" value="垂直翻转（按住Shift键翻转所有帧）"/>
+	<item key="Sheet.apply.all" value="应用所有帧"/>
+		
+	<item key="Timeline.filter.lock" value="锁定时间轴显示的骨骼\n锁定后，切换选中骨骼，时间轴内显示的骨骼不会自动更新"/>
+	<item key="Timeline.filter.refresh" value="更新锁定状态下时间轴显示的骨骼为当前选中骨骼"/>
+	<item key="Timeline.filter.select" value="选中锁定状态下时间轴内显示的骨骼"/>
+		
+	<item key="Timeline.translate.timeline" value="移动"/>
+	<item key="Timeline.rotate.timeline" value="旋转"/>
+	<item key="Timeline.scale.timeline" value="缩放"/>
+	<item key="Timeline.color.timeline" value="颜色"/>
+	<item key="Timeline.ik.timeline" value="IK"/>
+	<item key="Timeline.displayIndex.timeline" value="显示资源"/>
+	<item key="Timeline.visible.timeline" value="可见"/>
+	<item key="Timeline.null.timeline" value="空"/>
+	<item key="Timeline.play.current" value="当前"/>
+	<item key="Timeline.play.start" value="开始"/>
+	<item key="Timeline.play.end" value="结束"/>
+	<item key="Timeline.play.currentTip" value="播放时自动滚动时间轴"/>
+	<item key="Timeline.play.startTip" value="设置循环播放的起点为当前帧\n再次点击取消"/>
+	<item key="Timeline.play.endTip" value="设置循环播放的终点为当前帧\n再次点击取消"/>
+	
+	<item key="StageView.Auxiliary.HelperLine.Tips" value="右键点击删除"/>	
+	<item key="StageView.compute.area" value="正在计算画布小，请稍后……"/>	
+	<item key="StageView.compute.complete" value="计算完毕"/>
+	<item key="FolderFactory.alert.tip" value="无权操作 {0} 或路径不存在,请检查访问权限。"/>		
+	
+	<item key="ImportGIF.msg" value="开始解析GIF文件,请耐心等待。"/>		
+	<item key="ImportGIF.error" value="导入GIF出错。"/>	
+	<item key="SaveProject.tip" value="请先保存项目，项目保存后才能修改库路径。"/>	
+	<item key="Export.tooLarge.alert" value="图片超出上限，请选择以下方式处理。"/>		
+	<item key="Export.tooLarge.scale" value="缩放"/>	
+	<item key="Export.tooLarge.mult" value="多纹理"/>	
+</keys>

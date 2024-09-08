@@ -1,0 +1,118 @@
+<LayoutTemplate>
+<armature>
+	<BoxElement>
+		<TabGroup selectedIndex="0" width="280">
+			<TabPanel content="PropertyPanel" />
+		</TabGroup>
+		<BoxElement>
+			<Document>
+				<TabGroup selectedIndex="0"/>
+			</Document>
+			<BoxElement isVertical="true">
+				<TabGroup selectedIndex="0" width="280">
+					<TabPanel content="ScenePanel"/>
+					<TabPanel content="DrawOrderPanel" />
+				</TabGroup>
+				<TabGroup selectedIndex="0" width="280" height="250">
+					<TabPanel content="LibraryPanel"/>
+				</TabGroup>
+			</BoxElement>
+		</BoxElement>
+	</BoxElement>
+</armature>
+<animation>
+	<BoxElement>
+		<BoxElement isVertical="true">
+			<TabGroup selectedIndex="0" width="280">
+				<TabPanel content="PropertyPanel" />
+			</TabGroup>
+			<TabGroup selectedIndex="0" width="280" height="250">
+				<TabPanel content="CurvePanel" />
+			</TabGroup>
+		</BoxElement>
+		<BoxElement>
+			<BoxElement isVertical="true">
+				<Document>
+					<TabGroup selectedIndex="0"/>
+				</Document>
+				<TabGroup selectedIndex="0" height="250">
+					<TabPanel content="TimelinePanel"/>
+				</TabGroup>
+			</BoxElement>
+			<BoxElement isVertical="true">
+				<TabGroup selectedIndex="0" width="280">
+					<TabPanel content="ScenePanel"/>
+					<TabPanel content="DrawOrderPanel" />
+				</TabGroup>
+				<TabGroup selectedIndex="0" width="280" height="250">
+					<TabPanel content="AnimationPanel"/>
+				</TabGroup>
+			</BoxElement>
+		</BoxElement>
+	</BoxElement>
+</animation>
+<general>
+	<BoxElement>
+		<BoxElement isVertical="true">
+			<Document>
+				<TabGroup selectedIndex="0"/>
+			</Document>
+			<BoxElement height="250">
+				<TabGroup selectedIndex="0" height="250">
+					<TabPanel content="TimelinePanel"/>
+				</TabGroup>
+				<TabGroup selectedIndex="0" width="280">
+					<TabPanel content="AnimationPanel" />
+				</TabGroup>
+			</BoxElement>
+		</BoxElement>
+		<BoxElement isVertical="true">
+			<TabGroup selectedIndex="0">
+				<TabPanel content="PropertyPanel" />
+			</TabGroup>
+			<TabGroup selectedIndex="0" height="250">
+				<TabPanel content="LibraryPanel"/>
+			</TabGroup>
+		</BoxElement>
+	</BoxElement>
+</general>
+<comic>
+	<BoxElement>
+		<Document>
+			<TabGroup selectedIndex="0"/>
+		</Document>
+		<TabGroup selectedIndex="0" width="280">
+			<TabPanel content="ComicPanel" />
+			<TabPanel content="ComicOrderPanel"/>
+			<TabPanel content="TransformPanel" />
+		</TabGroup>
+	</BoxElement>
+</comic>
+
+<sheet>
+	<BoxElement isVertical="true">
+		<BoxElement>
+			<TabGroup selectedIndex="0" width="280">
+				<TabPanel content="PropertyPanel" />
+			</TabGroup>
+			<BoxElement>
+				<Document>
+					<TabGroup selectedIndex="0"/>
+				</Document>
+				<TabGroup selectedIndex="0" width="280">
+					<TabPanel content="LibraryPanel"/>
+				</TabGroup>
+			</BoxElement>
+		</BoxElement>
+ 		<TabGroup selectedIndex="0" height="162">
+			<TabPanel content="SheetPanel" />
+		</TabGroup>
+	</BoxElement>
+</sheet>
+
+<null>
+	<Document>
+		<TabGroup selectedIndex="0"/>
+	</Document>
+</null>
+</LayoutTemplate>
